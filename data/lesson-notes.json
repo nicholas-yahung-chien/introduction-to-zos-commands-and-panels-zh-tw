@@ -1,0 +1,47 @@
+{
+  "introduction-to-tso-and-ispf": {
+    "summary": "這段學習會建立 TSO/E 與 ISPF 的基本定位，說明學習者如何從登入後的主機環境進入互動式面板與命令操作。",
+    "keyPoints": ["TSO/E 提供 z/OS 上的互動式命令環境", "ISPF 以面板方式協助瀏覽、編輯與管理資料集", "後續 Lab 會在兩者之間切換"],
+    "terms": ["TSO/E", "ISPF", "Panel", "Command"]
+  },
+  "lab-system-familiarization": {
+    "summary": "這段 Lab 影片用來熟悉原課程環境與操作入口，重點是確認學習者能進入主機環境並找到後續練習會用到的位置。",
+    "keyPoints": ["先確認環境連線與登入狀態", "辨識課程指定的操作畫面", "保留 Lab kit 中的系統與 TSO credential 資訊"],
+    "terms": ["IBM Remote Lab Platform", "Skytap", "z/OS", "TSO credential"]
+  },
+  "creating-editing-and-displaying-members-in-ispf": {
+    "summary": "這段學習聚焦在 ISPF 中建立、編輯與顯示 member，銜接資料集配置與後續資料集管理 Lab。",
+    "keyPoints": ["理解 PDS member 與資料集的關係", "練習透過 ISPF editor 編輯內容", "確認顯示與儲存操作"],
+    "terms": ["PDS", "Member", "ISPF editor"]
+  },
+  "introduction-to-exercise-2": {
+    "summary": "這段影片說明練習 2 的操作目標，讓學習者在進入 Lab 前先理解要建立的資料集與操作路徑。",
+    "keyPoints": ["先確認 exercise guide 的練習編號", "進入 Lab 前準備好課程套件資訊", "完成配置後回到課程頁繼續學習"],
+    "terms": ["Exercise guide", "Data set allocation", "IRLP"]
+  },
+  "allocating-a-data-set": {
+    "summary": "這段學習聚焦在資料集配置，協助學習者理解名稱、型態與空間屬性如何影響後續操作。",
+    "keyPoints": ["資料集名稱通常反映擁有者與用途", "配置時要注意資料集組織與空間設定", "Lab 會使用新建資料集作為後續操作材料"],
+    "terms": ["Data set", "PDS", "Member", "Allocation"]
+  },
+  "working-with-data-sets": {
+    "summary": "這段學習把資料集的瀏覽、編輯、複製、移動與刪除整理成日常操作流程。",
+    "keyPoints": ["ISPF 提供面板式資料集管理", "主要命令與行命令分別處理不同範圍的操作", "刪除或重新命名前要確認目標"],
+    "terms": ["ISPF editor", "Primary command", "Line command", "Data set list"]
+  },
+  "tso-commands-part-1": {
+    "summary": "這段學習開始介紹 TSO/E 命令的用途，讓學習者從面板操作延伸到命令輸入。",
+    "keyPoints": ["TSO/E 命令可直接執行互動式工作", "命令語法與參數順序需要精準", "可與資料集操作相互搭配"],
+    "terms": ["TSO/E command", "Command syntax", "Dataset"]
+  },
+  "tso-commands-part-2": {
+    "summary": "這段學習延續 TSO/E 命令，強化常用命令與命令結果判讀。",
+    "keyPoints": ["練習辨識命令回應與錯誤訊息", "建立命令操作前檢查參數的習慣", "理解何時使用命令、何時回到 ISPF 面板"],
+    "terms": ["Command response", "Return code", "ISPF"]
+  },
+  "lab-using-tso-commands": {
+    "summary": "這段學習說明第七個 Lab 的操作目標，協助學習者先理解要完成的 TSO/E 命令任務。",
+    "keyPoints": ["先回顧 TSO/E 命令語法", "確認要使用的資料集與命令目標", "完成後可用結果檢查操作是否符合預期"],
+    "terms": ["TSO/E", "Lab", "Command"]
+  }
+}

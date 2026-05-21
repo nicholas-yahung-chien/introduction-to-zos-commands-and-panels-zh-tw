@@ -1,0 +1,29 @@
+WEBVTT
+
+1
+00:00:03.150 --> 00:00:09.470
+Okay, enough ISPF data sets, let's switch gears and get into some TSO commands.
+
+2
+00:00:09.470 --> 00:00:14.650
+As you know, TSO commands come in all shapes and sizes, but are typically a command name
+
+3
+00:00:14.650 --> 00:00:17.830
+which can be followed up with one or more operands.
+
+4
+00:00:17.830 --> 00:00:23.590
+Oftentimes, you know a command can do something, but you're unsure about the syntax of the
+
+5
+00:00:23.590 --> 00:00:25.790
+operands, so you'll use the help command.
+
+6
+00:00:25.790 --> 00:00:31.030
+Well, you'll be doing just that here to figure out the correct way of executing some TSO
+
+7
+00:00:31.030 --> 00:00:32.030
+commands.

@@ -1,0 +1,463 @@
+{
+  "slug": "tso-commands-part-2",
+  "title": "TSO Commands - part 2",
+  "language": "en",
+  "duration": 251.5185625,
+  "segments": [
+    {
+      "start": 3.38,
+      "end": 6.04,
+      "text": "Let's take a look at the allocate command."
+    },
+    {
+      "start": 6.04,
+      "end": 9.98,
+      "text": "This is used to dynamically allocate VSAM, non-VSAM,"
+    },
+    {
+      "start": 9.98,
+      "end": 13.92,
+      "text": "and hierarchical file system HFS datasets."
+    },
+    {
+      "start": 13.92,
+      "end": 15.92,
+      "text": "So here we have an allocate command"
+    },
+    {
+      "start": 15.92,
+      "end": 19.76,
+      "text": "with a whole bunch of operands telling it how to allocate."
+    },
+    {
+      "start": 19.76,
+      "end": 22.48,
+      "text": "And we'll follow that up with the list DS command"
+    },
+    {
+      "start": 22.48,
+      "end": 24.96,
+      "text": "for the dataset that we just created."
+    },
+    {
+      "start": 24.96,
+      "end": 26.92,
+      "text": "And we can see that the record format"
+    },
+    {
+      "start": 26.92,
+      "end": 28.8,
+      "text": "and the logical record length match"
+    },
+    {
+      "start": 28.8,
+      "end": 30.76,
+      "text": "along with some other information."
+    },
+    {
+      "start": 30.76,
+      "end": 33.0,
+      "text": "It's important to note that the list DS command"
+    },
+    {
+      "start": 33.02,
+      "end": 34.62,
+      "text": "will return different information"
+    },
+    {
+      "start": 34.62,
+      "end": 38.18,
+      "text": "for VSAM and non-VSAM datasets."
+    },
+    {
+      "start": 38.18,
+      "end": 40.02,
+      "text": "You can also use the delete command"
+    },
+    {
+      "start": 40.02,
+      "end": 42.1,
+      "text": "to delete that dataset, like this."
+    },
+    {
+      "start": 43.02,
+      "end": 46.38,
+      "text": "And then if you enter the dslist test.data,"
+    },
+    {
+      "start": 46.38,
+      "end": 49.42,
+      "text": "it will come back and say it's not in catalog."
+    },
+    {
+      "start": 49.42,
+      "end": 50.78,
+      "text": "That's a nice way of saying,"
+    },
+    {
+      "start": 50.78,
+      "end": 53.4,
+      "text": "I have no knowledge of that particular dataset,"
+    },
+    {
+      "start": 53.4,
+      "end": 55.7,
+      "text": "so I can't give you any information about it."
+    },
+    {
+      "start": 55.7,
+      "end": 59.02,
+      "text": "Because the catalog is, it's just like a catalog."
+    },
+    {
+      "start": 59.02,
+      "end": 62.18,
+      "text": "It makes a list of frequently accessed datasets,"
+    },
+    {
+      "start": 62.18,
+      "end": 64.12,
+      "text": "so if it's not in the catalog,"
+    },
+    {
+      "start": 64.12,
+      "end": 67.0,
+      "text": "we can't find it by name alone."
+    },
+    {
+      "start": 67.0,
+      "end": 69.48,
+      "text": "And if you're curious about the catalog,"
+    },
+    {
+      "start": 69.48,
+      "end": 71.76,
+      "text": "you can use the list cat command"
+    },
+    {
+      "start": 71.76,
+      "end": 74.6,
+      "text": "to list all the entries in the catalog."
+    },
+    {
+      "start": 74.6,
+      "end": 77.2,
+      "text": "When you type list cat with no operands,"
+    },
+    {
+      "start": 77.2,
+      "end": 79.68,
+      "text": "you get a listing of all the catalog entries"
+    },
+    {
+      "start": 79.68,
+      "end": 83.32,
+      "text": "associated with your specific user ID."
+    },
+    {
+      "start": 83.32,
+      "end": 85.88,
+      "text": "As you can imagine, there are many other operands"
+    },
+    {
+      "start": 85.88,
+      "end": 87.68,
+      "text": "you can use with the list cat."
+    },
+    {
+      "start": 87.68,
+      "end": 90.6,
+      "text": "And you can find them either by using the help commands"
+    },
+    {
+      "start": 90.6,
+      "end": 92.58,
+      "text": "or by looking them up in the manual."
+    },
+    {
+      "start": 93.46,
+      "end": 95.7,
+      "text": "Then there's list alc."
+    },
+    {
+      "start": 95.7,
+      "end": 98.74,
+      "text": "This shows you the currently allocated datasets."
+    },
+    {
+      "start": 98.74,
+      "end": 100.38,
+      "text": "When you run it with no operands,"
+    },
+    {
+      "start": 100.38,
+      "end": 104.28,
+      "text": "it shows you all the currently allocated dataset names."
+    },
+    {
+      "start": 104.28,
+      "end": 107.28,
+      "text": "If you throw in status after list alc,"
+    },
+    {
+      "start": 107.28,
+      "end": 109.74,
+      "text": "it'll show you the status of each dataset,"
+    },
+    {
+      "start": 109.74,
+      "end": 114.1,
+      "text": "which includes the termination disposition of the datasets."
+    },
+    {
+      "start": 114.1,
+      "end": 116.74,
+      "text": "It looks like we're trying to keep a lot of them here."
+    },
+    {
+      "start": 116.74,
+      "end": 119.34,
+      "text": "And if you type list alc history,"
+    },
+    {
+      "start": 119.34,
+      "end": 122.12,
+      "text": "you get the creation date, expiration date,"
+    },
+    {
+      "start": 122.12,
+      "end": 125.44,
+      "text": "and the dataset protection for all those datasets."
+    },
+    {
+      "start": 125.44,
+      "end": 126.9,
+      "text": "That's a handy one."
+    },
+    {
+      "start": 126.9,
+      "end": 128.52,
+      "text": "It's important to realize the difference"
+    },
+    {
+      "start": 128.52,
+      "end": 130.64,
+      "text": "between free and delete."
+    },
+    {
+      "start": 130.64,
+      "end": 133.72,
+      "text": "And you'll see how that works here along with catalog."
+    },
+    {
+      "start": 133.72,
+      "end": 136.74,
+      "text": "So we'll start out with another allocate command,"
+    },
+    {
+      "start": 136.74,
+      "end": 139.22,
+      "text": "which we've shortened to aloc here."
+    },
+    {
+      "start": 139.22,
+      "end": 143.1,
+      "text": "Then we list ds the dataset to see its information."
+    },
+    {
+      "start": 143.1,
+      "end": 146.08,
+      "text": "Next, we follow that with a free command."
+    },
+    {
+      "start": 146.08,
+      "end": 149.68,
+      "text": "And what this does is it deallocates the datasets"
+    },
+    {
+      "start": 149.68,
+      "end": 152.18,
+      "text": "or HFSs that are no longer needed."
+    },
+    {
+      "start": 152.18,
+      "end": 154.58,
+      "text": "It basically says, I don't need this anymore."
+    },
+    {
+      "start": 154.58,
+      "end": 156.16,
+      "text": "It can be freed."
+    },
+    {
+      "start": 156.16,
+      "end": 159.1,
+      "text": "It also means that it can be used for output processing"
+    },
+    {
+      "start": 159.1,
+      "end": 160.8,
+      "text": "or routed to another user."
+    },
+    {
+      "start": 161.88,
+      "end": 165.1,
+      "text": "We can then go and delete it with the delete command."
+    },
+    {
+      "start": 165.1,
+      "end": 169.62,
+      "text": "And again, the list ds shows that it's not in the catalog."
+    },
+    {
+      "start": 169.62,
+      "end": 171.78,
+      "text": "There are some restrictions and suggestions"
+    },
+    {
+      "start": 171.78,
+      "end": 175.26,
+      "text": "about what types of datasets can, can't, should,"
+    },
+    {
+      "start": 175.26,
+      "end": 178.36,
+      "text": "and shouldn't be deleted or freed."
+    },
+    {
+      "start": 178.36,
+      "end": 180.92,
+      "text": "And I bet you know where to find that information."
+    },
+    {
+      "start": 184.33,
+      "end": 187.69,
+      "text": "Okay, let's talk about the profile command."
+    },
+    {
+      "start": 187.69,
+      "end": 189.69,
+      "text": "This command establishes, changes,"
+    },
+    {
+      "start": 189.69,
+      "end": 192.01,
+      "text": "or lists your user profile,"
+    },
+    {
+      "start": 192.01,
+      "end": 194.81,
+      "text": "basically how you want to use your terminal."
+    },
+    {
+      "start": 194.81,
+      "end": 198.21,
+      "text": "In this example, the message ID is on."
+    },
+    {
+      "start": 198.21,
+      "end": 199.89,
+      "text": "There's some other information in there"
+    },
+    {
+      "start": 199.89,
+      "end": 202.17,
+      "text": "like the prefixing, prompting,"
+    },
+    {
+      "start": 202.17,
+      "end": 204.73,
+      "text": "and primary and secondary languages."
+    },
+    {
+      "start": 204.73,
+      "end": 206.37,
+      "text": "You can use the profile command"
+    },
+    {
+      "start": 206.47,
+      "end": 208.71,
+      "text": "to not only display your profile settings,"
+    },
+    {
+      "start": 208.71,
+      "end": 210.39,
+      "text": "but also to change them."
+    },
+    {
+      "start": 210.39,
+      "end": 211.95,
+      "text": "These changes will remain valid"
+    },
+    {
+      "start": 211.95,
+      "end": 214.15,
+      "text": "for the duration of your session."
+    },
+    {
+      "start": 214.15,
+      "end": 216.47,
+      "text": "Lastly, the submit command."
+    },
+    {
+      "start": 216.47,
+      "end": 218.75,
+      "text": "This is how we send one or more jobs"
+    },
+    {
+      "start": 218.75,
+      "end": 220.83,
+      "text": "to the system for processing."
+    },
+    {
+      "start": 220.83,
+      "end": 224.75,
+      "text": "Each job submitted must reside either in a sequential dataset,"
+    },
+    {
+      "start": 224.75,
+      "end": 226.79,
+      "text": "a direct access dataset,"
+    },
+    {
+      "start": 226.79,
+      "end": 229.25,
+      "text": "or in a member of a partition dataset,"
+    },
+    {
+      "start": 229.25,
+      "end": 233.09,
+      "text": "unless you use the asterisk function of a submit command."
+    },
+    {
+      "start": 233.09,
+      "end": 235.59,
+      "text": "That asterisk function tells the command"
+    },
+    {
+      "start": 235.65,
+      "end": 238.61,
+      "text": "that you will enter the data in some other way."
+    },
+    {
+      "start": 238.61,
+      "end": 240.13,
+      "text": "In the lab that follows this,"
+    },
+    {
+      "start": 240.13,
+      "end": 243.45,
+      "text": "we'll get to issue some TSO commands on a live system,"
+    },
+    {
+      "start": 243.45,
+      "end": 245.69,
+      "text": "which is almost certainly going to be more exciting"
+    },
+    {
+      "start": 245.69,
+      "end": 247.49,
+      "text": "than watching me talk about them."
+    }
+  ]
+}

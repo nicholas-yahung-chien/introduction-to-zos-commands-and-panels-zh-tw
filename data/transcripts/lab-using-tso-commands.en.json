@@ -1,0 +1,43 @@
+{
+  "slug": "lab-using-tso-commands",
+  "title": "Lab - Using TSO commands",
+  "language": "en",
+  "duration": 35.2943125,
+  "segments": [
+    {
+      "start": 3.15,
+      "end": 9.47,
+      "text": "Okay, enough ISPF data sets, let's switch gears and get into some TSO commands."
+    },
+    {
+      "start": 9.47,
+      "end": 14.65,
+      "text": "As you know, TSO commands come in all shapes and sizes, but are typically a command name"
+    },
+    {
+      "start": 14.65,
+      "end": 17.83,
+      "text": "which can be followed up with one or more operands."
+    },
+    {
+      "start": 17.83,
+      "end": 23.59,
+      "text": "Oftentimes, you know a command can do something, but you're unsure about the syntax of the"
+    },
+    {
+      "start": 23.59,
+      "end": 25.79,
+      "text": "operands, so you'll use the help command."
+    },
+    {
+      "start": 25.79,
+      "end": 31.03,
+      "text": "Well, you'll be doing just that here to figure out the correct way of executing some TSO"
+    },
+    {
+      "start": 31.03,
+      "end": 32.03,
+      "text": "commands."
+    }
+  ]
+}

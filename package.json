@@ -1,0 +1,37 @@
+{
+  "name": "introduction-to-zos-commands-and-panels-zh-tw",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs --host 127.0.0.1",
+    "build": "vitepress build docs",
+    "build:github": "cross-env VITEPRESS_BASE=/introduction-to-zos-commands-and-panels-zh-tw/ VITE_MEDIA_BASE_URL=https://introduction-to-zos-commands-and-panels-media.pages.dev vitepress build docs && node scripts/prune-dist-media.mjs",
+    "build:cloudflare": "cross-env VITEPRESS_BASE=/ VITE_MEDIA_BASE_URL=https://introduction-to-zos-commands-and-panels-media.pages.dev vitepress build docs && node scripts/prune-dist-media.mjs",
+    "verify:release": "npm run build:github && npm run build:cloudflare && npm run site:check && npm run subtitles:check && npm run content:quality && npm run practice:check",
+    "preview": "vitepress preview docs --host 127.0.0.1",
+    "deploy:cloudflare": "npm run build:cloudflare && npx wrangler pages deploy docs/.vitepress/dist --project-name introduction-to-zos-commands-and-panels-zh-tw --branch main",
+    "capture:course": "node scripts/capture-course.mjs",
+    "download:videos": "node scripts/download-kaltura-videos.mjs",
+    "generate:hls": "node scripts/generate-hls.mjs",
+    "subtitles:transcribe": "python scripts/transcribe_videos.py",
+    "subtitles:translate": "python scripts/translate_subtitles_openai.py",
+    "subtitles:translate:local": "python scripts/translate_subtitles_local.py",
+    "subtitles:wrap": "node scripts/wrap-subtitle-lines.mjs",
+    "subtitles:audit": "node scripts/audit-subtitle-alignment.mjs",
+    "media:package": "node scripts/package-media-site.mjs",
+    "site:check": "node scripts/check-public-site.mjs",
+    "content:quality": "node scripts/check-content-quality.mjs",
+    "practice:check": "node scripts/check-practice-data.mjs",
+    "subtitles:check": "node scripts/check-subtitles.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "hls.js": "^1.6.16",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}

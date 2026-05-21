@@ -1,0 +1,338 @@
+{
+  "slug": "creating-editing-and-displaying-members-in-ispf",
+  "title": "Creating, editing, and displaying members in ISPF",
+  "language": "en",
+  "duration": 278.6626875,
+  "segments": [
+    {
+      "start": 3.34,
+      "end": 9.54,
+      "text": "So, now that we have a PDS dataset, you probably want to do something with it."
+    },
+    {
+      "start": 9.54,
+      "end": 14.44,
+      "text": "In this lesson, we'll go through the process of creating, editing, and displaying members"
+    },
+    {
+      "start": 14.44,
+      "end": 16.64,
+      "text": "in a PDS."
+    },
+    {
+      "start": 16.64,
+      "end": 21.54,
+      "text": "We're going to be using the Edit Entry panel, and you get there from option 2 off of the"
+    },
+    {
+      "start": 21.54,
+      "end": 24.02,
+      "text": "main ISPF panel."
+    },
+    {
+      "start": 24.02,
+      "end": 30.38,
+      "text": "To create a new dataset member in an existing PDS, enter the name of the dataset on the"
+    },
+    {
+      "start": 30.38,
+      "end": 32.14,
+      "text": "Edit Entry panel."
+    },
+    {
+      "start": 32.14,
+      "end": 36.74,
+      "text": "And again, you can see here you can use the handy three fields, or you can enter the full"
+    },
+    {
+      "start": 36.74,
+      "end": 39.78,
+      "text": "dataset name into the field below it."
+    },
+    {
+      "start": 39.78,
+      "end": 43.86,
+      "text": "Notice that there's a fourth field in the bottom for member."
+    },
+    {
+      "start": 43.86,
+      "end": 47.22,
+      "text": "That's where you put the name of the member that you're creating."
+    },
+    {
+      "start": 47.22,
+      "end": 50.9,
+      "text": "Or if you're using the field below, you're going to spell out the name of the member"
+    },
+    {
+      "start": 50.9,
+      "end": 54.54,
+      "text": "at the end of the PDS in parentheses."
+    },
+    {
+      "start": 54.54,
+      "end": 64.94,
+      "text": "For example, i-n-s-t-j-r-g-dot-e-s-ten-dot-p-d-s-parentheses-member-one-parentheses, where the first three parts"
+    },
+    {
+      "start": 64.94,
+      "end": 69.22,
+      "text": "make up the PDS name, and member one is the name of the member."
+    },
+    {
+      "start": 69.22,
+      "end": 72.74,
+      "text": "So fill those out either way, and then hit enter."
+    },
+    {
+      "start": 72.74,
+      "end": 75.48,
+      "text": "This will open up the ISPF editor."
+    },
+    {
+      "start": 75.48,
+      "end": 80.34,
+      "text": "To start typing into this member, move your cursor into the empty area towards the right,"
+    },
+    {
+      "start": 80.34,
+      "end": 81.84,
+      "text": "and then start typing."
+    },
+    {
+      "start": 81.84,
+      "end": 86.28,
+      "text": "You can type on multiple lines, just don't type over on the left column yet."
+    },
+    {
+      "start": 86.28,
+      "end": 90.9,
+      "text": "When you're done, hit enter, and you'll see numbers appear over on the left there."
+    },
+    {
+      "start": 90.9,
+      "end": 95.24,
+      "text": "These are the record numbers, and when you want to save your masterpiece, type save up"
+    },
+    {
+      "start": 95.24,
+      "end": 97.64,
+      "text": "top and hit enter."
+    },
+    {
+      "start": 97.64,
+      "end": 101.88,
+      "text": "The top line of your screen shows the name of the dataset and the member that you're"
+    },
+    {
+      "start": 101.88,
+      "end": 102.88,
+      "text": "editing."
+    },
+    {
+      "start": 102.88,
+      "end": 107.74,
+      "text": "This is a good way to verify that you have the correct dataset and member selected."
+    },
+    {
+      "start": 107.74,
+      "end": 112.98,
+      "text": "To display the members in a dataset, go back to that edit entry panel."
+    },
+    {
+      "start": 112.98,
+      "end": 117.86,
+      "text": "Put in the name of the dataset without specifying any members, and hit enter."
+    },
+    {
+      "start": 117.86,
+      "end": 126.86,
+      "text": "In this example, there are six members in the dataset i-n-s-t-j-r-g-dot-e-s-ten-dot-p-d-s."
+    },
+    {
+      "start": 126.86,
+      "end": 132.02,
+      "text": "We can edit any of those by placing the letter e next to them and then hitting enter."
+    },
+    {
+      "start": 132.02,
+      "end": 134.3,
+      "text": "This brings up the editor again."
+    },
+    {
+      "start": 134.54,
+      "end": 139.46,
+      "text": "Another way to display the members in a dataset is from the dataset list utility."
+    },
+    {
+      "start": 139.46,
+      "end": 144.74,
+      "text": "You get there from the first ISPF screen, option three for utilities, and then option"
+    },
+    {
+      "start": 144.74,
+      "end": 147.02,
+      "text": "four for DS list."
+    },
+    {
+      "start": 147.02,
+      "end": 152.14,
+      "text": "From the DS list utility screen, enter the high level qualifier in the DS name level"
+    },
+    {
+      "start": 152.14,
+      "end": 156.54,
+      "text": "field, and don't enter anything in the option field, just hit enter."
+    },
+    {
+      "start": 156.54,
+      "end": 161.16,
+      "text": "It'll come back and show you all of the datasets that start with that high level qualifier."
+    },
+    {
+      "start": 161.16,
+      "end": 166.36,
+      "text": "You can then tab to the left of the dataset you want to view and enter a forward slash."
+    },
+    {
+      "start": 166.36,
+      "end": 168.64,
+      "text": "A list of options will pop up."
+    },
+    {
+      "start": 168.64,
+      "end": 173.72,
+      "text": "Option four of that list is member list, and that's just what we want, so type four and"
+    },
+    {
+      "start": 173.72,
+      "end": 175.36,
+      "text": "hit enter."
+    },
+    {
+      "start": 175.36,
+      "end": 179.12,
+      "text": "What if you're in a dataset member and you want to add some new lines to it, some new"
+    },
+    {
+      "start": 179.12,
+      "end": 180.12,
+      "text": "records?"
+    },
+    {
+      "start": 180.12,
+      "end": 183.24,
+      "text": "That's easy, and we get to use that left column for this one."
+    },
+    {
+      "start": 183.24,
+      "end": 188.36,
+      "text": "Move your cursor over to the line you want to add lines underneath and type an i."
+    },
+    {
+      "start": 188.36,
+      "end": 191.72,
+      "text": "A new line appears, and here's a helpful tip."
+    },
+    {
+      "start": 191.72,
+      "end": 197.12,
+      "text": "If you want to add five lines, you type i5 and then hit enter, and you can do the same"
+    },
+    {
+      "start": 197.12,
+      "end": 203.2,
+      "text": "kind of thing for eight lines, nine lines, or 20 lines, but let's not get too crazy here."
+    },
+    {
+      "start": 203.2,
+      "end": 207.22,
+      "text": "You can now add data to these lines, just like you did when you were first creating"
+    },
+    {
+      "start": 207.22,
+      "end": 208.52,
+      "text": "that member."
+    },
+    {
+      "start": 208.52,
+      "end": 213.08,
+      "text": "Hit enter when you're done, and those lines with data get turned into records, and any"
+    },
+    {
+      "start": 213.08,
+      "end": 216.28,
+      "text": "lines with no data, they go away."
+    },
+    {
+      "start": 216.28,
+      "end": 218.2,
+      "text": "We can delete lines too."
+    },
+    {
+      "start": 218.2,
+      "end": 220.72,
+      "text": "Here we have a member called member two."
+    },
+    {
+      "start": 220.72,
+      "end": 225.68,
+      "text": "To delete a line, place a single d followed by a space next to that line."
+    },
+    {
+      "start": 225.68,
+      "end": 229.3,
+      "text": "Now, the reason for the space is that it's just safer."
+    },
+    {
+      "start": 229.3,
+      "end": 232.44,
+      "text": "We know that we're only deleting one line that way."
+    },
+    {
+      "start": 232.44,
+      "end": 235.2,
+      "text": "Hit enter, and then boom, it's gone."
+    },
+    {
+      "start": 235.2,
+      "end": 240.24,
+      "text": "And just like insert, if we want to delete five lines, I can type d5."
+    },
+    {
+      "start": 240.24,
+      "end": 242.76,
+      "text": "You get it, pretty simple stuff."
+    },
+    {
+      "start": 242.76,
+      "end": 249.96,
+      "text": "ISPF also has block commands, so to move a block of text, enter mm on the first line"
+    },
+    {
+      "start": 249.96,
+      "end": 255.68,
+      "text": "of text you want to move, and then another mm on the last line of text you want to move."
+    },
+    {
+      "start": 255.68,
+      "end": 261.28,
+      "text": "Then in the spot where you want to move it, place an a for after or a b or before to tell"
+    },
+    {
+      "start": 261.28,
+      "end": 265.6,
+      "text": "it whether you want to move that block of text before or after that line."
+    },
+    {
+      "start": 265.6,
+      "end": 269.84,
+      "text": "As you can imagine, there are a lot of line commands we can use in the editor."
+    },
+    {
+      "start": 269.84,
+      "end": 273.52,
+      "text": "Here's a listing of just some of them which you can use during your lab exercises."
+    }
+  ]
+}

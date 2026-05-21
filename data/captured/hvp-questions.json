@@ -1,0 +1,342 @@
+[
+  {
+    "sourceId": "short-quiz-exercise-3",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121735",
+    "library": "H5P.MultiChoice 1.16",
+    "title": "Short quiz: Exercise 3",
+    "id": "short-quiz-exercise-3",
+    "section": "Working with Data Sets",
+    "lessonSlug": "creating-editing-and-displaying-members-in-ispf",
+    "lessonTitle": "ISPF editor primary commands",
+    "coursePath": "/course/working-with-data-sets",
+    "questions": [
+      {
+        "prompt": "What is the correct TSO syntax command to replace all instances of the word power to voltage?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "c power voltage all",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "re power voltage all",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "ch all power voltage",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "rep power voltage all",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "short-quiz-exercise-4",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121737",
+    "library": "H5P.QuestionSet 1.20",
+    "title": "Short quiz: Exercise 4",
+    "id": "short-quiz-exercise-4",
+    "section": "Working with Data Sets",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF editor line commands",
+    "coursePath": "/course/working-with-data-sets",
+    "questions": [
+      {
+        "prompt": "What is the procedure to show hidden (excluded) lines in the editing area?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Enter reset on the command line",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Enter delete on the command line",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Enter remove on the command line",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Enter del msg on the command line",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "prompt": "What is entered on the command line to enable coloring options for language sensitive coloring in the ISPF editor?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hilite auto",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Enable hilite",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Start hilite",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Hilite start",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "prompt": "Which command displays a ruler marking column positions in the Editor data area?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cols",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Div",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Line",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Show",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "short-quiz-exercise-5",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121738",
+    "library": "H5P.QuestionSet 1.20",
+    "title": "Short quiz: Exercise 5",
+    "id": "short-quiz-exercise-5",
+    "section": "Working with Data Sets",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "Copy, move, rename, delete data sets and members",
+    "coursePath": "/course/working-with-data-sets",
+    "questions": [
+      {
+        "prompt": "After completing exercise “Copy, move, rename, delete data sets and members”, how many members are in data set userid .ES10.DATA?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Two",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "One",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Six",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Nine",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "prompt": "After completing exercise “Copy, move, rename, delete data sets and members”, which member(s) are in data set userid .ES10.DATA?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "DATA2 and DATA3",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "DATA1 and DATA3",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "DATA2",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "DATA1",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "short-quiz-exercise-6",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121739",
+    "library": "H5P.QuestionSet 1.20",
+    "title": "Short quiz: Exercise 6",
+    "id": "short-quiz-exercise-6",
+    "section": "Working with Data Sets",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "Data set lists",
+    "coursePath": "/course/working-with-data-sets",
+    "questions": [
+      {
+        "prompt": "After completing exercise “Data set lists”, how many members are in data set userid.ES10.PS?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "2",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "5",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "0",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "prompt": "After completing exercise “Data set lists”, how many members are in data set userid .ES10.DATA just before it is deleted?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "10",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "8",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "1",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "0",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "short-quiz-exercise-7",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121740",
+    "library": "H5P.QuestionSet 1.20",
+    "title": "Short quiz: Exercise 7",
+    "id": "short-quiz-exercise-7",
+    "section": "TSO Commands",
+    "lessonSlug": "lab-using-tso-commands",
+    "lessonTitle": "Using TSO Commands",
+    "coursePath": "/course/tso-commands",
+    "questions": [
+      {
+        "prompt": "What is the correct HELP syntax for the command that displays basic attributes of a data set on the ISPF Command Shell (ISPF Option 6)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "TSO LISTDS HELP",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "H LISTDS",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "TSO HELP LISTALC",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "H LISTALC",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "prompt": "Which PROFILE operand is entered to allow receiving system prompts?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "More",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "MSG",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Prompt",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "INFO",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "prompt": "What is the correct syntax to send a message to user TSO12345? (To answer this question you need to consult the TSO Command Reference manual, which you downloaded earlier.)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "send ‘Hello Mark, I am finished with all of the lab exercises’ user(TSO12345)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "tell ‘Hello Mark, I am finished with all of the lab exercises’, user(TSO12345)",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "send user(TSO12345) ‘Hello Mark, I am finished with all of the lab exercises’",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "send ‘Hello Mark, I am finished with all of the lab exercises’, user’TSO12345’",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,420 @@
+[
+  {
+    "id": "exercise-3-q1",
+    "section": "處理資料集",
+    "lessonSlug": "creating-editing-and-displaying-members-in-ispf",
+    "lessonTitle": "ISPF 編輯器主要命令",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121735",
+    "sourceReference": "short-quiz-exercise-3",
+    "prompt": "要把所有 power 取代成 voltage，正確的 TSO/ISPF 變更命令語法是哪一個？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "c power voltage all"
+      },
+      {
+        "id": "b",
+        "text": "re power voltage all"
+      },
+      {
+        "id": "c",
+        "text": "ch all power voltage"
+      },
+      {
+        "id": "d",
+        "text": "rep power voltage all"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "c power voltage all 使用 change 命令的縮寫 c，並以 all 指定取代所有符合的文字。",
+    "review": {
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_tfpzz00p",
+      "hint": "回到 ISPF 編輯器主要命令複習。"
+    }
+  },
+  {
+    "id": "exercise-4-q1",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF 編輯器行命令",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121737",
+    "sourceReference": "short-quiz-exercise-4",
+    "prompt": "在編輯區要重新顯示被隱藏或 excluded 的資料列，應該使用哪個程序？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "在 command line 輸入 reset"
+      },
+      {
+        "id": "b",
+        "text": "在 command line 輸入 delete"
+      },
+      {
+        "id": "c",
+        "text": "在 command line 輸入 remove"
+      },
+      {
+        "id": "d",
+        "text": "在 command line 輸入 del msg"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "reset 會清除 editor 中的 excluded 狀態，讓被隱藏的資料列重新顯示。",
+    "review": {
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_gu8gc31x",
+      "hint": "回到 ISPF editor line commands 複習。"
+    }
+  },
+  {
+    "id": "exercise-4-q2",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF 編輯器行命令",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121737",
+    "sourceReference": "short-quiz-exercise-4",
+    "prompt": "要在 ISPF editor 啟用語言敏感上色，應在 command line 輸入哪個命令？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hilite auto"
+      },
+      {
+        "id": "b",
+        "text": "Enable hilite"
+      },
+      {
+        "id": "c",
+        "text": "Start hilite"
+      },
+      {
+        "id": "d",
+        "text": "Hilite start"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "Hilite auto 會讓 ISPF editor 自動套用語言敏感上色設定。",
+    "review": {
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_gu8gc31x",
+      "hint": "回到 ISPF editor line commands 複習。"
+    }
+  },
+  {
+    "id": "exercise-4-q3",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF 編輯器行命令",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121737",
+    "sourceReference": "short-quiz-exercise-4",
+    "prompt": "哪個命令會在 Editor data area 顯示欄位位置尺規？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cols"
+      },
+      {
+        "id": "b",
+        "text": "Div"
+      },
+      {
+        "id": "c",
+        "text": "Line"
+      },
+      {
+        "id": "d",
+        "text": "Show"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "Cols 會顯示欄位位置尺規，方便確認資料在編輯區中的欄位位置。",
+    "review": {
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_gu8gc31x",
+      "hint": "回到 ISPF editor line commands 複習。"
+    }
+  },
+  {
+    "id": "exercise-5-q1",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "複製、移動、重新命名、刪除資料集與成員",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121738",
+    "sourceReference": "short-quiz-exercise-5",
+    "prompt": "完成「複製、移動、重新命名、刪除資料集與成員」練習後，資料集 userid.ES10.DATA 中有幾個 member？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "兩個"
+      },
+      {
+        "id": "b",
+        "text": "一個"
+      },
+      {
+        "id": "c",
+        "text": "六個"
+      },
+      {
+        "id": "d",
+        "text": "九個"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "依照 Exercise 5 的完成狀態，userid.ES10.DATA 最後只保留一個 member。",
+    "review": {
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_gu8gc31x",
+      "hint": "回到資料集與 member 管理流程複習。"
+    }
+  },
+  {
+    "id": "exercise-5-q2",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "複製、移動、重新命名、刪除資料集與成員",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121738",
+    "sourceReference": "short-quiz-exercise-5",
+    "prompt": "完成「複製、移動、重新命名、刪除資料集與成員」練習後，資料集 userid.ES10.DATA 中有哪些 member？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "DATA2 and DATA3"
+      },
+      {
+        "id": "b",
+        "text": "DATA1 and DATA3"
+      },
+      {
+        "id": "c",
+        "text": "DATA2"
+      },
+      {
+        "id": "d",
+        "text": "DATA1"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": "Exercise 5 完成後，userid.ES10.DATA 中保留的 member 是 DATA2。",
+    "review": {
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_gu8gc31x",
+      "hint": "回到資料集與 member 管理流程複習。"
+    }
+  },
+  {
+    "id": "exercise-6-q1",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "資料集清單",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121739",
+    "sourceReference": "short-quiz-exercise-6",
+    "prompt": "完成「資料集清單」練習後，資料集 userid.ES10.PS 中有幾個 member？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "5"
+      },
+      {
+        "id": "d",
+        "text": "0"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "explanation": "userid.ES10.PS 是 sequential data set，不是 PDS，因此沒有 member。",
+    "review": {
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_gu8gc31x",
+      "hint": "回到資料集清單與資料集型態複習。"
+    }
+  },
+  {
+    "id": "exercise-6-q2",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "資料集清單",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121739",
+    "sourceReference": "short-quiz-exercise-6",
+    "prompt": "完成「資料集清單」練習後，在刪除之前，資料集 userid.ES10.DATA 中有幾個 member？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "8"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "0"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": "依照 Exercise 6 的檢查點，userid.ES10.DATA 在刪除前包含一個 member。",
+    "review": {
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_gu8gc31x",
+      "hint": "回到資料集清單與刪除流程複習。"
+    }
+  },
+  {
+    "id": "exercise-7-q1",
+    "section": "TSO 命令",
+    "lessonSlug": "lab-using-tso-commands",
+    "lessonTitle": "使用 TSO 命令",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121740",
+    "sourceReference": "short-quiz-exercise-7",
+    "prompt": "在 ISPF Command Shell（ISPF option 6）中，要查詢顯示資料集基本屬性的命令說明，正確的 HELP 語法是哪一個？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "TSO LISTDS HELP"
+      },
+      {
+        "id": "b",
+        "text": "H LISTDS"
+      },
+      {
+        "id": "c",
+        "text": "TSO HELP LISTALC"
+      },
+      {
+        "id": "d",
+        "text": "H LISTALC"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "LISTDS 是顯示資料集基本屬性的命令；在 ISPF Command Shell 中可用 H LISTDS 查詢說明。",
+    "review": {
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_bqff6hoz",
+      "hint": "回到 TSO/E 命令與 command reference 複習。"
+    }
+  },
+  {
+    "id": "exercise-7-q2",
+    "section": "TSO 命令",
+    "lessonSlug": "lab-using-tso-commands",
+    "lessonTitle": "使用 TSO 命令",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121740",
+    "sourceReference": "short-quiz-exercise-7",
+    "prompt": "要允許接收系統提示，應輸入哪個 PROFILE operand？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "More"
+      },
+      {
+        "id": "b",
+        "text": "MSG"
+      },
+      {
+        "id": "c",
+        "text": "Prompt"
+      },
+      {
+        "id": "d",
+        "text": "INFO"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": "PROFILE PROMPT 會讓 TSO/E 在需要時提供系統提示。",
+    "review": {
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_bqff6hoz",
+      "hint": "回到 TSO PROFILE 設定複習。"
+    }
+  },
+  {
+    "id": "exercise-7-q3",
+    "section": "TSO 命令",
+    "lessonSlug": "lab-using-tso-commands",
+    "lessonTitle": "使用 TSO 命令",
+    "sourceType": "hvp",
+    "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121740",
+    "sourceReference": "short-quiz-exercise-7",
+    "prompt": "要傳送訊息給使用者 TSO12345，正確語法是哪一個？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "send 'Hello Mark, I am finished with all of the lab exercises' user(TSO12345)"
+      },
+      {
+        "id": "b",
+        "text": "tell 'Hello Mark, I am finished with all of the lab exercises', user(TSO12345)"
+      },
+      {
+        "id": "c",
+        "text": "send user(TSO12345) 'Hello Mark, I am finished with all of the lab exercises'"
+      },
+      {
+        "id": "d",
+        "text": "send 'Hello Mark, I am finished with all of the lab exercises', user'TSO12345'"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "SEND 命令先放訊息內容，再用 user(TSO12345) 指定收件使用者。",
+    "review": {
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_bqff6hoz",
+      "hint": "回到 TSO/E Command Reference 複習 SEND 語法。"
+    }
+  }
+]

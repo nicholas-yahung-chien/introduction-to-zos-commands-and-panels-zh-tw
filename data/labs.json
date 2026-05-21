@@ -1,0 +1,93 @@
+[
+  {
+    "id": "exercise-1-access-your-lab-environment",
+    "title": "Exercise 1: Access your lab environment",
+    "titleZh": "練習 1：存取 Lab 環境",
+    "type": "Lab",
+    "sourceUrl": "https://learn.ibm.com/mod/page/view.php?id=174895",
+    "courseUrl": "https://learn.ibm.com/course/view.php?id=7419",
+    "section": "z/OS 命令與面板入門",
+    "summary": "透過 IBM Remote Lab Platform 進入原課程 Lab session，確認課程套件、IBM ID 登入與主機環境入口。",
+    "learningPurpose": ["確認 IRLP / Skytap Lab 環境可用", "取得後續練習會使用的系統與 TSO credential"],
+    "recommendedBefore": ["TSO 與 ISPF 入門", "Lab：熟悉系統", "開始 Lab 前的檢查清單"],
+    "launchGuidance": "此活動需要原 IBM Learn 環境與授權 session。本站保留學習順序與目的，實作請回原課程完成。"
+  },
+  {
+    "id": "exercise-2-allocate-new-data-sets",
+    "title": "Exercise 2: Allocate new data sets",
+    "titleZh": "練習 2：配置新的資料集",
+    "type": "Lab",
+    "sourceUrl": "https://learn.ibm.com/mod/page/view.php?id=175025",
+    "courseUrl": "https://learn.ibm.com/course/view.php?id=7419",
+    "section": "z/OS 命令與面板入門",
+    "summary": "練習建立資料集，理解資料集命名、配置屬性與後續編輯作業的關係。",
+    "learningPurpose": ["熟悉資料集配置流程", "建立後續資料集操作練習的材料"],
+    "recommendedBefore": ["熟悉系統", "TSO 與 ISPF 入門"],
+    "launchGuidance": "請在原課程環境中完成，避免在本站保存任何學習者帳號、環境或結果資料。"
+  },
+  {
+    "id": "exercise-3-ispf-editor-primary-commands",
+    "title": "Exercise 3: ISPF editor primary commands",
+    "titleZh": "練習 3：ISPF 編輯器主要命令",
+    "type": "Lab",
+    "sourceUrl": "https://learn.ibm.com/mod/page/view.php?id=175026",
+    "courseUrl": "https://learn.ibm.com/course/view.php?id=7419",
+    "section": "處理資料集",
+    "summary": "使用 ISPF 編輯器的主要命令處理資料集內容。",
+    "learningPurpose": ["辨識主要命令輸入位置", "練習儲存、取消與瀏覽常用編輯動作"],
+    "recommendedBefore": ["配置資料集", "使用資料集"],
+    "launchGuidance": "此 Lab 以原課程環境中的資料集為準；本站只提供學習定位。"
+  },
+  {
+    "id": "exercise-4-ispf-editor-line-commands",
+    "title": "Exercise 4: ISPF editor line commands",
+    "titleZh": "練習 4：ISPF 編輯器行命令",
+    "type": "Lab",
+    "sourceUrl": "https://learn.ibm.com/mod/page/view.php?id=175027",
+    "courseUrl": "https://learn.ibm.com/course/view.php?id=7419",
+    "section": "處理資料集",
+    "summary": "透過行命令操作特定資料列，建立對 ISPF 編輯器操作模式的實務理解。",
+    "learningPurpose": ["練習在行命令區輸入操作", "區分主要命令與行命令的用途"],
+    "recommendedBefore": ["ISPF 編輯器主要命令", "使用資料集"],
+    "launchGuidance": "請回 IBM Learn 原活動執行，並依課程環境中的資料集名稱操作。"
+  },
+  {
+    "id": "exercise-5-copy-move-rename-delete-data-sets-and-members",
+    "title": "Exercise 5: Copy, move, rename, delete data sets and members",
+    "titleZh": "練習 5：複製、移動、重新命名、刪除資料集與成員",
+    "type": "Lab",
+    "sourceUrl": "https://learn.ibm.com/mod/page/view.php?id=175028",
+    "courseUrl": "https://learn.ibm.com/course/view.php?id=7419",
+    "section": "處理資料集",
+    "summary": "練習資料集與成員的常見管理動作，包含複製、移動、重新命名與刪除。",
+    "learningPurpose": ["理解資料集與成員管理的日常工作流", "建立操作前確認目標名稱的習慣"],
+    "recommendedBefore": ["資料集配置", "ISPF 編輯器行命令"],
+    "launchGuidance": "此活動涉及原環境中的資料集狀態，請在 IBM Learn 中依步驟完成。"
+  },
+  {
+    "id": "exercise-6-data-set-lists",
+    "title": "Exercise 6: Data set lists",
+    "titleZh": "練習 6：資料集清單",
+    "type": "Lab",
+    "sourceUrl": "https://learn.ibm.com/mod/page/view.php?id=175029",
+    "courseUrl": "https://learn.ibm.com/course/view.php?id=7419",
+    "section": "處理資料集",
+    "summary": "透過資料集清單尋找、篩選與進入資料集，讓前面建立與管理的資料集可以被有效使用。",
+    "learningPurpose": ["熟悉資料集清單瀏覽", "練習用命名模式定位資料集"],
+    "recommendedBefore": ["複製、移動、重新命名、刪除資料集與成員"],
+    "launchGuidance": "資料集名稱與可見清單依原課程環境而定，請回原課程執行。"
+  },
+  {
+    "id": "exercise-7-using-tso-commands",
+    "title": "Exercise 7: Using TSO Commands",
+    "titleZh": "練習 7：使用 TSO 命令",
+    "type": "Lab",
+    "sourceUrl": "https://learn.ibm.com/mod/page/view.php?id=175031",
+    "courseUrl": "https://learn.ibm.com/course/view.php?id=7419",
+    "section": "TSO 命令",
+    "summary": "以 TSO/E 命令完成常見操作，將前面透過 ISPF 面板建立的理解延伸到命令列。",
+    "learningPurpose": ["熟悉 TSO/E 命令輸入與結果判讀", "比較面板操作與命令操作的差異"],
+    "recommendedBefore": ["TSO 命令 - 第 1 部分", "TSO 命令 - 第 2 部分"],
+    "launchGuidance": "請在 IBM Learn 原環境中完成，本站不重建主機連線或保存命令執行結果。"
+  }
+]

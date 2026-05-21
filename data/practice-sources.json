@@ -1,0 +1,59 @@
+{
+  "sources": [
+    {
+      "id": "short-quiz-exercise-3",
+      "title": "Short quiz: Exercise 3",
+      "type": "hvp",
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121735",
+      "sectionSlug": "working-with-data-sets",
+      "sectionTitle": "Working with Data Sets",
+      "status": "captured-for-static-practice",
+      "intendedUse": "Static learning check only; IBM Learn remains the formal activity record.",
+      "capturedQuestionCount": 1
+    },
+    {
+      "id": "short-quiz-exercise-4",
+      "title": "Short quiz: Exercise 4",
+      "type": "hvp",
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121737",
+      "sectionSlug": "working-with-data-sets",
+      "sectionTitle": "Working with Data Sets",
+      "status": "captured-for-static-practice",
+      "intendedUse": "Static learning check only; IBM Learn remains the formal activity record.",
+      "capturedQuestionCount": 3
+    },
+    {
+      "id": "short-quiz-exercise-5",
+      "title": "Short quiz: Exercise 5",
+      "type": "hvp",
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121738",
+      "sectionSlug": "working-with-data-sets",
+      "sectionTitle": "Working with Data Sets",
+      "status": "captured-for-static-practice",
+      "intendedUse": "Static learning check only; IBM Learn remains the formal activity record.",
+      "capturedQuestionCount": 2
+    },
+    {
+      "id": "short-quiz-exercise-6",
+      "title": "Short quiz: Exercise 6",
+      "type": "hvp",
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121739",
+      "sectionSlug": "working-with-data-sets",
+      "sectionTitle": "Working with Data Sets",
+      "status": "captured-for-static-practice",
+      "intendedUse": "Static learning check only; IBM Learn remains the formal activity record.",
+      "capturedQuestionCount": 2
+    },
+    {
+      "id": "short-quiz-exercise-7",
+      "title": "Short quiz: Exercise 7",
+      "type": "hvp",
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121740",
+      "sectionSlug": "tso-commands",
+      "sectionTitle": "TSO Commands",
+      "status": "captured-for-static-practice",
+      "intendedUse": "Static learning check only; IBM Learn remains the formal activity record.",
+      "capturedQuestionCount": 3
+    }
+  ]
+}

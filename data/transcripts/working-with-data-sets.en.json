@@ -1,0 +1,478 @@
+{
+  "slug": "working-with-data-sets",
+  "title": "Working with data sets",
+  "language": "en",
+  "duration": 470.8078125,
+  "segments": [
+    {
+      "start": 3.38,
+      "end": 9.38,
+      "text": "We've created a dataset, and we've created and edited some members within a dataset."
+    },
+    {
+      "start": 9.38,
+      "end": 13.38,
+      "text": "Now let's learn a little more about working with datasets."
+    },
+    {
+      "start": 13.38,
+      "end": 15.38,
+      "text": "Just a reminder, some of these handy commands."
+    },
+    {
+      "start": 15.38,
+      "end": 20.38,
+      "text": "When you type save, that saves the dataset, and it remains in edit mode."
+    },
+    {
+      "start": 20.38,
+      "end": 26.38,
+      "text": "And when you press F3, that saves the data and returns you to the previous panel."
+    },
+    {
+      "start": 26.38,
+      "end": 31.38,
+      "text": "So if you're all done editing and you want to exit and save, just hit F3."
+    },
+    {
+      "start": 31.38,
+      "end": 34.38,
+      "text": "If you've made a bunch of edits that you're not entirely sure about,"
+    },
+    {
+      "start": 34.38,
+      "end": 40.38,
+      "text": "and you want to exit without committing any of them, enter cancel or can for short."
+    },
+    {
+      "start": 40.38,
+      "end": 44.38,
+      "text": "If it's configured for quit, you can also press F12."
+    },
+    {
+      "start": 44.38,
+      "end": 49.38,
+      "text": "One command you'll probably use a lot when working on datasets is the find command."
+    },
+    {
+      "start": 49.38,
+      "end": 54.38,
+      "text": "Find is abbreviated as F for find."
+    },
+    {
+      "start": 54.38,
+      "end": 57.38,
+      "text": "Then after F, place your search string."
+    },
+    {
+      "start": 57.38,
+      "end": 60.38,
+      "text": "On this screen, we're trying to find the word back."
+    },
+    {
+      "start": 60.38,
+      "end": 64.38,
+      "text": "So we're typing F space back into the command line."
+    },
+    {
+      "start": 64.38,
+      "end": 70.38,
+      "text": "If there are multiple occurrences of the word, you can press F5 to advance to the next one."
+    },
+    {
+      "start": 70.38,
+      "end": 75.38,
+      "text": "The highlight command, spelled H-I-L-I-T-E,"
+    },
+    {
+      "start": 75.38,
+      "end": 82.38,
+      "text": "lets us tell the editor to set the colors and language sensitive editing features for a specific format."
+    },
+    {
+      "start": 82.38,
+      "end": 88.38,
+      "text": "When you type highlight and hit enter, we get this menu of languages, coloring, and options."
+    },
+    {
+      "start": 88.38,
+      "end": 94.38,
+      "text": "Here we can select our programming language, set the coloring mode, and select a few of those options."
+    },
+    {
+      "start": 94.38,
+      "end": 97.38,
+      "text": "We select an option with a forward slash."
+    },
+    {
+      "start": 97.38,
+      "end": 104.38,
+      "text": "So if we select the option for highlight find strings, and then we press F3 to get back to the editor,"
+    },
+    {
+      "start": 104.38,
+      "end": 110.38,
+      "text": "notice that the F back command highlights the instances of back in the editor."
+    },
+    {
+      "start": 110.38,
+      "end": 115.38,
+      "text": "By the way, if you know the language you want a format for, you can type it out in the command line,"
+    },
+    {
+      "start": 115.38,
+      "end": 121.38,
+      "text": "like highlight JCL, and that will color the screen specifically for JCL."
+    },
+    {
+      "start": 121.38,
+      "end": 123.38,
+      "text": "A couple of quick notes on this."
+    },
+    {
+      "start": 123.38,
+      "end": 130.38,
+      "text": "Some of the highlight formatting options need to be enabled by the installer or person who maintains your ISPF installation."
+    },
+    {
+      "start": 130.38,
+      "end": 136.38,
+      "text": "So if you're on a different system and things look a little bit different, that could be why."
+    },
+    {
+      "start": 136.38,
+      "end": 139.38,
+      "text": "Also, these options are only available in the edit mode."
+    },
+    {
+      "start": 139.38,
+      "end": 143.38,
+      "text": "If you're browsing a file, you won't see these colors."
+    },
+    {
+      "start": 143.38,
+      "end": 148.38,
+      "text": "A lot of times when something doesn't work right, you get an error, and the message might say,"
+    },
+    {
+      "start": 148.38,
+      "end": 152.38,
+      "text": "error detected at line 50, column 42, or something like that."
+    },
+    {
+      "start": 152.38,
+      "end": 157.38,
+      "text": "And we can easily see what line we're at because we have the numbers on the left side of the screen there,"
+    },
+    {
+      "start": 157.38,
+      "end": 160.38,
+      "text": "but what about that error at column 42?"
+    },
+    {
+      "start": 160.38,
+      "end": 164.38,
+      "text": "Are we supposed to sit there and count out one, two, three, four, five?"
+    },
+    {
+      "start": 164.38,
+      "end": 165.38,
+      "text": "Of course not."
+    },
+    {
+      "start": 165.38,
+      "end": 169.38,
+      "text": "You can bring up a column guide, and you can actually do this one of two ways."
+    },
+    {
+      "start": 169.38,
+      "end": 176.38,
+      "text": "Type calls, C-O-L-S, up in the command line area, and you get a little ruler that pops up,"
+    },
+    {
+      "start": 176.38,
+      "end": 179.38,
+      "text": "and it will always be there at the top of your screen for you."
+    },
+    {
+      "start": 179.38,
+      "end": 184.38,
+      "text": "That's pretty handy, but what if I really only want to show a column guide for one line?"
+    },
+    {
+      "start": 184.38,
+      "end": 189.38,
+      "text": "Type calls, C-O-L-S, over the line number you want the column guide for,"
+    },
+    {
+      "start": 189.38,
+      "end": 193.38,
+      "text": "and it will insert one in the editor right above it."
+    },
+    {
+      "start": 193.38,
+      "end": 196.38,
+      "text": "Now, this does not show up in the actual data set."
+    },
+    {
+      "start": 196.38,
+      "end": 202.38,
+      "text": "You'll notice it doesn't have a record number over there, but as you scroll up and down, it moves with the data."
+    },
+    {
+      "start": 202.38,
+      "end": 207.38,
+      "text": "So two styles of creating column guides, and those will definitely come in handy."
+    },
+    {
+      "start": 207.38,
+      "end": 211.38,
+      "text": "We looked at find, and we also have a change command."
+    },
+    {
+      "start": 211.38,
+      "end": 214.38,
+      "text": "This can be used to replace a string of characters with another,"
+    },
+    {
+      "start": 214.38,
+      "end": 220.38,
+      "text": "like if we wanted to change all instances of one, two, three, four with five, six, seven, eight."
+    },
+    {
+      "start": 220.38,
+      "end": 225.38,
+      "text": "To use the change command, just enter change, followed by what you want to change."
+    },
+    {
+      "start": 225.38,
+      "end": 228.38,
+      "text": "Followed by what you want to change it with."
+    },
+    {
+      "start": 228.38,
+      "end": 234.38,
+      "text": "If you want to change all instances, follow that with all, otherwise it will only change the next one."
+    },
+    {
+      "start": 234.38,
+      "end": 240.38,
+      "text": "And there's a whole lot of options you can use for the change command, but for now, we're just going to keep it simple."
+    },
+    {
+      "start": 240.38,
+      "end": 243.38,
+      "text": "Up next is the bounds command."
+    },
+    {
+      "start": 243.38,
+      "end": 245.38,
+      "text": "This comes in handy from time to time."
+    },
+    {
+      "start": 245.38,
+      "end": 253.38,
+      "text": "Let's say we want to issue a change command, but we only want to change data located between the first and 25th column."
+    },
+    {
+      "start": 253.38,
+      "end": 261.38,
+      "text": "Sounds tricky, but with the bounds command, we can type bounds space one, space 25,"
+    },
+    {
+      "start": 261.38,
+      "end": 266.38,
+      "text": "and now our change command is limited to the area in the first 25 columns."
+    },
+    {
+      "start": 266.38,
+      "end": 272.38,
+      "text": "To set it back, just type bounds with nothing after it and hit enter, and it will go back to default."
+    },
+    {
+      "start": 272.38,
+      "end": 276.38,
+      "text": "Say you want to copy or move an entire data set somewhere else."
+    },
+    {
+      "start": 276.38,
+      "end": 282.38,
+      "text": "One way of doing this is with the move copy utility, and I'm going to show you a shortcut of how to get there."
+    },
+    {
+      "start": 282.38,
+      "end": 290.38,
+      "text": "It's in the utility section, which is option three, and within there, move copy utility is option number three."
+    },
+    {
+      "start": 290.38,
+      "end": 295.38,
+      "text": "Since we know this, we can get there by going to 3.3."
+    },
+    {
+      "start": 295.38,
+      "end": 299.38,
+      "text": "It'll jump us directly there without needing to stop at the screen in between."
+    },
+    {
+      "start": 299.38,
+      "end": 307.38,
+      "text": "So from the main screen, we're going to type 3.3, and that puts us at the move copy utility."
+    },
+    {
+      "start": 307.38,
+      "end": 314.38,
+      "text": "And we can actually jump directly from any panel to any other panel by putting an equals in front of that."
+    },
+    {
+      "start": 314.38,
+      "end": 319.38,
+      "text": "So equals 3.3 or whatever in the command line."
+    },
+    {
+      "start": 319.38,
+      "end": 321.38,
+      "text": "So no need to go back to that main panel."
+    },
+    {
+      "start": 321.38,
+      "end": 324.38,
+      "text": "That should save us quite a bit of time."
+    },
+    {
+      "start": 324.38,
+      "end": 326.38,
+      "text": "All right, moving and copying."
+    },
+    {
+      "start": 326.38,
+      "end": 331.38,
+      "text": "Put either an M or a C for move or copy on the command line."
+    },
+    {
+      "start": 331.38,
+      "end": 339.38,
+      "text": "Then either use the project group type fields to specify your data set or type out the name of the data set on the name line."
+    },
+    {
+      "start": 339.38,
+      "end": 348.38,
+      "text": "Note that you can use the member field to specify a single member, or you can use an asterisk or splat to specify all members."
+    },
+    {
+      "start": 348.38,
+      "end": 354.38,
+      "text": "You can also use a pattern like L splat to tell it only members that start with an L."
+    },
+    {
+      "start": 354.38,
+      "end": 357.38,
+      "text": "Hit enter, and then the next screen will come up."
+    },
+    {
+      "start": 358.38,
+      "end": 363.38,
+      "text": "Fill out the name of the target data set, where it's going, and hit enter."
+    },
+    {
+      "start": 363.38,
+      "end": 366.38,
+      "text": "And the copy or move will begin."
+    },
+    {
+      "start": 367.38,
+      "end": 369.38,
+      "text": "Renaming a data set is fairly similar."
+    },
+    {
+      "start": 369.38,
+      "end": 378.38,
+      "text": "Using option 3.2, the data set utility panel, enter the old data set name and specify an R on the command line."
+    },
+    {
+      "start": 378.38,
+      "end": 380.38,
+      "text": "The next screen will prompt you for the new name."
+    },
+    {
+      "start": 380.38,
+      "end": 383.38,
+      "text": "Hit enter, and there you go."
+    },
+    {
+      "start": 383.38,
+      "end": 390.38,
+      "text": "If you want to rename a member, not the entire data set, use option 3.1 for library utilities."
+    },
+    {
+      "start": 390.38,
+      "end": 398.38,
+      "text": "Fill out all these fields or fully spell out the name of the member in the other partitioned or sequential data set field."
+    },
+    {
+      "start": 398.38,
+      "end": 402.38,
+      "text": "And just follow the prompts, which by now should seem pretty familiar."
+    },
+    {
+      "start": 402.38,
+      "end": 406.38,
+      "text": "Deleting data set members, that's also done in 3.1."
+    },
+    {
+      "start": 406.38,
+      "end": 409.38,
+      "text": "Just use the command D for delete."
+    },
+    {
+      "start": 409.38,
+      "end": 415.38,
+      "text": "Depending on how your ISPF is configured, it may or may not ask you if you're sure you want to delete those members."
+    },
+    {
+      "start": 415.38,
+      "end": 417.38,
+      "text": "Hey, better safe than sorry."
+    },
+    {
+      "start": 417.38,
+      "end": 424.38,
+      "text": "One more thing, we looked at the data set list utility earlier, which can be found at option 3.4."
+    },
+    {
+      "start": 424.38,
+      "end": 434.38,
+      "text": "And we saw how you can get a listing of the members of a data set by typing out a qualifier or series of qualifiers into the dsnamelevel field and hitting enter."
+    },
+    {
+      "start": 434.38,
+      "end": 443.38,
+      "text": "Now, check this out. When the listing comes up, we can not only edit and view the members from here by placing an E or a V into the command area,"
+    },
+    {
+      "start": 443.38,
+      "end": 446.38,
+      "text": "but we can also rename them with an R."
+    },
+    {
+      "start": 446.38,
+      "end": 452.38,
+      "text": "Delete with a D, copy with a C-O, move with an M-O, and more."
+    },
+    {
+      "start": 452.38,
+      "end": 456.38,
+      "text": "A fuller listing of these commands is in a file attached to this lesson."
+    },
+    {
+      "start": 456.38,
+      "end": 461.38,
+      "text": "So that's that. You've learned how to create and manage data sets and members."
+    },
+    {
+      "start": 461.38,
+      "end": 465.38,
+      "text": "You're ready to take on the world of data sets, at least."
+    }
+  ]
+}

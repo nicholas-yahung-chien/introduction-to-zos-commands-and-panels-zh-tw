@@ -1,0 +1,11 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/public/media/
+docs/public/hls/
+dist-media/
+tmp/
+data/captured/*.html
+data/captured/*.tmp
+.env
+.env.*

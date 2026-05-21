@@ -1,0 +1,17 @@
+WEBVTT
+
+1
+00:00:03.250 --> 00:00:10.750
+In the next few labs, we're going to be working with datasets, so you're going to be allocating some datasets and putting members into them.
+
+2
+00:00:10.750 --> 00:00:18.750
+Then you'll use ISPF line editor commands to copy a member from one dataset into another and perform modifications.
+
+3
+00:00:18.750 --> 00:00:23.750
+And then you'll use dslist to check out information about all those datasets.
+
+4
+00:00:23.750 --> 00:00:26.750
+All set? Let's get allocating.

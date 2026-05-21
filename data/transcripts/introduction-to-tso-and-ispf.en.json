@@ -1,0 +1,538 @@
+{
+  "slug": "introduction-to-tso-and-ispf",
+  "title": "Introduction to TSO and ISPF",
+  "language": "en",
+  "duration": 415.42825,
+  "segments": [
+    {
+      "start": 3.34,
+      "end": 9.5,
+      "text": "We're going to move a little bit into the user-facing space now, with ISPF and TSO."
+    },
+    {
+      "start": 9.5,
+      "end": 16.46,
+      "text": "ISPF is the Interactive System Productivity Facility, and TSO is the time-sharing option."
+    },
+    {
+      "start": 16.46,
+      "end": 23.1,
+      "text": "These are two separate products, both of which run on the mainframe in the ZOS operating system."
+    },
+    {
+      "start": 23.1,
+      "end": 26.38,
+      "text": "And a short detour here about acronyms."
+    },
+    {
+      "start": 26.38,
+      "end": 33.18,
+      "text": "We just talked about ISPF, and I told you that it stands for the Interactive System Productivity Facility."
+    },
+    {
+      "start": 33.5,
+      "end": 40.54,
+      "text": "Now, I had to look that up, because I have literally never called it the Interactive System Productivity Facility."
+    },
+    {
+      "start": 40.54,
+      "end": 48.7,
+      "text": "It's always just been ISPF, and you'll probably never hear anybody say time-sharing option either, it's just TSO."
+    },
+    {
+      "start": 48.7,
+      "end": 53.5,
+      "text": "What I'm getting at here is that you shouldn't worry about memorizing what things stand for,"
+    },
+    {
+      "start": 53.5,
+      "end": 56.22,
+      "text": "unless they help you remember it, like peachid."
+    },
+    {
+      "start": 56.22,
+      "end": 61.18,
+      "text": "The P in the front of peachid reminds me of the physical channel path identifier."
+    },
+    {
+      "start": 61.18,
+      "end": 67.66,
+      "text": "But you've probably noticed that we go through a lot of acronyms here, and I just don't need to stress about memorizing things."
+    },
+    {
+      "start": 67.66,
+      "end": 70.38,
+      "text": "What's important is what they are."
+    },
+    {
+      "start": 70.38,
+      "end": 77.26,
+      "text": "And ISPF is a full-screen, menu-driven interface which lets you access ZOS tools and utilities."
+    },
+    {
+      "start": 77.26,
+      "end": 84.62,
+      "text": "So, instead of memorizing commands and parameters, you can just navigate to a panel built specifically for the task you want to do,"
+    },
+    {
+      "start": 84.62,
+      "end": 87.02,
+      "text": "and enter the options you want."
+    },
+    {
+      "start": 87.02,
+      "end": 93.9,
+      "text": "TSO kind of runs behind ISPF, supporting it, and is typically used for one-word or one-line commands."
+    },
+    {
+      "start": 93.9,
+      "end": 99.42,
+      "text": "So, for most tasks, you've got the option of either doing it through TSO or ISPF."
+    },
+    {
+      "start": 99.42,
+      "end": 105.74,
+      "text": "When you first connect to a mainframe using a terminal emulator, you're greeted by a TSO logon screen."
+    },
+    {
+      "start": 105.74,
+      "end": 111.02,
+      "text": "Top of the screen, you may notice this little slash E at the end of TSO, and you're wondering what that is."
+    },
+    {
+      "start": 111.02,
+      "end": 116.54,
+      "text": "That means it's TSO Extensions, which has a few improvements over the original TSO."
+    },
+    {
+      "start": 116.54,
+      "end": 119.58,
+      "text": "But, again, most people just call it TSO."
+    },
+    {
+      "start": 119.58,
+      "end": 122.94,
+      "text": "You log into TSO with a username and a password."
+    },
+    {
+      "start": 122.94,
+      "end": 127.58,
+      "text": "So, we need to move our cursor over to the User ID field and put in our User ID,"
+    },
+    {
+      "start": 127.58,
+      "end": 131.9,
+      "text": "and then there's a password field right over here. Do the same thing with the password."
+    },
+    {
+      "start": 131.9,
+      "end": 135.66,
+      "text": "Many of these fields will be filled out with the default values when you get there,"
+    },
+    {
+      "start": 135.66,
+      "end": 140.06,
+      "text": "and if they are, you're probably okay just to leave them like that."
+    },
+    {
+      "start": 140.06,
+      "end": 142.78,
+      "text": "A quick word about navigating to fields."
+    },
+    {
+      "start": 142.78,
+      "end": 147.34,
+      "text": "The easiest way to move from field to field is by hitting the Tab key,"
+    },
+    {
+      "start": 147.34,
+      "end": 150.86,
+      "text": "and you can go the other direction by hitting Shift-Tab."
+    },
+    {
+      "start": 150.86,
+      "end": 154.46,
+      "text": "If you try to use your mouse to select the fields you want to type in,"
+    },
+    {
+      "start": 154.46,
+      "end": 159.34,
+      "text": "it's real easy to click in the wrong spot, and then you'll wind up putting text where you didn't mean to."
+    },
+    {
+      "start": 159.34,
+      "end": 163.26,
+      "text": "So, for a lot of what we're going to be doing, just use your keyboard."
+    },
+    {
+      "start": 163.26,
+      "end": 166.46,
+      "text": "So, now you've got your User ID and your password in there,"
+    },
+    {
+      "start": 166.46,
+      "end": 169.26,
+      "text": "and below that we've got this Procedure field."
+    },
+    {
+      "start": 169.26,
+      "end": 172.94,
+      "text": "This is the procedure that kicks off when you start your TSO session."
+    },
+    {
+      "start": 172.94,
+      "end": 175.9,
+      "text": "This is usually set up for you by someone who knows what they're doing,"
+    },
+    {
+      "start": 175.9,
+      "end": 180.38,
+      "text": "so it's best not to change it unless you really need to or someone tells you to."
+    },
+    {
+      "start": 180.38,
+      "end": 185.74,
+      "text": "And even then, make sure you make a note of what it said before in case you need to change it back."
+    },
+    {
+      "start": 185.74,
+      "end": 188.94,
+      "text": "The account number is used to track system usage,"
+    },
+    {
+      "start": 188.94,
+      "end": 194.22,
+      "text": "and the Size field determines the amount of memory that your TSO session gets."
+    },
+    {
+      "start": 194.22,
+      "end": 198.22,
+      "text": "Perform is there in case you want to associate your TSO session"
+    },
+    {
+      "start": 198.22,
+      "end": 203.66,
+      "text": "with a set of performance characteristics, which can be helpful for WLM."
+    },
+    {
+      "start": 203.66,
+      "end": 205.02,
+      "text": "And then there's Command."
+    },
+    {
+      "start": 205.02,
+      "end": 208.78,
+      "text": "This tells TSO what you want it to do once you're logged in."
+    },
+    {
+      "start": 208.78,
+      "end": 213.5,
+      "text": "You may be prompted to change your password, or you may just feel like changing your password."
+    },
+    {
+      "start": 213.5,
+      "end": 217.82,
+      "text": "To do that, enter your current password in the Password field"
+    },
+    {
+      "start": 217.82,
+      "end": 221.82,
+      "text": "and put your new password over in the New Password field."
+    },
+    {
+      "start": 221.82,
+      "end": 224.7,
+      "text": "You will then be prompted to enter the same password again,"
+    },
+    {
+      "start": 224.7,
+      "end": 227.34,
+      "text": "just to make sure you typed out what you meant to type."
+    },
+    {
+      "start": 227.34,
+      "end": 231.02,
+      "text": "The Group Identification field can be used to log into another group"
+    },
+    {
+      "start": 231.02,
+      "end": 233.5,
+      "text": "and access a different set of resources."
+    },
+    {
+      "start": 233.5,
+      "end": 238.22,
+      "text": "If that's done, it'll typically be done by the Security Administrator."
+    },
+    {
+      "start": 238.22,
+      "end": 240.46,
+      "text": "Then down here, we've got four options."
+    },
+    {
+      "start": 240.46,
+      "end": 246.46,
+      "text": "To select any one of these options, place an S to select it in the space before it."
+    },
+    {
+      "start": 246.46,
+      "end": 252.54,
+      "text": "So if you put an S before NoMail, TSO will suppress the messages intended for you,"
+    },
+    {
+      "start": 252.54,
+      "end": 254.94,
+      "text": "specifically during the logon process."
+    },
+    {
+      "start": 255.9,
+      "end": 257.9,
+      "text": "Put an S in front of No Notice,"
+    },
+    {
+      "start": 257.9,
+      "end": 262.06,
+      "text": "and that says you don't want to see any of the messages intended for all users."
+    },
+    {
+      "start": 263.18,
+      "end": 266.54,
+      "text": "Next, if you ever accidentally close your terminal window,"
+    },
+    {
+      "start": 266.54,
+      "end": 270.06,
+      "text": "there's a chance it'll notice this and close up your session safely."
+    },
+    {
+      "start": 270.06,
+      "end": 272.86,
+      "text": "But if, for whatever reason, you're trying to log in,"
+    },
+    {
+      "start": 272.86,
+      "end": 275.74,
+      "text": "and it's telling you your session is already in use,"
+    },
+    {
+      "start": 275.74,
+      "end": 279.82,
+      "text": "you can select this and it will reconnect you to that previously running session."
+    },
+    {
+      "start": 280.86,
+      "end": 282.7,
+      "text": "And then there's OID card."
+    },
+    {
+      "start": 282.7,
+      "end": 286.54,
+      "text": "You can use this to enter data using your Operator Identification card,"
+    },
+    {
+      "start": 286.54,
+      "end": 287.5,
+      "text": "if you have one of those."
+    },
+    {
+      "start": 288.38,
+      "end": 290.14,
+      "text": "All right, now we're in ISPF."
+    },
+    {
+      "start": 290.14,
+      "end": 291.5,
+      "text": "Let's see what we got."
+    },
+    {
+      "start": 291.5,
+      "end": 293.58,
+      "text": "Up top, we've got the Action Bar."
+    },
+    {
+      "start": 293.58,
+      "end": 296.94,
+      "text": "This works just like a menu in anything else you've ever used."
+    },
+    {
+      "start": 296.94,
+      "end": 298.22,
+      "text": "And then there's a Command Line."
+    },
+    {
+      "start": 298.22,
+      "end": 300.22,
+      "text": "That lets you type out any commands that you know."
+    },
+    {
+      "start": 300.78,
+      "end": 304.62,
+      "text": "This may also be located at the bottom of the screen instead of the top."
+    },
+    {
+      "start": 304.62,
+      "end": 307.1,
+      "text": "Some people like it down there, and they'll set it up that way."
+    },
+    {
+      "start": 307.82,
+      "end": 310.78,
+      "text": "Next, there's this big listing of panel options."
+    },
+    {
+      "start": 310.78,
+      "end": 314.22,
+      "text": "And these show you all the panels that you can go to in ISPF."
+    },
+    {
+      "start": 314.22,
+      "end": 317.42,
+      "text": "So if you want to go to Dialogue Test, for example,"
+    },
+    {
+      "start": 317.42,
+      "end": 320.38,
+      "text": "you would put a 7 on the Command Line and then hit Enter,"
+    },
+    {
+      "start": 320.38,
+      "end": 324.86,
+      "text": "because 7 is the number on the panel options for Dialogue Test."
+    },
+    {
+      "start": 325.66,
+      "end": 327.9,
+      "text": "At the bottom, there's a listing of function keys."
+    },
+    {
+      "start": 327.9,
+      "end": 331.82,
+      "text": "These remind you of what you can do using the function or F keys on your keyboard."
+    },
+    {
+      "start": 332.38,
+      "end": 338.54,
+      "text": "For example, F7 goes backward and F8 goes forward when you're working on a program or a file"
+    },
+    {
+      "start": 338.54,
+      "end": 340.3,
+      "text": "that's bigger than your screen will fit."
+    },
+    {
+      "start": 341.02,
+      "end": 343.74,
+      "text": "Now, if you're looking down at your keyboard and wondering,"
+    },
+    {
+      "start": 343.74,
+      "end": 346.38,
+      "text": "what are these function F keys all about?"
+    },
+    {
+      "start": 346.38,
+      "end": 349.58,
+      "text": "They're usually in the row above where your numbers are."
+    },
+    {
+      "start": 349.58,
+      "end": 353.26,
+      "text": "And if you don't have that row or they look a little bit different,"
+    },
+    {
+      "start": 353.26,
+      "end": 358.06,
+      "text": "you might have to use like a modifier key or remap some of these keys."
+    },
+    {
+      "start": 358.06,
+      "end": 360.3,
+      "text": "But that's something you can explore during the labs."
+    },
+    {
+      "start": 360.86,
+      "end": 363.66,
+      "text": "We also have this dynamic status area."
+    },
+    {
+      "start": 363.66,
+      "end": 364.86,
+      "text": "This area can change."
+    },
+    {
+      "start": 364.86,
+      "end": 367.98,
+      "text": "That's why it's called the dynamic status area."
+    },
+    {
+      "start": 367.98,
+      "end": 370.78,
+      "text": "And it's an area set aside in the panel configuration,"
+    },
+    {
+      "start": 370.78,
+      "end": 373.58,
+      "text": "and it's controlled by an ISPF variable."
+    },
+    {
+      "start": 373.58,
+      "end": 377.42,
+      "text": "It's almost always used just to provide you with additional helpful information."
+    },
+    {
+      "start": 378.46,
+      "end": 379.58,
+      "text": "So we're all done now."
+    },
+    {
+      "start": 379.58,
+      "end": 380.7,
+      "text": "How do we disconnect?"
+    },
+    {
+      "start": 380.7,
+      "end": 382.86,
+      "text": "There's a couple of ways I'm going to show you too."
+    },
+    {
+      "start": 383.5,
+      "end": 388.86,
+      "text": "You can enter X on the Command Line or you can press F12, the Cancel key."
+    },
+    {
+      "start": 388.86,
+      "end": 392.62,
+      "text": "This will end ISPF and put you back to a TSO Command Line,"
+    },
+    {
+      "start": 392.62,
+      "end": 394.22,
+      "text": "because TSO is still running."
+    },
+    {
+      "start": 394.22,
+      "end": 396.3,
+      "text": "It's not the same thing as ISPF."
+    },
+    {
+      "start": 396.3,
+      "end": 401.42,
+      "text": "And if you want to go back into ISPF, just enter the Command ISPF and hit Enter."
+    },
+    {
+      "start": 401.98,
+      "end": 405.58,
+      "text": "To terminate TSO, enter the Command Log Off and hit Enter."
+    },
+    {
+      "start": 405.58,
+      "end": 408.94,
+      "text": "And TSO will cleanly close down and disconnect you."
+    },
+    {
+      "start": 408.94,
+      "end": 410.78,
+      "text": "But don't worry, we'll be back."
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "slug": "tso-commands-part-1",
+  "title": "TSO Commands - part 1",
+  "language": "en",
+  "duration": 212.625125,
+  "segments": [
+    {
+      "start": 3.41,
+      "end": 6.91,
+      "text": "You can get work done a number of different ways on Z."
+    },
+    {
+      "start": 6.91,
+      "end": 11.71,
+      "text": "Some people prefer a fully graphical experience, like what you get through Zoe."
+    },
+    {
+      "start": 11.71,
+      "end": 15.71,
+      "text": "Other people like to keep it simple, but still want a little graphical context,"
+    },
+    {
+      "start": 15.71,
+      "end": 18.41,
+      "text": "like what you get through the panels of ISPF."
+    },
+    {
+      "start": 18.41,
+      "end": 22.91,
+      "text": "Then there's some people who really just don't want anything between them and the system,"
+    },
+    {
+      "start": 22.91,
+      "end": 26.41,
+      "text": "and they prefer to issue commands straight through TSO."
+    },
+    {
+      "start": 26.41,
+      "end": 30.41,
+      "text": "In ZOS, TSO stands for Time Sharing Option,"
+    },
+    {
+      "start": 30.41,
+      "end": 37.41,
+      "text": "and it's basically the environment that lets the OS be made available to multiple users at the same time."
+    },
+    {
+      "start": 37.41,
+      "end": 43.41,
+      "text": "There are a ton of commands in TSO, and this lesson, we're going to take a look at just a few of them."
+    },
+    {
+      "start": 43.41,
+      "end": 47.41,
+      "text": "There are three primary ways of entering TSO commands."
+    },
+    {
+      "start": 47.41,
+      "end": 52.41,
+      "text": "One, through the ISPF primary menu, going to option number 6."
+    },
+    {
+      "start": 52.41,
+      "end": 56.41,
+      "text": "Two, on the command option line of an ISPF panel,"
+    },
+    {
+      "start": 56.41,
+      "end": 61.41,
+      "text": "on that line, anything that starts with TSO will be interpreted as a TSO command."
+    },
+    {
+      "start": 61.41,
+      "end": 65.41,
+      "text": "And three, on the TSO ready prompt screen."
+    },
+    {
+      "start": 65.41,
+      "end": 68.41,
+      "text": "When you do it this way, it's known as native mode."
+    },
+    {
+      "start": 68.41,
+      "end": 73.41,
+      "text": "A command is made up of a command name, followed by one or more operands."
+    },
+    {
+      "start": 73.41,
+      "end": 76.41,
+      "text": "Think of it like the command is the thing that you want done,"
+    },
+    {
+      "start": 76.41,
+      "end": 80.41,
+      "text": "and the operands are the details of how you'd like it to be done."
+    },
+    {
+      "start": 80.41,
+      "end": 85.41,
+      "text": "For example, if I were to tell you move something, you would need more information,"
+    },
+    {
+      "start": 85.41,
+      "end": 88.41,
+      "text": "like what am I moving, where am I moving it to,"
+    },
+    {
+      "start": 88.41,
+      "end": 93.41,
+      "text": "am I moving it with a forklift, a train, a truck, or am I just carrying it with my hands."
+    },
+    {
+      "start": 93.41,
+      "end": 96.41,
+      "text": "The how goes in the operands."
+    },
+    {
+      "start": 96.41,
+      "end": 102.41,
+      "text": "Commands and operands are not case sensitive, meaning they can be typed out in lowercase or uppercase."
+    },
+    {
+      "start": 102.41,
+      "end": 108.41,
+      "text": "We'll often type them out in uppercase though, just so they stand out more as commands and not random text."
+    },
+    {
+      "start": 108.41,
+      "end": 112.41,
+      "text": "There are two types of operands, positional and keywords."
+    },
+    {
+      "start": 112.41,
+      "end": 117.41,
+      "text": "A positional operand needs to come after the command and in a certain order."
+    },
+    {
+      "start": 117.41,
+      "end": 123.41,
+      "text": "The documentation for commands will tell you exactly what order they need to be in and which ones are required."
+    },
+    {
+      "start": 123.41,
+      "end": 126.41,
+      "text": "And we'll get into how you get that information shortly."
+    },
+    {
+      "start": 126.41,
+      "end": 128.41,
+      "text": "There's also keyword operands."
+    },
+    {
+      "start": 128.41,
+      "end": 132.41,
+      "text": "This is usually used to turn on a feature or set a certain mode."
+    },
+    {
+      "start": 132.41,
+      "end": 136.41,
+      "text": "So in this example, the command is list ds."
+    },
+    {
+      "start": 136.41,
+      "end": 138.41,
+      "text": "That's what we want it to do."
+    },
+    {
+      "start": 138.41,
+      "end": 142.41,
+      "text": "We learned earlier that list ds stands for list dataset,"
+    },
+    {
+      "start": 142.41,
+      "end": 146.41,
+      "text": "and we can use it to show us a whole bunch of information about a dataset."
+    },
+    {
+      "start": 146.41,
+      "end": 153.41,
+      "text": "The positional operand is something that comes right after the command name, and that's the dataset we're listing."
+    },
+    {
+      "start": 153.41,
+      "end": 159.41,
+      "text": "One additional thing to note here, if what you want to put in the operand is a list of multiple items,"
+    },
+    {
+      "start": 159.41,
+      "end": 161.41,
+      "text": "you just put that list in parentheses."
+    },
+    {
+      "start": 161.41,
+      "end": 164.41,
+      "text": "And then lastly is the keyword operand."
+    },
+    {
+      "start": 164.41,
+      "end": 168.41,
+      "text": "That tells the command to list the members of this dataset."
+    },
+    {
+      "start": 168.41,
+      "end": 175.41,
+      "text": "For this lesson, we'll be referencing the zos-tsoe command reference manual attached to this lesson."
+    },
+    {
+      "start": 175.41,
+      "end": 178.41,
+      "text": "It's a good book. A lot better than the movie version."
+    },
+    {
+      "start": 178.41,
+      "end": 186.41,
+      "text": "You can use the help command to obtain information about the function, syntax, and operands of the commands and subcommands,"
+    },
+    {
+      "start": 186.41,
+      "end": 189.41,
+      "text": "as well as information about certain messages."
+    },
+    {
+      "start": 189.41,
+      "end": 197.41,
+      "text": "So you can type help list ds operands, and you'll get a listing of all the operands for the list ds command."
+    },
+    {
+      "start": 197.41,
+      "end": 204.41,
+      "text": "You can also type help list ds all, and you'll get all the information about the list ds command."
+    },
+    {
+      "start": 204.41,
+      "end": 208.41,
+      "text": "In the next lesson, we'll take a look at the allocate and delete commands."
+    }
+  ]
+}

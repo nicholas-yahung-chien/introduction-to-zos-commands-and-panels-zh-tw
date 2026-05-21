@@ -1,0 +1,365 @@
+WEBVTT
+
+1
+00:00:03.380 --> 00:00:06.040
+Let's take a look at the allocate command.
+
+2
+00:00:06.040 --> 00:00:09.980
+This is used to dynamically allocate VSAM, non-VSAM,
+
+3
+00:00:09.980 --> 00:00:13.920
+and hierarchical file system HFS datasets.
+
+4
+00:00:13.920 --> 00:00:15.920
+So here we have an allocate command
+
+5
+00:00:15.920 --> 00:00:19.760
+with a whole bunch of operands telling it how to allocate.
+
+6
+00:00:19.760 --> 00:00:22.480
+And we'll follow that up with the list DS command
+
+7
+00:00:22.480 --> 00:00:24.960
+for the dataset that we just created.
+
+8
+00:00:24.960 --> 00:00:26.920
+And we can see that the record format
+
+9
+00:00:26.920 --> 00:00:28.800
+and the logical record length match
+
+10
+00:00:28.800 --> 00:00:30.760
+along with some other information.
+
+11
+00:00:30.760 --> 00:00:33.000
+It's important to note that the list DS command
+
+12
+00:00:33.020 --> 00:00:34.620
+will return different information
+
+13
+00:00:34.620 --> 00:00:38.180
+for VSAM and non-VSAM datasets.
+
+14
+00:00:38.180 --> 00:00:40.020
+You can also use the delete command
+
+15
+00:00:40.020 --> 00:00:42.100
+to delete that dataset, like this.
+
+16
+00:00:43.020 --> 00:00:46.380
+And then if you enter the dslist test.data,
+
+17
+00:00:46.380 --> 00:00:49.420
+it will come back and say it's not in catalog.
+
+18
+00:00:49.420 --> 00:00:50.780
+That's a nice way of saying,
+
+19
+00:00:50.780 --> 00:00:53.400
+I have no knowledge of that particular dataset,
+
+20
+00:00:53.400 --> 00:00:55.700
+so I can't give you any information about it.
+
+21
+00:00:55.700 --> 00:00:59.020
+Because the catalog is, it's just like a catalog.
+
+22
+00:00:59.020 --> 00:01:02.180
+It makes a list of frequently accessed datasets,
+
+23
+00:01:02.180 --> 00:01:04.120
+so if it's not in the catalog,
+
+24
+00:01:04.120 --> 00:01:07.000
+we can't find it by name alone.
+
+25
+00:01:07.000 --> 00:01:09.480
+And if you're curious about the catalog,
+
+26
+00:01:09.480 --> 00:01:11.760
+you can use the list cat command
+
+27
+00:01:11.760 --> 00:01:14.600
+to list all the entries in the catalog.
+
+28
+00:01:14.600 --> 00:01:17.200
+When you type list cat with no operands,
+
+29
+00:01:17.200 --> 00:01:19.680
+you get a listing of all the catalog entries
+
+30
+00:01:19.680 --> 00:01:23.320
+associated with your specific user ID.
+
+31
+00:01:23.320 --> 00:01:25.880
+As you can imagine, there are many other operands
+
+32
+00:01:25.880 --> 00:01:27.680
+you can use with the list cat.
+
+33
+00:01:27.680 --> 00:01:30.600
+And you can find them either by using the help commands
+
+34
+00:01:30.600 --> 00:01:32.580
+or by looking them up in the manual.
+
+35
+00:01:33.460 --> 00:01:35.700
+Then there's list alc.
+
+36
+00:01:35.700 --> 00:01:38.740
+This shows you the currently allocated datasets.
+
+37
+00:01:38.740 --> 00:01:40.380
+When you run it with no operands,
+
+38
+00:01:40.380 --> 00:01:44.280
+it shows you all the currently allocated dataset names.
+
+39
+00:01:44.280 --> 00:01:47.280
+If you throw in status after list alc,
+
+40
+00:01:47.280 --> 00:01:49.740
+it'll show you the status of each dataset,
+
+41
+00:01:49.740 --> 00:01:54.100
+which includes the termination disposition of the datasets.
+
+42
+00:01:54.100 --> 00:01:56.740
+It looks like we're trying to keep a lot of them here.
+
+43
+00:01:56.740 --> 00:01:59.340
+And if you type list alc history,
+
+44
+00:01:59.340 --> 00:02:02.120
+you get the creation date, expiration date,
+
+45
+00:02:02.120 --> 00:02:05.440
+and the dataset protection for all those datasets.
+
+46
+00:02:05.440 --> 00:02:06.900
+That's a handy one.
+
+47
+00:02:06.900 --> 00:02:08.520
+It's important to realize the difference
+
+48
+00:02:08.520 --> 00:02:10.640
+between free and delete.
+
+49
+00:02:10.640 --> 00:02:13.720
+And you'll see how that works here along with catalog.
+
+50
+00:02:13.720 --> 00:02:16.740
+So we'll start out with another allocate command,
+
+51
+00:02:16.740 --> 00:02:19.220
+which we've shortened to aloc here.
+
+52
+00:02:19.220 --> 00:02:23.100
+Then we list ds the dataset to see its information.
+
+53
+00:02:23.100 --> 00:02:26.080
+Next, we follow that with a free command.
+
+54
+00:02:26.080 --> 00:02:29.680
+And what this does is it deallocates the datasets
+
+55
+00:02:29.680 --> 00:02:32.180
+or HFSs that are no longer needed.
+
+56
+00:02:32.180 --> 00:02:34.580
+It basically says, I don't need this anymore.
+
+57
+00:02:34.580 --> 00:02:36.160
+It can be freed.
+
+58
+00:02:36.160 --> 00:02:39.100
+It also means that it can be used for output processing
+
+59
+00:02:39.100 --> 00:02:40.800
+or routed to another user.
+
+60
+00:02:41.880 --> 00:02:45.100
+We can then go and delete it with the delete command.
+
+61
+00:02:45.100 --> 00:02:49.620
+And again, the list ds shows that it's not in the catalog.
+
+62
+00:02:49.620 --> 00:02:51.780
+There are some restrictions and suggestions
+
+63
+00:02:51.780 --> 00:02:55.260
+about what types of datasets can, can't, should,
+
+64
+00:02:55.260 --> 00:02:58.360
+and shouldn't be deleted or freed.
+
+65
+00:02:58.360 --> 00:03:00.920
+And I bet you know where to find that information.
+
+66
+00:03:04.330 --> 00:03:07.690
+Okay, let's talk about the profile command.
+
+67
+00:03:07.690 --> 00:03:09.690
+This command establishes, changes,
+
+68
+00:03:09.690 --> 00:03:12.010
+or lists your user profile,
+
+69
+00:03:12.010 --> 00:03:14.810
+basically how you want to use your terminal.
+
+70
+00:03:14.810 --> 00:03:18.210
+In this example, the message ID is on.
+
+71
+00:03:18.210 --> 00:03:19.890
+There's some other information in there
+
+72
+00:03:19.890 --> 00:03:22.170
+like the prefixing, prompting,
+
+73
+00:03:22.170 --> 00:03:24.730
+and primary and secondary languages.
+
+74
+00:03:24.730 --> 00:03:26.370
+You can use the profile command
+
+75
+00:03:26.470 --> 00:03:28.710
+to not only display your profile settings,
+
+76
+00:03:28.710 --> 00:03:30.390
+but also to change them.
+
+77
+00:03:30.390 --> 00:03:31.950
+These changes will remain valid
+
+78
+00:03:31.950 --> 00:03:34.150
+for the duration of your session.
+
+79
+00:03:34.150 --> 00:03:36.470
+Lastly, the submit command.
+
+80
+00:03:36.470 --> 00:03:38.750
+This is how we send one or more jobs
+
+81
+00:03:38.750 --> 00:03:40.830
+to the system for processing.
+
+82
+00:03:40.830 --> 00:03:44.750
+Each job submitted must reside either in a sequential dataset,
+
+83
+00:03:44.750 --> 00:03:46.790
+a direct access dataset,
+
+84
+00:03:46.790 --> 00:03:49.250
+or in a member of a partition dataset,
+
+85
+00:03:49.250 --> 00:03:53.090
+unless you use the asterisk function of a submit command.
+
+86
+00:03:53.090 --> 00:03:55.590
+That asterisk function tells the command
+
+87
+00:03:55.650 --> 00:03:58.610
+that you will enter the data in some other way.
+
+88
+00:03:58.610 --> 00:04:00.130
+In the lab that follows this,
+
+89
+00:04:00.130 --> 00:04:03.450
+we'll get to issue some TSO commands on a live system,
+
+90
+00:04:03.450 --> 00:04:05.690
+which is almost certainly going to be more exciting
+
+91
+00:04:05.690 --> 00:04:07.490
+than watching me talk about them.

@@ -1,0 +1,28 @@
+{
+  "slug": "introduction-to-exercise-2",
+  "title": "Introduction to exercise 2",
+  "language": "en",
+  "duration": 30.32525,
+  "segments": [
+    {
+      "start": 3.25,
+      "end": 10.75,
+      "text": "In the next few labs, we're going to be working with datasets, so you're going to be allocating some datasets and putting members into them."
+    },
+    {
+      "start": 10.75,
+      "end": 18.75,
+      "text": "Then you'll use ISPF line editor commands to copy a member from one dataset into another and perform modifications."
+    },
+    {
+      "start": 18.75,
+      "end": 23.75,
+      "text": "And then you'll use dslist to check out information about all those datasets."
+    },
+    {
+      "start": 23.75,
+      "end": 26.75,
+      "text": "All set? Let's get allocating."
+    }
+  ]
+}
