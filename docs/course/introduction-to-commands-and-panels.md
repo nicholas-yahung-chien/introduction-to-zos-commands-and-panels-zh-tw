@@ -4,8 +4,6 @@
 
 ## 影片學習摘要
 
-### TSO 與 ISPF 入門
-
 <VideoLesson
   title="TSO 與 ISPF 入門"
   video-src="/media/introduction-to-tso-and-ispf.mp4"
@@ -15,8 +13,6 @@
 />
 
 <LessonNotes slug="introduction-to-tso-and-ispf" />
-
-### Lab：熟悉系統
 
 <VideoLesson
   title="Lab：熟悉系統"
@@ -28,8 +24,6 @@
 
 <LessonNotes slug="lab-system-familiarization" />
 
-### 在 ISPF 中建立、編輯與顯示成員
-
 <VideoLesson
   title="在 ISPF 中建立、編輯與顯示成員"
   video-src="/media/creating-editing-and-displaying-members-in-ispf.mp4"
@@ -39,8 +33,6 @@
 />
 
 <LessonNotes slug="creating-editing-and-displaying-members-in-ispf" />
-
-### 練習 2 介紹
 
 <VideoLesson
   title="練習 2 介紹"

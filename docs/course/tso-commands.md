@@ -4,8 +4,6 @@
 
 ## 影片學習摘要
 
-### TSO 命令 - 第 1 部分
-
 <VideoLesson
   title="TSO 命令 - 第 1 部分"
   video-src="/media/tso-commands-part-1.mp4"
@@ -16,8 +14,6 @@
 
 <LessonNotes slug="tso-commands-part-1" />
 
-### TSO 命令 - 第 2 部分
-
 <VideoLesson
   title="TSO 命令 - 第 2 部分"
   video-src="/media/tso-commands-part-2.mp4"
@@ -27,8 +23,6 @@
 />
 
 <LessonNotes slug="tso-commands-part-2" />
-
-### Lab：使用 TSO 命令
 
 <VideoLesson
   title="Lab：使用 TSO 命令"

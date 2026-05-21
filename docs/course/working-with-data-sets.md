@@ -4,8 +4,6 @@
 
 ## 影片學習摘要
 
-### 配置資料集
-
 <VideoLesson
   title="配置資料集"
   video-src="/media/allocating-a-data-set.mp4"
@@ -15,8 +13,6 @@
 />
 
 <LessonNotes slug="allocating-a-data-set" />
-
-### 使用資料集
 
 <VideoLesson
   title="使用資料集"
