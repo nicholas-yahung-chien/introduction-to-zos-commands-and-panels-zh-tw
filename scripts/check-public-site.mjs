@@ -14,7 +14,7 @@ const requiredPages = [
   },
   { name: 'course', source: 'docs/course/index.md', output: 'course/index.html', requiredText: ['課程首頁', 'z/OS 命令與面板入門', 'TSO 命令'] },
   { name: 'videos', source: 'docs/videos/index.md', output: 'videos/index.html', requiredText: ['影片清單', '載入影片', '單元'] },
-  { name: 'practice', source: 'docs/practice/index.md', output: 'practice/index.html', requiredText: ['互動練習', '練習題目', '綜合回顧'] },
+  { name: 'practice', source: 'docs/practice/index.md', output: 'practice/index.html', requiredText: ['互動練習', '練習題目', '檢核點 1', '綜合回顧'] },
   { name: 'labs', source: 'docs/labs/index.md', output: 'labs/index.html', requiredText: ['Lab 與互動實作', '練習 7'] },
   { name: 'glossary', source: 'docs/glossary/index.md', output: 'glossary/index.html', requiredText: ['IBM Z 詞彙表', '依字母查閱', '目前收錄 60 個課程相關詞彙', 'A', 'V'] },
   { name: 'glossary-a', source: 'docs/glossary/a.md', output: 'glossary/a.html', requiredText: ['IBM Z 詞彙表：A', 'ALLOC command', 'Action bar'] },

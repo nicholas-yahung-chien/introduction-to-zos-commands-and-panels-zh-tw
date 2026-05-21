@@ -8,6 +8,16 @@ const badgeCapturePath = 'data/captured/badge-quiz-questions.json'
 
 const choiceIds = 'abcdefghijklmnopqrstuvwxyz'.split('')
 
+const sourceDisplayTitles = new Map([
+  ['short-quiz-exercises-1-and-2', '檢核點 1'],
+  ['short-quiz-exercise-3', '檢核點 2'],
+  ['short-quiz-exercise-4', '檢核點 3'],
+  ['short-quiz-exercise-5', '檢核點 4'],
+  ['short-quiz-exercise-6', '檢核點 5'],
+  ['short-quiz-exercise-7', '檢核點 6'],
+  ['badge-quiz', '綜合回顧（Badge Quiz）'],
+])
+
 function assert(condition, message) {
   if (!condition) throw new Error(message)
 }
@@ -21,7 +31,7 @@ const exercise12Updates = {
     section: 'z/OS 命令與面板入門',
     lessonTitle: '配置 sequential data set',
     prompt: '配置 sequential data set 後，Data Set Information 面板中的哪個欄位表示這是 sequential data set？',
-    choices: ['Type（類型）', 'Allocation（配置）', 'Organisation（組織）', 'Data set（資料集）'],
+    choices: ['類型 (Type)', '配置 (Allocation)', '組織 (Organisation)', '資料集 (Data set)'],
     explanation: 'Organisation 欄位會顯示資料集組織；本題的 sequential data set 會由 Organisation 欄位判斷。',
     review: review('/course/introduction-to-commands-and-panels', '回到 Exercise 2 與資料集配置內容複習。', '回到命令與面板入門', '1_mf7bsgi9')
   },
@@ -37,7 +47,7 @@ const exercise12Updates = {
     section: 'z/OS 命令與面板入門',
     lessonTitle: '配置 PDSE',
     prompt: '在 Allocate New Data Set 面板配置 PDSE 時，Data set name type 應選哪一項？',
-    choices: ['Large', 'Library', 'PD', 'PDSE'],
+    choices: ['大型 (Large)', '程式庫 (Library)', 'PD', 'PDSE'],
     explanation: '在此面板中配置 PDSE 時，Data set name type 應使用 Library。',
     review: review('/course/introduction-to-commands-and-panels', '回到 Allocate New Data Set 面板欄位複習。', '回到命令與面板入門', '1_mf7bsgi9')
   },
@@ -45,7 +55,7 @@ const exercise12Updates = {
     section: 'z/OS 命令與面板入門',
     lessonTitle: 'ISPF 設定',
     prompt: '在 ISPF Settings 面板中，通常使用哪個字元來設定選項？',
-    choices: ['問號（?）', "字母 'O'", "字母 'A'", '斜線（/）'],
+    choices: ['問號 (?)', "字母 O ('O')", "字母 A ('A')", '斜線 (/)'],
     explanation: 'ISPF 面板通常使用斜線（/）來選取或設定選項。',
     review: review('/course/introduction-to-commands-and-panels', '回到 TSO 與 ISPF 面板操作複習。', '回到命令與面板入門', '1_mf7bsgi9')
   },
@@ -78,7 +88,7 @@ const exercise12Updates = {
     lessonTitle: 'ISPF Primary Option Menu 主選單',
     prompt: '要從 ISPF Primary Option Menu 移除 Licensed Material copyright 資訊，正確程序是什麼？',
     choices: ['按 F2', '按 Enter 鍵', '按 F12'],
-    explanation: '依課程小測驗，正確程序是按 Enter 鍵。',
+    explanation: '依檢核點題目，正確程序是按 Enter 鍵。',
     review: review('/course/introduction-to-commands-and-panels', '回到 ISPF Primary Option Menu 的操作行為複習。', '回到命令與面板入門', '1_mf7bsgi9')
   }
 }
@@ -86,7 +96,7 @@ const exercise12Updates = {
 const badgeTranslations = [
   {
     prompt: '哪個 TSO 命令可用來告訴系統你想如何使用終端機？',
-    choices: ['EDIT', 'CLIST', 'PROFILE', 'TERM'],
+    choices: ['編輯 (EDIT)', '命令清單 (CLIST)', '使用者設定檔 (PROFILE)', '終端機 (TERM)'],
     explanation: 'PROFILE 命令可顯示或變更 TSO/E 使用者 profile，其中包含終端機使用方式相關設定。'
   },
   {
@@ -101,7 +111,7 @@ const badgeTranslations = [
   },
   {
     prompt: '建立到某個資料集的連結時，這個動作稱為什麼？',
-    choices: ['Assign（指定）', 'Allocate（配置）', 'Configure（設定）', 'Create（建立）'],
+    choices: ['指定 (Assign)', '配置 (Allocate)', '設定 (Configure)', '建立 (Create)'],
     explanation: '在 TSO/E 中，讓工作階段能使用資料集的動作稱為 allocate。'
   },
   {
@@ -112,16 +122,16 @@ const badgeTranslations = [
   {
     prompt: '在 edit panel 的資料集中，要移動一整段連續資料列時，prefix area 應輸入什麼？',
     choices: [
-      '第一列輸入 MM、最後一列輸入 MM，目標列輸入 F（following）或 P（preceding）',
-      '第一列輸入 MM、最後一列輸入 MM，目標列輸入 A（after）或 B（before）',
-      '第一列輸入 M、最後一列輸入 M，目標列輸入 F（following）或 P（preceding）',
-      '第一列輸入 M、最後一列輸入 M，目標列輸入 A（after）或 B（before）'
+      '第一列輸入 MM、最後一列輸入 MM，目標列輸入後方 (F, following) 或前方 (P, preceding)',
+      '第一列輸入 MM、最後一列輸入 MM，目標列輸入之後 (A, after) 或之前 (B, before)',
+      '第一列輸入 M、最後一列輸入 M，目標列輸入後方 (F, following) 或前方 (P, preceding)',
+      '第一列輸入 M、最後一列輸入 M，目標列輸入之後 (A, after) 或之前 (B, before)'
     ],
     explanation: '移動區塊時以 MM 標示區塊起訖，再用 A 或 B 指定要放在目標列之後或之前。'
   },
   {
     prompt: '正確登出 TSO 的程序是什麼？',
-    choices: ['在 Primary Option Menu 輸入 disconnect', "在 'ready' mode 輸入 logoff", '在 Primary Option Menu 輸入 logoff', '結束 ISPF session 後輸入 disconnect'],
+    choices: ['在主要選項選單 (Primary Option Menu) 輸入 disconnect', "在 ready 模式 ('ready' mode) 輸入 logoff", '在主要選項選單 (Primary Option Menu) 輸入 logoff', '結束 ISPF 工作階段 (session) 後輸入 disconnect'],
     explanation: "結束 ISPF 回到 'ready' mode 後，輸入 logoff 才是正確的 TSO 登出方式。"
   },
   {
@@ -137,10 +147,10 @@ const badgeTranslations = [
   {
     prompt: '結束 ISPF session 的兩種方式是哪一組？',
     choices: [
-      '在 ISPF Primary Option Menu 的 command line 輸入 END，或按 F12（Cancel）',
-      '按 F3（Exit），再在 Primary Option Menu 輸入 Logoff',
-      '按 F12（Cancel），再在 Primary Option Menu 輸入 Logoff',
-      '在 ISPF Primary Option Menu 的 command line 輸入 X，或按 F12（Cancel）'
+      '在 ISPF 主要選項選單 (Primary Option Menu) 的命令列 (command line) 輸入 END，或按取消鍵 (F12, Cancel)',
+      '按離開鍵 (F3, Exit)，再在主要選項選單 (Primary Option Menu) 輸入 Logoff',
+      '按取消鍵 (F12, Cancel)，再在主要選項選單 (Primary Option Menu) 輸入 Logoff',
+      '在 ISPF 主要選項選單 (Primary Option Menu) 的命令列 (command line) 輸入 X，或按取消鍵 (F12, Cancel)'
     ],
     explanation: '在 ISPF Primary Option Menu 可輸入 X 結束，或使用 F12（Cancel）離開 ISPF。'
   },
@@ -172,10 +182,10 @@ const badgeTranslations = [
   {
     prompt: '輸入 TSO commands 的三種方法是哪一組？',
     choices: [
-      '在 Dialog panel 的 command option line、ISPF Primary Option Menu option 5，以及 command prompt',
-      'ISPF Primary Option Menu option 6、ISPF panel 的 command option line，以及 command prompt',
-      'ISPF Primary Option Menu option 6、Dialog panel 的 command option line，以及 command prompt',
-      'ISPF panel 的 command option line、command prompt，以及 ISPF Primary Option Menu option 5'
+      '在對話面板 (Dialog panel) 的命令選項列 (command option line)、ISPF 主要選項選單 (Primary Option Menu) option 5，以及命令提示字元 (command prompt)',
+      '從 ISPF 主要選項選單 (Primary Option Menu) option 6、ISPF 面板 (panel) 的命令選項列 (command option line)，以及命令提示字元 (command prompt)',
+      '從 ISPF 主要選項選單 (Primary Option Menu) option 6、對話面板 (Dialog panel) 的命令選項列 (command option line)，以及命令提示字元 (command prompt)',
+      '從 ISPF 面板 (panel) 的命令選項列 (command option line)、命令提示字元 (command prompt)，以及 ISPF 主要選項選單 (Primary Option Menu) option 5'
     ],
     explanation: 'TSO commands 可從 ISPF option 6、ISPF panel 的 command option line，以及 command prompt 輸入。'
   },
@@ -186,7 +196,7 @@ const badgeTranslations = [
   },
   {
     prompt: '結束 ISPF 後，TSO session 目前處於什麼狀態？',
-    choices: ['TSO ABEND', 'TSO 仍在執行', 'TSO 已登出', 'TSO 已中斷連線'],
+    choices: ['異常結束 (TSO ABEND)', '仍在執行 (TSO active)', '已登出 (TSO logged off)', '已中斷連線 (TSO disconnected)'],
     explanation: '結束 ISPF 不等於登出 TSO；回到 ready mode 時 TSO session 仍在執行。'
   },
   {
@@ -211,7 +221,7 @@ const badgeTranslations = [
   },
   {
     prompt: '哪一類資料集可以包含 members？',
-    choices: ['PDS 與 PDSE', 'VSAM 與 PDS', 'PDSE 與 Sequential', 'PDS 與 VSAM'],
+    choices: ['分割資料集與延伸分割資料集 (PDS 與 PDSE)', '虛擬儲存存取方法與分割資料集 (VSAM 與 PDS)', '延伸分割資料集與循序資料集 (PDSE 與 Sequential)', '分割資料集與虛擬儲存存取方法 (PDS 與 VSAM)'],
     explanation: 'PDS 與 PDSE 都是可包含 members 的資料集型態。'
   },
   {
@@ -222,11 +232,11 @@ const badgeTranslations = [
   {
     prompt: '關於 TSO commands，下列哪些敘述正確？',
     choices: [
-      'TSO commands 區分大小寫',
-      'TSO commands 包含 positional operands 與 required operands',
-      'TSO commands 可從任何 ISPF screen 輸入',
-      'TSO commands 不區分大小寫',
-      'TSO command HELP LISTDS ALL 會提供 LISTDS command 的完整資訊'
+      '區分大小寫的 TSO 命令 (TSO commands)',
+      '包含位置式運算元與必要運算元的 TSO 命令 (positional operands 與 required operands)',
+      '可從任何 ISPF 畫面輸入的 TSO 命令 (ISPF screen)',
+      '不區分大小寫的 TSO 命令 (TSO commands)',
+      '使用 HELP LISTDS ALL 查詢 LISTDS 命令的完整資訊 (LISTDS command)'
     ],
     explanation: 'TSO commands 不區分大小寫，可包含 positional 與 required operands；在 ISPF screen 的 command line 可輸入 TSO commands，而 HELP LISTDS ALL 可查看 LISTDS 的完整說明。'
   },
@@ -461,6 +471,10 @@ for (const question of allQuestions) {
 }
 
 for (const source of sources.sources) {
+  if (sourceDisplayTitles.has(source.id)) {
+    source.title = sourceDisplayTitles.get(source.id)
+  }
+
   if (source.id === 'badge-quiz') {
     source.title = '綜合回顧（Badge Quiz）'
     source.sectionSlug = 'comprehensive-review'

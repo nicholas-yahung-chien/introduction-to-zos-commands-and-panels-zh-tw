@@ -65,7 +65,7 @@
 | 7 | Creating, editing, and displaying members in ISPF | 影片 | 熟悉 ISPF member 操作。 |
 | 8 | Introduction to exercise 2 | 影片 | 進入資料集配置前的說明。 |
 | 9 | Exercise 2: Allocate new data sets | Lab | 建立後續資料集操作材料。 |
-| 10 | Short quiz: Exercises 1 and 2 | 測驗 | 在 IBM Learn 檢查本單元理解。 |
+| 10 | 檢核點 1 | 檢核點 | 在 IBM Learn 檢查本單元理解。 |
 
 ## 學習提醒
 

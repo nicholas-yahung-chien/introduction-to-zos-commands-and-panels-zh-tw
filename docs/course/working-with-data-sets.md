@@ -38,7 +38,7 @@
 | 4 | Exercise 4: ISPF editor line commands | Lab | 練習行命令。 |
 | 5 | Exercise 5: Copy, move, rename, delete data sets and members | Lab | 練習資料集與成員管理。 |
 | 6 | Exercise 6: Data set lists | Lab | 透過清單定位與進入資料集。 |
-| 7 | Short quiz: Exercise 6 | 互動內容 | 在 IBM Learn 檢查本單元理解。 |
+| 7 | 檢核點 5 | 檢核點 | 在 IBM Learn 檢查本單元理解。 |
 | 8 | Discussion forum | 討論區 | 回原課程參與課程討論。 |
 
 ## 學習提醒

@@ -49,7 +49,7 @@
 | 3 | Lab - Using TSO commands | 影片 | 確認最後一個 Lab 的操作目標。 |
 | 4 | TSO/E Command Reference File | 檔案 | 作為命令查詢參考。 |
 | 5 | Exercise 7: Using TSO commands | Lab | 在原環境中執行 TSO/E 命令。 |
-| 6 | Short quiz: Exercise 7 | 互動內容 | 在 IBM Learn 檢查本單元理解。 |
+| 6 | 檢核點 6 | 檢核點 | 在 IBM Learn 檢查本單元理解。 |
 | 7 | Discussion forum | 討論區 | 回原課程參與課程討論。 |
 
 ## 學習提醒

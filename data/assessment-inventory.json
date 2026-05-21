@@ -15,7 +15,7 @@
   "practiceSources": [
     {
       "id": "short-quiz-exercises-1-and-2",
-      "title": "Short quiz: Exercises 1 and 2",
+      "title": "檢核點 1",
       "type": "moodle-quiz",
       "status": "captured-for-static-practice",
       "capturedQuestionCount": 8,
@@ -23,7 +23,7 @@
     },
     {
       "id": "short-quiz-exercise-3",
-      "title": "Short quiz: Exercise 3",
+      "title": "檢核點 2",
       "type": "hvp",
       "status": "captured-for-static-practice",
       "capturedQuestionCount": 1,
@@ -31,7 +31,7 @@
     },
     {
       "id": "short-quiz-exercise-4",
-      "title": "Short quiz: Exercise 4",
+      "title": "檢核點 3",
       "type": "hvp",
       "status": "captured-for-static-practice",
       "capturedQuestionCount": 3,
@@ -39,7 +39,7 @@
     },
     {
       "id": "short-quiz-exercise-5",
-      "title": "Short quiz: Exercise 5",
+      "title": "檢核點 4",
       "type": "hvp",
       "status": "captured-for-static-practice",
       "capturedQuestionCount": 2,
@@ -47,7 +47,7 @@
     },
     {
       "id": "short-quiz-exercise-6",
-      "title": "Short quiz: Exercise 6",
+      "title": "檢核點 5",
       "type": "hvp",
       "status": "captured-for-static-practice",
       "capturedQuestionCount": 2,
@@ -55,7 +55,7 @@
     },
     {
       "id": "short-quiz-exercise-7",
-      "title": "Short quiz: Exercise 7",
+      "title": "檢核點 6",
       "type": "hvp",
       "status": "captured-for-static-practice",
       "capturedQuestionCount": 3,

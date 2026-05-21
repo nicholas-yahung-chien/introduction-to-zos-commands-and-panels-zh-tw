@@ -102,7 +102,7 @@
           "type": "quiz",
           "slug": "short-quiz-exercises-1-and-2",
           "title": "Short quiz: Exercises 1 and 2",
-          "titleZh": "小測驗：練習 1 與 2",
+          "titleZh": "檢核點 1",
           "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013"
         },
         {
@@ -154,7 +154,7 @@
           "type": "hvp",
           "slug": "short-quiz-exercise-3",
           "title": "Short quiz: Exercise 3",
-          "titleZh": "小測驗：練習 3",
+          "titleZh": "檢核點 2",
           "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121735"
         },
         {
@@ -168,7 +168,7 @@
           "type": "hvp",
           "slug": "short-quiz-exercise-4",
           "title": "Short quiz: Exercise 4",
-          "titleZh": "小測驗：練習 4",
+          "titleZh": "檢核點 3",
           "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121737"
         },
         {
@@ -182,7 +182,7 @@
           "type": "hvp",
           "slug": "short-quiz-exercise-5",
           "title": "Short quiz: Exercise 5",
-          "titleZh": "小測驗：練習 5",
+          "titleZh": "檢核點 4",
           "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121738"
         },
         {
@@ -196,7 +196,7 @@
           "type": "hvp",
           "slug": "short-quiz-exercise-6",
           "title": "Short quiz: Exercise 6",
-          "titleZh": "小測驗：練習 6",
+          "titleZh": "檢核點 5",
           "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121739"
         },
         {
@@ -267,7 +267,7 @@
           "type": "hvp",
           "slug": "short-quiz-exercise-7",
           "title": "Short quiz: Exercise 7",
-          "titleZh": "小測驗：練習 7",
+          "titleZh": "檢核點 6",
           "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121740"
         },
         {

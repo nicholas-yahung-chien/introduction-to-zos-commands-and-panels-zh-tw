@@ -2,7 +2,7 @@
   "sources": [
     {
       "id": "short-quiz-exercises-1-and-2",
-      "title": "Short quiz: Exercises 1 and 2",
+      "title": "檢核點 1",
       "type": "moodle-quiz",
       "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
       "sectionSlug": "introduction-to-commands-and-panels",
@@ -13,7 +13,7 @@
     },
     {
       "id": "short-quiz-exercise-3",
-      "title": "Short quiz: Exercise 3",
+      "title": "檢核點 2",
       "type": "hvp",
       "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121735",
       "sectionSlug": "working-with-data-sets",
@@ -24,7 +24,7 @@
     },
     {
       "id": "short-quiz-exercise-4",
-      "title": "Short quiz: Exercise 4",
+      "title": "檢核點 3",
       "type": "hvp",
       "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121737",
       "sectionSlug": "working-with-data-sets",
@@ -35,7 +35,7 @@
     },
     {
       "id": "short-quiz-exercise-5",
-      "title": "Short quiz: Exercise 5",
+      "title": "檢核點 4",
       "type": "hvp",
       "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121738",
       "sectionSlug": "working-with-data-sets",
@@ -46,7 +46,7 @@
     },
     {
       "id": "short-quiz-exercise-6",
-      "title": "Short quiz: Exercise 6",
+      "title": "檢核點 5",
       "type": "hvp",
       "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121739",
       "sectionSlug": "working-with-data-sets",
@@ -57,7 +57,7 @@
     },
     {
       "id": "short-quiz-exercise-7",
-      "title": "Short quiz: Exercise 7",
+      "title": "檢核點 6",
       "type": "hvp",
       "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121740",
       "sectionSlug": "tso-commands",

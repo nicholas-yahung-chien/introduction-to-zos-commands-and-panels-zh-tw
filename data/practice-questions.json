@@ -11,19 +11,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "Type（類型）"
+        "text": "類型 (Type)"
       },
       {
         "id": "b",
-        "text": "Allocation（配置）"
+        "text": "配置 (Allocation)"
       },
       {
         "id": "c",
-        "text": "Organisation（組織）"
+        "text": "組織 (Organisation)"
       },
       {
         "id": "d",
-        "text": "Data set（資料集）"
+        "text": "資料集 (Data set)"
       }
     ],
     "correctChoiceIds": [
@@ -87,11 +87,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "Large"
+        "text": "大型 (Large)"
       },
       {
         "id": "b",
-        "text": "Library"
+        "text": "程式庫 (Library)"
       },
       {
         "id": "c",
@@ -125,19 +125,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "問號（?）"
+        "text": "問號 (?)"
       },
       {
         "id": "b",
-        "text": "字母 'O'"
+        "text": "字母 O ('O')"
       },
       {
         "id": "c",
-        "text": "字母 'A'"
+        "text": "字母 A ('A')"
       },
       {
         "id": "d",
-        "text": "斜線（/）"
+        "text": "斜線 (/)"
       }
     ],
     "correctChoiceIds": [
@@ -291,7 +291,7 @@
     "correctChoiceIds": [
       "b"
     ],
-    "explanation": "依課程小測驗，正確程序是按 Enter 鍵。",
+    "explanation": "依檢核點題目，正確程序是按 Enter 鍵。",
     "review": {
       "label": "回到命令與面板入門",
       "coursePath": "/course/introduction-to-commands-and-panels",
@@ -729,19 +729,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "EDIT"
+        "text": "編輯 (EDIT)"
       },
       {
         "id": "b",
-        "text": "CLIST"
+        "text": "命令清單 (CLIST)"
       },
       {
         "id": "c",
-        "text": "PROFILE"
+        "text": "使用者設定檔 (PROFILE)"
       },
       {
         "id": "d",
-        "text": "TERM"
+        "text": "終端機 (TERM)"
       }
     ],
     "correctChoiceIds": [
@@ -805,19 +805,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "Assign（指定）"
+        "text": "指定 (Assign)"
       },
       {
         "id": "b",
-        "text": "Allocate（配置）"
+        "text": "配置 (Allocate)"
       },
       {
         "id": "c",
-        "text": "Configure（設定）"
+        "text": "設定 (Configure)"
       },
       {
         "id": "d",
-        "text": "Create（建立）"
+        "text": "建立 (Create)"
       }
     ],
     "correctChoiceIds": [
@@ -881,19 +881,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "第一列輸入 MM、最後一列輸入 MM，目標列輸入 F（following）或 P（preceding）"
+        "text": "第一列輸入 MM、最後一列輸入 MM，目標列輸入後方 (F, following) 或前方 (P, preceding)"
       },
       {
         "id": "b",
-        "text": "第一列輸入 MM、最後一列輸入 MM，目標列輸入 A（after）或 B（before）"
+        "text": "第一列輸入 MM、最後一列輸入 MM，目標列輸入之後 (A, after) 或之前 (B, before)"
       },
       {
         "id": "c",
-        "text": "第一列輸入 M、最後一列輸入 M，目標列輸入 F（following）或 P（preceding）"
+        "text": "第一列輸入 M、最後一列輸入 M，目標列輸入後方 (F, following) 或前方 (P, preceding)"
       },
       {
         "id": "d",
-        "text": "第一列輸入 M、最後一列輸入 M，目標列輸入 A（after）或 B（before）"
+        "text": "第一列輸入 M、最後一列輸入 M，目標列輸入之後 (A, after) 或之前 (B, before)"
       }
     ],
     "correctChoiceIds": [
@@ -919,19 +919,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "在 Primary Option Menu 輸入 disconnect"
+        "text": "在主要選項選單 (Primary Option Menu) 輸入 disconnect"
       },
       {
         "id": "b",
-        "text": "在 'ready' mode 輸入 logoff"
+        "text": "在 ready 模式 ('ready' mode) 輸入 logoff"
       },
       {
         "id": "c",
-        "text": "在 Primary Option Menu 輸入 logoff"
+        "text": "在主要選項選單 (Primary Option Menu) 輸入 logoff"
       },
       {
         "id": "d",
-        "text": "結束 ISPF session 後輸入 disconnect"
+        "text": "結束 ISPF 工作階段 (session) 後輸入 disconnect"
       }
     ],
     "correctChoiceIds": [
@@ -1029,19 +1029,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "在 ISPF Primary Option Menu 的 command line 輸入 END，或按 F12（Cancel）"
+        "text": "在 ISPF 主要選項選單 (Primary Option Menu) 的命令列 (command line) 輸入 END，或按取消鍵 (F12, Cancel)"
       },
       {
         "id": "b",
-        "text": "按 F3（Exit），再在 Primary Option Menu 輸入 Logoff"
+        "text": "按離開鍵 (F3, Exit)，再在主要選項選單 (Primary Option Menu) 輸入 Logoff"
       },
       {
         "id": "c",
-        "text": "按 F12（Cancel），再在 Primary Option Menu 輸入 Logoff"
+        "text": "按取消鍵 (F12, Cancel)，再在主要選項選單 (Primary Option Menu) 輸入 Logoff"
       },
       {
         "id": "d",
-        "text": "在 ISPF Primary Option Menu 的 command line 輸入 X，或按 F12（Cancel）"
+        "text": "在 ISPF 主要選項選單 (Primary Option Menu) 的命令列 (command line) 輸入 X，或按取消鍵 (F12, Cancel)"
       }
     ],
     "correctChoiceIds": [
@@ -1253,19 +1253,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "在 Dialog panel 的 command option line、ISPF Primary Option Menu option 5，以及 command prompt"
+        "text": "在對話面板 (Dialog panel) 的命令選項列 (command option line)、ISPF 主要選項選單 (Primary Option Menu) option 5，以及命令提示字元 (command prompt)"
       },
       {
         "id": "b",
-        "text": "ISPF Primary Option Menu option 6、ISPF panel 的 command option line，以及 command prompt"
+        "text": "從 ISPF 主要選項選單 (Primary Option Menu) option 6、ISPF 面板 (panel) 的命令選項列 (command option line)，以及命令提示字元 (command prompt)"
       },
       {
         "id": "c",
-        "text": "ISPF Primary Option Menu option 6、Dialog panel 的 command option line，以及 command prompt"
+        "text": "從 ISPF 主要選項選單 (Primary Option Menu) option 6、對話面板 (Dialog panel) 的命令選項列 (command option line)，以及命令提示字元 (command prompt)"
       },
       {
         "id": "d",
-        "text": "ISPF panel 的 command option line、command prompt，以及 ISPF Primary Option Menu option 5"
+        "text": "從 ISPF 面板 (panel) 的命令選項列 (command option line)、命令提示字元 (command prompt)，以及 ISPF 主要選項選單 (Primary Option Menu) option 5"
       }
     ],
     "correctChoiceIds": [
@@ -1321,19 +1321,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "TSO ABEND"
+        "text": "異常結束 (TSO ABEND)"
       },
       {
         "id": "b",
-        "text": "TSO 仍在執行"
+        "text": "仍在執行 (TSO active)"
       },
       {
         "id": "c",
-        "text": "TSO 已登出"
+        "text": "已登出 (TSO logged off)"
       },
       {
         "id": "d",
-        "text": "TSO 已中斷連線"
+        "text": "已中斷連線 (TSO disconnected)"
       }
     ],
     "correctChoiceIds": [
@@ -1511,19 +1511,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "PDS 與 PDSE"
+        "text": "分割資料集與延伸分割資料集 (PDS 與 PDSE)"
       },
       {
         "id": "b",
-        "text": "VSAM 與 PDS"
+        "text": "虛擬儲存存取方法與分割資料集 (VSAM 與 PDS)"
       },
       {
         "id": "c",
-        "text": "PDSE 與 Sequential"
+        "text": "延伸分割資料集與循序資料集 (PDSE 與 Sequential)"
       },
       {
         "id": "d",
-        "text": "PDS 與 VSAM"
+        "text": "分割資料集與虛擬儲存存取方法 (PDS 與 VSAM)"
       }
     ],
     "correctChoiceIds": [
@@ -1587,23 +1587,23 @@
     "choices": [
       {
         "id": "a",
-        "text": "TSO commands 區分大小寫"
+        "text": "區分大小寫的 TSO 命令 (TSO commands)"
       },
       {
         "id": "b",
-        "text": "TSO commands 包含 positional operands 與 required operands"
+        "text": "包含位置式運算元與必要運算元的 TSO 命令 (positional operands 與 required operands)"
       },
       {
         "id": "c",
-        "text": "TSO commands 可從任何 ISPF screen 輸入"
+        "text": "可從任何 ISPF 畫面輸入的 TSO 命令 (ISPF screen)"
       },
       {
         "id": "d",
-        "text": "TSO commands 不區分大小寫"
+        "text": "不區分大小寫的 TSO 命令 (TSO commands)"
       },
       {
         "id": "e",
-        "text": "TSO command HELP LISTDS ALL 會提供 LISTDS command 的完整資訊"
+        "text": "使用 HELP LISTDS ALL 查詢 LISTDS 命令的完整資訊 (LISTDS command)"
       }
     ],
     "correctChoiceIds": [
