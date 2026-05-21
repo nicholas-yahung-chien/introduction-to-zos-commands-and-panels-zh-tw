@@ -16,7 +16,13 @@ const requiredPages = [
   { name: 'videos', source: 'docs/videos/index.md', output: 'videos/index.html', requiredText: ['影片清單', '載入影片', '單元'] },
   { name: 'practice', source: 'docs/practice/index.md', output: 'practice/index.html', requiredText: ['互動練習', '練習題目', 'Badge Quiz 題庫'] },
   { name: 'labs', source: 'docs/labs/index.md', output: 'labs/index.html', requiredText: ['Lab 與互動實作', '練習 7'] },
-  { name: 'glossary', source: 'docs/glossary/index.md', output: 'glossary/index.html', requiredText: ['z/OS 命令與面板詞彙表'] },
+  { name: 'glossary', source: 'docs/glossary/index.md', output: 'glossary/index.html', requiredText: ['IBM Z 詞彙表', '依字母查詢詞彙', 'TSO/E'] },
+  { name: 'glossary-d', source: 'docs/glossary/d.md', output: 'glossary/d.html', requiredText: ['IBM Z 詞彙表：D', 'Data set', '返回詞彙表索引'] },
+  { name: 'glossary-i', source: 'docs/glossary/i.md', output: 'glossary/i.html', requiredText: ['IBM Z 詞彙表：I', 'ISPF', 'ISPF editor'] },
+  { name: 'glossary-l', source: 'docs/glossary/l.md', output: 'glossary/l.html', requiredText: ['IBM Z 詞彙表：L', 'Line command'] },
+  { name: 'glossary-m', source: 'docs/glossary/m.md', output: 'glossary/m.html', requiredText: ['IBM Z 詞彙表：M', 'Member'] },
+  { name: 'glossary-p', source: 'docs/glossary/p.md', output: 'glossary/p.html', requiredText: ['IBM Z 詞彙表：P', 'PDS', 'Primary command'] },
+  { name: 'glossary-t', source: 'docs/glossary/t.md', output: 'glossary/t.html', requiredText: ['IBM Z 詞彙表：T', 'TSO/E'] },
   { name: 'license', source: 'docs/license-notes.md', output: 'license-notes.html', requiredText: ['授權資訊'] },
 ]
 
