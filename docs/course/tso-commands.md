@@ -2,7 +2,23 @@
 
 本單元把前面透過 ISPF 面板建立的操作經驗延伸到 TSO/E 命令。學習者會練習命令語法、結果判讀與最後一個 hands-on Lab。
 
-## 影片學習摘要
+## 學習脈絡
+
+ISPF 是常用的互動面板，但許多查詢、配置與作業控制仍會透過 TSO/E 命令完成。這一章把命令語法、縮寫、參數與結果訊息放在 Lab 情境中理解，讓學習者能在 ISPF command line 或 Command Shell 中安全地執行與判讀 TSO 命令。
+
+## 本章目標
+
+- 說明 TSO/E 命令與 ISPF panel 操作如何互補。
+- 辨識常用命令的語法、縮寫與參數位置。
+- 在執行命令前確認目標資料集、使用者 ID 與 Lab 指示，並能閱讀回應訊息。
+
+## 觀看順序
+
+- 先看「TSO 命令 - 第 1 部分」，建立命令輸入位置、語法與基本查詢方式。
+- 再看「TSO 命令 - 第 2 部分」，延伸到更多資料集與系統查詢命令。
+- 最後看「Lab：使用 TSO 命令」，把前兩支影片的命令放進 Exercise 7 的操作流程。
+
+## 影片
 
 <VideoLesson
   title="TSO 命令 - 第 1 部分"
@@ -34,20 +50,15 @@
 
 <LessonNotes slug="lab-using-tso-commands" />
 
-## 原課程活動
+## 閱讀材料
 
-| 順序 | 活動 | 類型 | 建議用途 |
-| --- | --- | --- | --- |
-| 1 | TSO Commands - part 1 | 影片 | 認識 TSO/E 命令用途與基本語法。 |
-| 2 | TSO Commands - part 2 | 影片 | 延伸常用命令與結果判讀。 |
-| 3 | Lab - Using TSO commands | 影片 | 確認最後一個 Lab 的操作目標。 |
-| 4 | TSO/E Command Reference File | 檔案 | 作為命令查詢參考。 |
-| 5 | Exercise 7: Using TSO commands | Lab | 在原環境中執行 TSO/E 命令。 |
-| 6 | 檢核點 6 | 檢核點 | 在 IBM Learn 檢查本單元理解。 |
-| 7 | Discussion forum | 討論區 | 回原課程參與課程討論。 |
+- [ISPF 導覽與 Session 基礎](https://github.ibm.com/nicholas-yahung-chien/zOSv3R1-migration-planning/blob/main/docs/06-ispf/01-navigation-and-session.md)
+- [本專案 ISPF 操作情境](https://github.ibm.com/nicholas-yahung-chien/zOSv3R1-migration-planning/blob/main/docs/06-ispf/03-migration-operator-playbook.md)
+- [List of TSO/E Commands](https://www.ibm.com/docs/en/zos/latest?topic=commands-list-tsoe)
+- [Unix/Linux 到 z/OS 的對照指南](https://github.ibm.com/nicholas-yahung-chien/zOSv3R1-migration-planning/blob/main/docs/01-concepts/unix-to-zos-mapping.md)
 
-## 學習提醒
+## 本章完成檢核
 
-- TSO/E 命令的大小寫、標點、括號與參數順序都可能影響結果。
-- 命令操作前先確認資料集名稱與目標，操作後再閱讀回應訊息。
-- 若對命令語法不確定，回到影片與 Lab 指示逐步比對。
+- 能說明在 ISPF 中前綴 `TSO` 執行單一命令，與進入 Command Shell 連續執行命令的差異。
+- 能依 Lab 指示確認命令目標，再執行資料集查詢、配置或釋放相關命令。
+- 能根據命令回應訊息判斷是否需要回到影片、Lab 指示或 TSO/E command reference 比對語法。

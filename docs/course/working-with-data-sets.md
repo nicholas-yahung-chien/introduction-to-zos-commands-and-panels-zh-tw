@@ -2,7 +2,23 @@
 
 本單元是課程的核心實作區段。學習者會配置資料集、使用 ISPF 編輯器主要命令與行命令，並練習複製、移動、重新命名、刪除資料集與成員。
 
-## 影片學習摘要
+## 學習脈絡
+
+z/OS 的資料集不是一般檔案系統中的檔案。這一章把資料集名稱、配置屬性、PDS/PDSE member、ISPF 編輯器與清單工具放在一起，協助學習者理解為什麼後續 Lab 會反覆要求先確認資料集名稱、成員與目標範圍。
+
+## 本章目標
+
+- 理解資料集、member、PDS/PDSE 與一般檔案概念的差異。
+- 說明配置資料集時需要注意名稱、空間、記錄格式與使用情境。
+- 使用 ISPF 的 View/Browse/Edit、DSLIST、Library Utility 與 line command 管理資料集。
+
+## 觀看順序
+
+- 先看「配置資料集」，理解建立資料集時要決定的屬性與命名。
+- 再看「使用資料集」，把資料集清單、member 操作、複製、移動、重新命名與刪除串成一個工作流程。
+- 影片看完後再回到 Exercise 3 到 Exercise 6，逐步練習主要命令、行命令與資料集清單。
+
+## 影片
 
 <VideoLesson
   title="配置資料集"
@@ -24,21 +40,15 @@
 
 <LessonNotes slug="working-with-data-sets" />
 
-## 原課程活動
+## 閱讀材料
 
-| 順序 | 活動 | 類型 | 建議用途 |
-| --- | --- | --- | --- |
-| 1 | Allocating a data set | 影片 | 理解資料集配置與屬性。 |
-| 2 | Working with data sets | 影片 | 建立資料集管理工作流。 |
-| 3 | Exercise 3: ISPF editor primary commands | Lab | 練習主要命令。 |
-| 4 | Exercise 4: ISPF editor line commands | Lab | 練習行命令。 |
-| 5 | Exercise 5: Copy, move, rename, delete data sets and members | Lab | 練習資料集與成員管理。 |
-| 6 | Exercise 6: Data set lists | Lab | 透過清單定位與進入資料集。 |
-| 7 | 檢核點 5 | 檢核點 | 在 IBM Learn 檢查本單元理解。 |
-| 8 | Discussion forum | 討論區 | 回原課程參與課程討論。 |
+- [Data Set 與 Member 操作](https://github.ibm.com/nicholas-yahung-chien/zOSv3R1-migration-planning/blob/main/docs/06-ispf/02-data-set-and-member-workflows.md)
+- [Unix/Linux 到 z/OS 的對照指南](https://github.ibm.com/nicholas-yahung-chien/zOSv3R1-migration-planning/blob/main/docs/01-concepts/unix-to-zos-mapping.md)
+- [z/OS 核心術語對照表](https://github.ibm.com/nicholas-yahung-chien/zOSv3R1-migration-planning/blob/main/docs/01-concepts/terminology-guide.md)
+- [The ISPF editor](https://www.ibm.com/docs/en/zos-basic-skills?topic=ispf-editor)
 
-## 學習提醒
+## 本章完成檢核
 
-- 資料集操作常見錯誤來自名稱、成員、空間與目標範圍沒有確認清楚。
-- 主要命令通常作用在目前編輯畫面；行命令作用在特定資料列。
-- 刪除與重新命名前，先用資料集清單確認目標。
+- 能說明 sequential data set、PDS/PDSE 與 member 的基本差異。
+- 能在修改、複製、移動、重新命名或刪除前，先確認資料集名稱、member 與目標範圍。
+- 能區分 ISPF 主要命令與行命令，並知道何時應使用資料集清單定位目標。

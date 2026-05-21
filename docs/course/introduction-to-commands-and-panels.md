@@ -2,7 +2,23 @@
 
 本單元先建立主機環境操作感：學習者會認識 TSO/E 與 ISPF，接著熟悉原課程提供的實作環境、課程套件與 Lab checklist，最後完成存取 Lab 環境與資料集配置的前兩個 Lab。
 
-## 影片學習摘要
+## 學習脈絡
+
+這一章是從 IBM Z 與 z/OS 概念走向實際操作的入口。學習者會先理解 TSO/E 與 ISPF 如何構成互動式工作環境，再把畫面中的 panel、command line、function key、資料集與 member 放進同一個操作模型中理解。
+
+## 本章目標
+
+- 說明 TSO/E 與 ISPF 在 z/OS 互動操作中的角色。
+- 辨識 ISPF panel、primary command、line command 與 function key 的用途。
+- 理解 Lab 環境、課程套件與資料集配置練習之間的先後關係。
+
+## 觀看順序
+
+- 先看「TSO 與 ISPF 入門」，建立登入、panel 與命令操作的共同語言。
+- 接著看「Lab：熟悉系統」，確認實作環境與課程套件的使用方式。
+- 再看「在 ISPF 中建立、編輯與顯示成員」與「練習 2 介紹」，把 ISPF 操作連到後續資料集 Lab。
+
+## 影片
 
 <VideoLesson
   title="TSO 與 ISPF 入門"
@@ -44,23 +60,15 @@
 
 <LessonNotes slug="introduction-to-exercise-2" />
 
-## 原課程活動
+## 閱讀材料
 
-| 順序 | 活動 | 類型 | 建議用途 |
-| --- | --- | --- | --- |
-| 1 | Introduction to TSO and ISPF | 影片 | 建立 TSO/E 與 ISPF 的角色理解。 |
-| 2 | Lab - System familiarization | 影片 | 確認實作環境與畫面入口。 |
-| 3 | Course kit/ Exercises guide | 閱讀頁 | 下載並開啟 exercise guide。 |
-| 4 | Checklist before starting labs | 閱讀頁 | 確認 Lab access、Skytap 狀態與連線。 |
-| 5 | Exercise 1: Access your lab environment | Lab | 進入 IBM Remote Lab Platform。 |
-| 6 | z/OS 2.3 ISPF User Guide | 閱讀頁 | 作為 ISPF 操作參考。 |
-| 7 | Creating, editing, and displaying members in ISPF | 影片 | 熟悉 ISPF member 操作。 |
-| 8 | Introduction to exercise 2 | 影片 | 進入資料集配置前的說明。 |
-| 9 | Exercise 2: Allocate new data sets | Lab | 建立後續資料集操作材料。 |
-| 10 | 檢核點 1 | 檢核點 | 在 IBM Learn 檢查本單元理解。 |
+- [ISPF：大型主機互動操作入門](https://github.ibm.com/nicholas-yahung-chien/zOSv3R1-migration-planning/blob/main/docs/06-ispf/README.md)
+- [ISPF 導覽與 Session 基礎](https://github.ibm.com/nicholas-yahung-chien/zOSv3R1-migration-planning/blob/main/docs/06-ispf/01-navigation-and-session.md)
+- [Data Set 與 Member 操作](https://github.ibm.com/nicholas-yahung-chien/zOSv3R1-migration-planning/blob/main/docs/06-ispf/02-data-set-and-member-workflows.md)
+- [The ISPF editor](https://www.ibm.com/docs/en/zos-basic-skills?topic=ispf-editor)
 
-## 學習提醒
+## 本章完成檢核
 
-- TSO/E 偏向命令互動，ISPF 偏向面板式操作；後續練習會交替使用兩者。
-- Lab 中出現的資料集名稱、使用者 ID、密碼與環境畫面以 IBM Learn 原課程的 Course Lab Kit 為準。
-- 正式評量與 badge 進度只在 IBM Learn 中完成與保存。
+- 能說明 TSO/E 偏向命令互動，而 ISPF 偏向 panel 式互動操作。
+- 能區分 primary command 與 line command，並知道它們分別輸入在何處。
+- 能在開始 Lab 前確認使用者 ID、資料集名稱、Course Lab Kit 與實作環境畫面。
