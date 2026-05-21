@@ -14,7 +14,7 @@ This file records the accepted first-edition delivery state for the Traditional 
 
 - Cloudflare Pages: `https://introduction-to-zos-commands-and-panels-zh-tw.pages.dev/`
 - GitHub Pages: `https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-zh-tw/`
-- Media host: `https://introduction-to-zos-commands-and-panels-media.pages.dev/`
+- Media host: `https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-media/`
 
 ## Included Scope
 
@@ -55,8 +55,8 @@ The first-edition baseline passed release verification, subtitle presence checks
 
 ## Media And Deployment Notes
 
-- Course media should be hosted by the dedicated Cloudflare Pages media project.
-- Site builds use `VITE_MEDIA_BASE_URL=https://introduction-to-zos-commands-and-panels-media.pages.dev`.
+- Course media is hosted by the dedicated GitHub Pages media project for this accepted first edition.
+- Site builds use `VITE_MEDIA_BASE_URL=https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-media`.
 - Local generated HLS files may exist under `docs/public/hls/`, but they are ignored by Git and pruned from site builds.
 - `npm run media:package` creates `dist-media/` for the media Pages project.
 - Cloudflare Pages uses `/` as the VitePress base.

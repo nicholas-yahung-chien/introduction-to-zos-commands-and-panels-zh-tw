@@ -22,7 +22,7 @@ npm run verify:release
 
 ## Media Host
 
-- Default media host: `https://introduction-to-zos-commands-and-panels-media.pages.dev`
+- Default media host: `https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-media`
 - Package command:
 
 ```powershell
@@ -31,9 +31,9 @@ npm run media:package
 
 - Deploy `dist-media/` to the dedicated media Pages project.
 - Confirm these paths exist after deployment:
-  - `/hls/introduction-to-tso-and-ispf/index.m3u8`
-  - `/subtitles/introduction-to-tso-and-ispf.zh-Hant-TW.vtt`
-  - `/manifest/video-assets.json`
+  - `/introduction-to-zos-commands-and-panels-media/hls/introduction-to-tso-and-ispf/index.m3u8`
+  - `/introduction-to-zos-commands-and-panels-media/subtitles/introduction-to-tso-and-ispf.zh-Hant-TW.vtt`
+  - `/introduction-to-zos-commands-and-panels-media/manifest/video-assets.json`
 
 ## GitHub Pages
 

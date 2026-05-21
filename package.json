@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vitepress dev docs --host 127.0.0.1",
     "build": "vitepress build docs",
-    "build:github": "cross-env VITEPRESS_BASE=/introduction-to-zos-commands-and-panels-zh-tw/ VITE_MEDIA_BASE_URL=https://introduction-to-zos-commands-and-panels-media.pages.dev vitepress build docs && node scripts/prune-dist-media.mjs",
-    "build:cloudflare": "cross-env VITEPRESS_BASE=/ VITE_MEDIA_BASE_URL=https://introduction-to-zos-commands-and-panels-media.pages.dev vitepress build docs && node scripts/prune-dist-media.mjs",
+    "build:github": "cross-env VITEPRESS_BASE=/introduction-to-zos-commands-and-panels-zh-tw/ VITE_MEDIA_BASE_URL=https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-media vitepress build docs && node scripts/prune-dist-media.mjs",
+    "build:cloudflare": "cross-env VITEPRESS_BASE=/ VITE_MEDIA_BASE_URL=https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-media vitepress build docs && node scripts/prune-dist-media.mjs",
     "verify:release": "npm run build:github && npm run build:cloudflare && npm run site:check && npm run subtitles:check && npm run content:quality && npm run practice:check",
     "preview": "vitepress preview docs --host 127.0.0.1",
     "deploy:cloudflare": "npm run build:cloudflare && npx wrangler pages deploy docs/.vitepress/dist --project-name introduction-to-zos-commands-and-panels-zh-tw --branch main",

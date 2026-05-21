@@ -17,7 +17,7 @@ npm run build:github
 npm run build:cloudflare
 ```
 
-GitHub Pages 預設 base path 為 `/introduction-to-zos-commands-and-panels-zh-tw/`，Cloudflare Pages 使用 `/`。正式建置會使用 `VITE_MEDIA_BASE_URL=https://introduction-to-zos-commands-and-panels-media.pages.dev` 指向獨立媒體 host。
+GitHub Pages 預設 base path 為 `/introduction-to-zos-commands-and-panels-zh-tw/`，Cloudflare Pages 使用 `/`。正式建置會使用 `VITE_MEDIA_BASE_URL=https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-media` 指向獨立媒體 host。
 
 ## 課程來源
 

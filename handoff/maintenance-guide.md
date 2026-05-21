@@ -48,7 +48,7 @@ Lab 頁只描述目的、學習順序與原課程連結，不重建 runtime。
 正式網站建置會透過 `VITE_MEDIA_BASE_URL` 指向獨立媒體 host，並在 dist 內移除 HLS 大檔。預設媒體 host：
 
 ```text
-https://introduction-to-zos-commands-and-panels-media.pages.dev
+https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-media
 ```
 
 ## 更新練習題
