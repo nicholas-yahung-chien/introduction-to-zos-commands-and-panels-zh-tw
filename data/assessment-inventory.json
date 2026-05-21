@@ -2,13 +2,15 @@
   "capturedAt": "2026-05-21T11:39:38.700Z",
   "courseUrl": "https://learn.ibm.com/course/view.php?id=7419",
   "summary": {
-    "staticPracticeQuestions": 19,
-    "staticPracticeSources": 6,
+    "staticPracticeQuestions": 44,
+    "staticPracticeSources": 7,
     "formalBadgeQuizQuestions": 20,
-    "totalKnownQuizQuestionsIncludingBadge": 39,
+    "totalKnownQuizQuestionsIncludingBadge": 44,
     "videos": 9,
     "labPages": 7,
-    "uniqueActivities": 33
+    "uniqueActivities": 33,
+    "badgeQuizQuestionsPerAttempt": 20,
+    "badgeQuizCapturedUniqueQuestions": 25
   },
   "practiceSources": [
     {
@@ -63,14 +65,15 @@
       "id": "badge-quiz",
       "title": "Badge quiz",
       "type": "moodle-quiz",
-      "status": "inventory-only-not-reproduced",
-      "capturedQuestionCount": 20,
+      "status": "captured-for-static-practice-authorized",
+      "capturedQuestionCount": 25,
       "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590"
     }
   ],
   "captureNotes": [
     "Short quiz: Exercises 1 and 2 is a Moodle quiz and was omitted from the first static practice pass, which only extracted H5P activities.",
-    "Badge quiz review pages show 20 multichoice questions per attempt, but the IBM Learn badge quiz page states that badge quiz content may not be reproduced or disclosed. It is therefore inventory-only in this project.",
-    "H5P short quiz activities for Exercises 3-7 contain 11 total questions."
+    "Badge Quiz is a formal IBM Learn Moodle quiz with 20 questions per attempt. After user confirmed IBM team lead authorization on 2026-05-21, 25 unique questions visible across completed review attempts were reproduced as static practice questions.",
+    "H5P short quiz activities for Exercises 3-7 contain 11 total questions.",
+    "All static practice prompts, explanations, and review hints were checked for Traditional Chinese learner-facing text."
   ]
 }

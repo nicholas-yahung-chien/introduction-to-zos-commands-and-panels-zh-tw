@@ -14,7 +14,7 @@ const requiredPages = [
   },
   { name: 'course', source: 'docs/course/index.md', output: 'course/index.html', requiredText: ['課程首頁', 'z/OS 命令與面板入門', 'TSO 命令'] },
   { name: 'videos', source: 'docs/videos/index.md', output: 'videos/index.html', requiredText: ['影片與活動總覽', '33 個唯一活動', '9 支影片', '7 個 Lab'] },
-  { name: 'practice', source: 'docs/practice/index.md', output: 'practice/index.html', requiredText: ['互動練習', '19 題', 'Formal Badge Quiz'] },
+  { name: 'practice', source: 'docs/practice/index.md', output: 'practice/index.html', requiredText: ['互動練習', '44 題', 'Badge Quiz 題庫'] },
   { name: 'labs', source: 'docs/labs/index.md', output: 'labs/index.html', requiredText: ['Lab 與互動實作', '練習 7'] },
   { name: 'glossary', source: 'docs/glossary/index.md', output: 'glossary/index.html', requiredText: ['z/OS 命令與面板詞彙表'] },
   { name: 'license', source: 'docs/license-notes.md', output: 'license-notes.html', requiredText: ['授權資訊'] },

@@ -301,6 +301,8 @@
   "quizQuestionSources": {
     "moodleShortQuizExercises1And2": 8,
     "hvpExercises3To7": 11,
-    "badgeQuizFormalAssessment": 20
+    "badgeQuizFormalAssessment": 20,
+    "badgeQuizCapturedUniqueQuestions": 25,
+    "staticPracticeQuestions": 44
   }
 }

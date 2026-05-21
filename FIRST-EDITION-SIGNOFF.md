@@ -25,8 +25,8 @@ This file records the accepted first-edition delivery state for the Traditional 
 - English WebVTT subtitle tracks retained for traceability.
 - Kaltura metadata inventory for every course video.
 - Lesson summaries and key terms for each video.
-- Static learning practice converted from 1 Moodle short quiz source and 5 H5P short quiz sources, 19 questions total.
-- Badge Quiz inventoried as a 20-question formal assessment; question content is not reproduced in the static site.
+- Static learning practice converted from 1 Moodle short quiz source, 5 H5P short quiz sources, and the authorized Badge Quiz question bank, 44 questions total.
+- Badge Quiz reproduced as static practice after IBM team lead authorization, with 25 unique visible questions captured from completed review attempts; each formal attempt still presents 20 questions in IBM Learn.
 - Lab metadata for 7 IBM Remote Lab Platform activities.
 - Glossary, license notes, release checklist, and automated quality checks.
 
@@ -37,7 +37,7 @@ This file records the accepted first-edition delivery state for the Traditional 
 - `npm run media:package`
 - Public-page hygiene scan described in `RELEASE-CHECKLIST.md`
 
-The revalidated first-edition baseline passed release verification, subtitle presence checks, content quality checks, practice data checks, course inventory checks, and site checks with 9 deployed videos, 19 static practice questions, 20 formal Badge Quiz questions inventoried, and 7 lab items.
+The revalidated first-edition baseline passed release verification, subtitle presence checks, content quality checks, practice data checks, course inventory checks, and site checks with 9 deployed videos, 44 static practice questions, 25 captured Badge Quiz questions, and 7 lab items.
 
 ## Verification Record
 
@@ -49,7 +49,8 @@ The revalidated first-edition baseline passed release verification, subtitle pre
 
 ## Excluded From First Edition
 
-- Badge quiz, certificate, survey, practitioner badge claim, and Moodle learner-state workflows.
+- Certificate, survey, practitioner badge claim, and Moodle learner-state workflows.
+- Formal Badge Quiz scoring and attempt persistence; the static site only provides authorized non-scoring practice.
 - Login-dependent learner progress tracking.
 - Scoring, answer persistence, or result history.
 - Recreated IBM Remote Lab Platform runtime.

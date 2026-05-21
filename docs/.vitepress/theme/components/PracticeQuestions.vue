@@ -42,7 +42,8 @@ const sourceLabels: Record<string, string> = {
   'short-quiz-exercise-4': '練習 4 小測驗',
   'short-quiz-exercise-5': '練習 5 小測驗',
   'short-quiz-exercise-6': '練習 6 小測驗',
-  'short-quiz-exercise-7': '練習 7 小測驗'
+  'short-quiz-exercise-7': '練習 7 小測驗',
+  'badge-quiz': 'Badge Quiz 題庫'
 }
 
 const filteredQuestions = computed(() => {

@@ -22,6 +22,7 @@
     "media:package": "node scripts/package-media-site.mjs",
     "site:check": "node scripts/check-public-site.mjs",
     "content:quality": "node scripts/check-content-quality.mjs",
+    "practice:rebuild": "node scripts/rebuild-practice-data.mjs",
     "practice:check": "node scripts/check-practice-data.mjs",
     "course:inventory:check": "node scripts/check-course-inventory.mjs",
     "subtitles:check": "node scripts/check-subtitles.mjs"

@@ -24,15 +24,15 @@ GitHub Pages base path 為 `/introduction-to-zos-commands-and-panels-zh-tw/`，C
 - IBM Learn: https://learn.ibm.com/course/view.php?id=7419
 - 課程名稱：Introduction to z/OS Commands and Panels on IBM Z
 - 公開站台範圍：課程順序、影片與字幕、靜態練習、Lab metadata、詞彙表、授權資訊。
-- 原課程範圍：Lab runtime、正式 Badge Quiz、certificate、attempt 與學習者進度。
+- 原課程範圍：Lab runtime、正式 Badge Quiz attempt、certificate、attempt 與學習者進度。
 
 ## 重新盤點結果
 
 - Live course inventory：5 個章節、33 個唯一活動。
 - 影片：9 支，皆已建立 HLS 與字幕。
 - Lab：7 個 Exercise Lab 頁面。
-- 靜態練習：6 個 short quiz 來源，共 19 題。
-- Formal Badge Quiz：20 題，僅納入盤點，不在本站重製題目或答案。
+- 靜態練習：6 個 short quiz 來源與 1 個 Badge Quiz 題庫來源，共 44 題。
+- Badge Quiz：每次正式 attempt 顯示 20 題；已依 IBM 團隊主管授權，從 2 次 completed review 合併去重收錄 25 題作靜態練習。
 
 盤點資料位於：
 
@@ -40,6 +40,7 @@ GitHub Pages base path 為 `/introduction-to-zos-commands-and-panels-zh-tw/`，C
 - `data/assessment-inventory.json`
 - `data/captured/live-course-inventory.raw.json`
 - `data/captured/moodle-quiz-120013-questions.json`
+- `data/captured/badge-quiz-questions.json`
 
 ## 擷取與維護
 

@@ -1,51 +1,51 @@
 [
   {
     "id": "exercise-1-2-q1",
-    "section": "Introduction to Commands and Panels",
+    "section": "z/OS 命令與面板入門",
     "lessonSlug": "introduction-to-commands-and-panels",
-    "lessonTitle": "Allocating a sequential data set",
+    "lessonTitle": "配置 sequential data set",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
     "sourceReference": "short-quiz-exercises-1-and-2",
-    "prompt": "After allocating a sequential data set, what field on the Data Set Information panel indicates that this is a sequential data set?",
+    "prompt": "配置 sequential data set 後，Data Set Information 面板中的哪個欄位表示這是 sequential data set？",
     "choices": [
       {
         "id": "a",
-        "text": "Type"
+        "text": "Type（類型）"
       },
       {
         "id": "b",
-        "text": "Allocation"
+        "text": "Allocation（配置）"
       },
       {
         "id": "c",
-        "text": "Organisation"
+        "text": "Organisation（組織）"
       },
       {
         "id": "d",
-        "text": "Data set"
+        "text": "Data set（資料集）"
       }
     ],
     "correctChoiceIds": [
       "c"
     ],
-    "explanation": "The Organisation field indicates the data set organization. For this question, the correct field is Organisation.",
+    "explanation": "Organisation 欄位會顯示資料集組織；本題的 sequential data set 會由 Organisation 欄位判斷。",
     "review": {
-      "label": "Review Commands and Panels",
+      "label": "回到命令與面板入門",
       "coursePath": "/course/introduction-to-commands-and-panels",
       "videoEntryId": "1_mf7bsgi9",
-      "hint": "Review the data set allocation material and Exercise 2."
+      "hint": "回到 Exercise 2 與資料集配置內容複習。"
     }
   },
   {
     "id": "exercise-1-2-q2",
-    "section": "Introduction to Commands and Panels",
+    "section": "z/OS 命令與面板入門",
     "lessonSlug": "introduction-to-commands-and-panels",
-    "lessonTitle": "Data set member names",
+    "lessonTitle": "資料集 member 名稱",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
     "sourceReference": "short-quiz-exercises-1-and-2",
-    "prompt": "What is the name of the member in data set JEFF.LOVES.GUITARS(ELECTRIC)?",
+    "prompt": "資料集 JEFF.LOVES.GUITARS(ELECTRIC) 的 member 名稱是什麼？",
     "choices": [
       {
         "id": "a",
@@ -67,23 +67,23 @@
     "correctChoiceIds": [
       "c"
     ],
-    "explanation": "The member name is the value inside parentheses: ELECTRIC.",
+    "explanation": "Member 名稱是括號中的值，因此答案是 ELECTRIC。",
     "review": {
-      "label": "Review Commands and Panels",
+      "label": "回到命令與面板入門",
       "coursePath": "/course/introduction-to-commands-and-panels",
       "videoEntryId": "1_tfpzz00p",
-      "hint": "Review how ISPF displays and edits data set members."
+      "hint": "回到 ISPF 中顯示與編輯資料集 member 的段落複習。"
     }
   },
   {
     "id": "exercise-1-2-q3",
-    "section": "Introduction to Commands and Panels",
+    "section": "z/OS 命令與面板入門",
     "lessonSlug": "introduction-to-commands-and-panels",
-    "lessonTitle": "Allocating a PDSE",
+    "lessonTitle": "配置 PDSE",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
     "sourceReference": "short-quiz-exercises-1-and-2",
-    "prompt": "On the Allocate New Data Set panel, what is the data set name type when allocating a PDSE?",
+    "prompt": "在 Allocate New Data Set 面板配置 PDSE 時，Data set name type 應選哪一項？",
     "choices": [
       {
         "id": "a",
@@ -105,61 +105,61 @@
     "correctChoiceIds": [
       "b"
     ],
-    "explanation": "When allocating a PDSE in this panel, the data set name type is Library.",
+    "explanation": "在此面板中配置 PDSE 時，Data set name type 應使用 Library。",
     "review": {
-      "label": "Review Commands and Panels",
+      "label": "回到命令與面板入門",
       "coursePath": "/course/introduction-to-commands-and-panels",
       "videoEntryId": "1_mf7bsgi9",
-      "hint": "Review the Allocate New Data Set panel fields."
+      "hint": "回到 Allocate New Data Set 面板欄位複習。"
     }
   },
   {
     "id": "exercise-1-2-q4",
-    "section": "Introduction to Commands and Panels",
+    "section": "z/OS 命令與面板入門",
     "lessonSlug": "introduction-to-commands-and-panels",
-    "lessonTitle": "ISPF settings",
+    "lessonTitle": "ISPF 設定",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
     "sourceReference": "short-quiz-exercises-1-and-2",
-    "prompt": "What character is used to set options in the ISPF Settings panel?",
+    "prompt": "在 ISPF Settings 面板中，通常使用哪個字元來設定選項？",
     "choices": [
       {
         "id": "a",
-        "text": "Question mark (?)"
+        "text": "問號（?）"
       },
       {
         "id": "b",
-        "text": "The letter 'O'"
+        "text": "字母 'O'"
       },
       {
         "id": "c",
-        "text": "The letter 'A'"
+        "text": "字母 'A'"
       },
       {
         "id": "d",
-        "text": "Forward slash (/)"
+        "text": "斜線（/）"
       }
     ],
     "correctChoiceIds": [
       "d"
     ],
-    "explanation": "ISPF panels commonly use a forward slash (/) to select or set options.",
+    "explanation": "ISPF 面板通常使用斜線（/）來選取或設定選項。",
     "review": {
-      "label": "Review Commands and Panels",
+      "label": "回到命令與面板入門",
       "coursePath": "/course/introduction-to-commands-and-panels",
-      "videoEntryId": "1_vgfp9zxt",
-      "hint": "Review TSO and ISPF panel operation."
+      "videoEntryId": "1_mf7bsgi9",
+      "hint": "回到 TSO 與 ISPF 面板操作複習。"
     }
   },
   {
     "id": "exercise-1-2-q5",
-    "section": "Introduction to Commands and Panels",
+    "section": "z/OS 命令與面板入門",
     "lessonSlug": "introduction-to-commands-and-panels",
-    "lessonTitle": "Lab environment familiarization",
+    "lessonTitle": "Lab 環境熟悉",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
     "sourceReference": "short-quiz-exercises-1-and-2",
-    "prompt": "What is the name of the communication suite that allows you to connect to a variety of systems, like the mainframe console?",
+    "prompt": "課程 Lab 使用哪一套通訊軟體連線到各種系統？",
     "choices": [
       {
         "id": "a",
@@ -181,23 +181,23 @@
     "correctChoiceIds": [
       "a"
     ],
-    "explanation": "The communication suite used in the lab context is PCOMM.",
+    "explanation": "課程 Lab 情境中使用的通訊軟體是 PCOMM。",
     "review": {
-      "label": "Review Commands and Panels",
+      "label": "回到命令與面板入門",
       "coursePath": "/course/introduction-to-commands-and-panels",
-      "videoEntryId": "1_599iixml",
-      "hint": "Review the system familiarization lab video."
+      "videoEntryId": "1_5vl4y7ri",
+      "hint": "回到系統熟悉 Lab 影片複習。"
     }
   },
   {
     "id": "exercise-1-2-q6",
-    "section": "Introduction to Commands and Panels",
+    "section": "z/OS 命令與面板入門",
     "lessonSlug": "introduction-to-commands-and-panels",
-    "lessonTitle": "Keyboard settings",
+    "lessonTitle": "鍵盤設定",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
     "sourceReference": "short-quiz-exercises-1-and-2",
-    "prompt": "When you change your keyboard setting, you must save it with which file extension?",
+    "prompt": "變更鍵盤設定後，應使用哪個副檔名儲存設定檔？",
     "choices": [
       {
         "id": "a",
@@ -219,23 +219,23 @@
     "correctChoiceIds": [
       "d"
     ],
-    "explanation": "PCOMM keyboard mapping settings are saved with the .kmp extension.",
+    "explanation": "PCOMM 的鍵盤對應設定會以 .kmp 副檔名儲存。",
     "review": {
-      "label": "Review Commands and Panels",
+      "label": "回到命令與面板入門",
       "coursePath": "/course/introduction-to-commands-and-panels",
-      "videoEntryId": "1_599iixml",
-      "hint": "Review keyboard mapping in the system familiarization lab video."
+      "videoEntryId": "1_5vl4y7ri",
+      "hint": "回到系統熟悉 Lab 影片中的鍵盤對應設定複習。"
     }
   },
   {
     "id": "exercise-1-2-q7",
-    "section": "Introduction to Commands and Panels",
+    "section": "z/OS 命令與面板入門",
     "lessonSlug": "introduction-to-commands-and-panels",
-    "lessonTitle": "Allocating a sequential data set",
+    "lessonTitle": "配置 sequential data set",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
     "sourceReference": "short-quiz-exercises-1-and-2",
-    "prompt": "What directory blocks value is used to allocate a sequential data set?",
+    "prompt": "配置 sequential data set 時，Directory blocks 欄位應使用哪個值？",
     "choices": [
       {
         "id": "a",
@@ -257,46 +257,46 @@
     "correctChoiceIds": [
       "c"
     ],
-    "explanation": "A sequential data set does not need a member directory, so the directory blocks value is 0.",
+    "explanation": "Sequential data set 不需要 member directory，因此 Directory blocks 應設定為 0。",
     "review": {
-      "label": "Review Commands and Panels",
+      "label": "回到命令與面板入門",
       "coursePath": "/course/introduction-to-commands-and-panels",
       "videoEntryId": "1_mf7bsgi9",
-      "hint": "Review sequential data set allocation values."
+      "hint": "回到 sequential data set 配置值複習。"
     }
   },
   {
     "id": "exercise-1-2-q8",
-    "section": "Introduction to Commands and Panels",
+    "section": "z/OS 命令與面板入門",
     "lessonSlug": "introduction-to-commands-and-panels",
-    "lessonTitle": "ISPF Primary Option Menu",
+    "lessonTitle": "ISPF Primary Option Menu 主選單",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
     "sourceReference": "short-quiz-exercises-1-and-2",
-    "prompt": "What is the procedure to remove the Licensed Material copyright information from the ISPF Primary Option Menu panel?",
+    "prompt": "要從 ISPF Primary Option Menu 移除 Licensed Material copyright 資訊，正確程序是什麼？",
     "choices": [
       {
         "id": "a",
-        "text": "Press F2"
+        "text": "按 F2"
       },
       {
         "id": "b",
-        "text": "Press the enter key"
+        "text": "按 Enter 鍵"
       },
       {
         "id": "c",
-        "text": "Press F12"
+        "text": "按 F12"
       }
     ],
     "correctChoiceIds": [
       "b"
     ],
-    "explanation": "The correct procedure in the course quiz is to press the enter key.",
+    "explanation": "依課程小測驗，正確程序是按 Enter 鍵。",
     "review": {
-      "label": "Review Commands and Panels",
+      "label": "回到命令與面板入門",
       "coursePath": "/course/introduction-to-commands-and-panels",
-      "videoEntryId": "1_vgfp9zxt",
-      "hint": "Review the ISPF Primary Option Menu behavior."
+      "videoEntryId": "1_mf7bsgi9",
+      "hint": "回到 ISPF Primary Option Menu 的操作行為複習。"
     }
   },
   {
@@ -715,6 +715,943 @@
       "coursePath": "/course/tso-commands",
       "videoEntryId": "1_bqff6hoz",
       "hint": "回到 TSO/E Command Reference 複習 SEND 語法。"
+    }
+  },
+  {
+    "id": "badge-quiz-q1",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "哪個 TSO 命令可用來告訴系統你想如何使用終端機？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "EDIT"
+      },
+      {
+        "id": "b",
+        "text": "CLIST"
+      },
+      {
+        "id": "c",
+        "text": "PROFILE"
+      },
+      {
+        "id": "d",
+        "text": "TERM"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": "PROFILE 命令可顯示或變更 TSO/E 使用者 profile，其中包含終端機使用方式相關設定。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q2",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "依下列資訊配置新的 PDS 時，正確的 TSO ALLOC 命令語法是哪一個？使用者 ID：IBM；資料集名稱：BUILDS.SERVERS；Block length：100 bytes；Logical record length：80；Data control block size：300；Directory blocks：2；Record format：fixed block。",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ALLOC DA(BUILDS.SERVERS) DSORG(PDS) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)"
+      },
+      {
+        "id": "b",
+        "text": "ALLOC DA(BUILDS.SERVERS) DSORG(PDSE) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)"
+      },
+      {
+        "id": "c",
+        "text": "ALLOC DA(BUILDS.SERVERS) DSORG(PO) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)"
+      },
+      {
+        "id": "d",
+        "text": "ALLOC DA(IBM.BUILDS.SERVERS) DSORG(PO) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": "PDS 的 DSORG 使用 PO，且題目指定的資料集名稱是 BUILDS.SERVERS，不需額外加上 IBM。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q3",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "建立到某個資料集的連結時，這個動作稱為什麼？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Assign（指定）"
+      },
+      {
+        "id": "b",
+        "text": "Allocate（配置）"
+      },
+      {
+        "id": "c",
+        "text": "Configure（設定）"
+      },
+      {
+        "id": "d",
+        "text": "Create（建立）"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "在 TSO/E 中，讓工作階段能使用資料集的動作稱為 allocate。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q4",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "哪個 prefix line command 會把一筆或多筆來源記錄中指定欄位的資料，複製到一筆或多筆既有記錄的對應欄位？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "C"
+      },
+      {
+        "id": "b",
+        "text": "R"
+      },
+      {
+        "id": "c",
+        "text": "M"
+      },
+      {
+        "id": "d",
+        "text": "O"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "explanation": "O 是 overlay line command，用來將來源欄位覆蓋到既有記錄的對應欄位。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q5",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "在 edit panel 的資料集中，要移動一整段連續資料列時，prefix area 應輸入什麼？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "第一列輸入 MM、最後一列輸入 MM，目標列輸入 F（following）或 P（preceding）"
+      },
+      {
+        "id": "b",
+        "text": "第一列輸入 MM、最後一列輸入 MM，目標列輸入 A（after）或 B（before）"
+      },
+      {
+        "id": "c",
+        "text": "第一列輸入 M、最後一列輸入 M，目標列輸入 F（following）或 P（preceding）"
+      },
+      {
+        "id": "d",
+        "text": "第一列輸入 M、最後一列輸入 M，目標列輸入 A（after）或 B（before）"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "移動區塊時以 MM 標示區塊起訖，再用 A 或 B 指定要放在目標列之後或之前。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q6",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "正確登出 TSO 的程序是什麼？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "在 Primary Option Menu 輸入 disconnect"
+      },
+      {
+        "id": "b",
+        "text": "在 'ready' mode 輸入 logoff"
+      },
+      {
+        "id": "c",
+        "text": "在 Primary Option Menu 輸入 logoff"
+      },
+      {
+        "id": "d",
+        "text": "結束 ISPF session 後輸入 disconnect"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "結束 ISPF 回到 'ready' mode 後，輸入 logoff 才是正確的 TSO 登出方式。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q7",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "在 ISPF data set list function（3.4）回傳的資料集清單中，哪個 primary command 會定位游標到第一個以 'PROD' 開頭的資料集？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "L PROD"
+      },
+      {
+        "id": "b",
+        "text": "F PROD"
+      },
+      {
+        "id": "c",
+        "text": "S PROD"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "L PROD 會在清單中 locate 到第一個符合指定字首的位置。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q8",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "在資料集中搜尋某個字詞後，哪個 function key 可再次尋找同一個字詞？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "F5"
+      },
+      {
+        "id": "b",
+        "text": "F4"
+      },
+      {
+        "id": "c",
+        "text": "F10"
+      },
+      {
+        "id": "d",
+        "text": "F2"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "F5 對應 RFIND，可重複上一個 FIND 搜尋。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q9",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "結束 ISPF session 的兩種方式是哪一組？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "在 ISPF Primary Option Menu 的 command line 輸入 END，或按 F12（Cancel）"
+      },
+      {
+        "id": "b",
+        "text": "按 F3（Exit），再在 Primary Option Menu 輸入 Logoff"
+      },
+      {
+        "id": "c",
+        "text": "按 F12（Cancel），再在 Primary Option Menu 輸入 Logoff"
+      },
+      {
+        "id": "d",
+        "text": "在 ISPF Primary Option Menu 的 command line 輸入 X，或按 F12（Cancel）"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "explanation": "在 ISPF Primary Option Menu 可輸入 X 結束，或使用 F12（Cancel）離開 ISPF。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q10",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "在 edit panel 的資料集中，要新增三列空白列供輸入資料，prefix area 應輸入什麼？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A3"
+      },
+      {
+        "id": "b",
+        "text": "13"
+      },
+      {
+        "id": "c",
+        "text": "I3"
+      },
+      {
+        "id": "d",
+        "text": "A 1-3"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": "I3 表示 insert 3 lines，也就是插入三列空白列。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q11",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "資料集名稱為 \"IBM.Z.MAINFRAME\" 時，low-level qualifier（LLQ）是哪一段？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Z.MAINFRAME"
+      },
+      {
+        "id": "b",
+        "text": "Z"
+      },
+      {
+        "id": "c",
+        "text": "IBM"
+      },
+      {
+        "id": "d",
+        "text": "MAINFRAME"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "explanation": "LLQ 是完整資料集名稱最右側的 qualifier，因此是 MAINFRAME。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q12",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "要在資料集中把所有 mainframes 取代成 servers，正確語法是哪一個？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "REP MAINFRAMES SERVERS ALL"
+      },
+      {
+        "id": "b",
+        "text": "CH,MAINFRAMES,SERVERS,ALL"
+      },
+      {
+        "id": "c",
+        "text": "C MAINFRAMES SERVERS ALL"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": "ISPF edit 中可用 C 作為 CHANGE 的縮寫，ALL 表示取代所有符合項目。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q13",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "要顯示與 HLQ STUDENT 相關的 catalog alias entry，正確命令語法是哪一個？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "LISTCAT ENT('STUDENT') ALIAS ALL"
+      },
+      {
+        "id": "b",
+        "text": "LISTCAT ENT(STUDENT) ALIAS ALL"
+      },
+      {
+        "id": "c",
+        "text": "LIST ALL ALIAS ('STUDENT')"
+      },
+      {
+        "id": "d",
+        "text": "LISTALC ENT('STUDENT') ALAIS ALL"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "LISTCAT ENT('STUDENT') ALIAS ALL 會列出 STUDENT 這個 entry 的 alias 資訊。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q14",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "要列出資料集 IBM.SURVEY.RESULTS 的基本屬性，正確的 TSO 命令語法是哪一個？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "LISTDS ('IBM.SURVEY.RESULTS')"
+      },
+      {
+        "id": "b",
+        "text": "LIST 'IBM.SURVEY.RESULTS'"
+      },
+      {
+        "id": "c",
+        "text": "LISTDS (IBM.SURVEY.RESULTS)"
+      },
+      {
+        "id": "d",
+        "text": "LISTALC IBM.SURVEY.RESULTS"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "LISTDS ('IBM.SURVEY.RESULTS') 是列出指定資料集基本屬性的正確語法。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q15",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "輸入 TSO commands 的三種方法是哪一組？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "在 Dialog panel 的 command option line、ISPF Primary Option Menu option 5，以及 command prompt"
+      },
+      {
+        "id": "b",
+        "text": "ISPF Primary Option Menu option 6、ISPF panel 的 command option line，以及 command prompt"
+      },
+      {
+        "id": "c",
+        "text": "ISPF Primary Option Menu option 6、Dialog panel 的 command option line，以及 command prompt"
+      },
+      {
+        "id": "d",
+        "text": "ISPF panel 的 command option line、command prompt，以及 ISPF Primary Option Menu option 5"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "TSO commands 可從 ISPF option 6、ISPF panel 的 command option line，以及 command prompt 輸入。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q16",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "在 logon screen 上輸入 userid 時，TSOID01、tsoid01、TSoid01 哪些大小寫寫法有效？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "全部都無效"
+      },
+      {
+        "id": "b",
+        "text": "全部都有效"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "TSO userid 在此情境中不區分大小寫，因此三種大小寫寫法都有效。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q17",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "結束 ISPF 後，TSO session 目前處於什麼狀態？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "TSO ABEND"
+      },
+      {
+        "id": "b",
+        "text": "TSO 仍在執行"
+      },
+      {
+        "id": "c",
+        "text": "TSO 已登出"
+      },
+      {
+        "id": "d",
+        "text": "TSO 已中斷連線"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "結束 ISPF 不等於登出 TSO；回到 ready mode 時 TSO session 仍在執行。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q18",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "哪個 TSO 命令會 deallocate 不再需要的資料集？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "CLEAN"
+      },
+      {
+        "id": "b",
+        "text": "FREE"
+      },
+      {
+        "id": "c",
+        "text": "UNALLOCATE"
+      },
+      {
+        "id": "d",
+        "text": "REMOVE"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "FREE 命令用來釋放或 deallocate 不再需要的資料集配置。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q19",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "找到特定字詞後，若要不重新輸入字串而重複同一個搜尋，應使用什麼？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "rchar"
+      },
+      {
+        "id": "b",
+        "text": "rsearch"
+      },
+      {
+        "id": "c",
+        "text": "locate"
+      },
+      {
+        "id": "d",
+        "text": "rfind"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "explanation": "RFIND 會重複上一個 FIND 搜尋；在題目中以 rfind 表示。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q20",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "哪個 prefix area 命令會新增六列空白列？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A6"
+      },
+      {
+        "id": "b",
+        "text": "I6"
+      },
+      {
+        "id": "c",
+        "text": "A,6"
+      },
+      {
+        "id": "d",
+        "text": "I,6"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "I6 表示 insert 6 lines，也就是插入六列空白列。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q21",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "在練習中成功登入 TSO 後，畫面顯示哪個 panel？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "IBM Education"
+      },
+      {
+        "id": "b",
+        "text": "ISPF Primary Option Menu"
+      },
+      {
+        "id": "c",
+        "text": "IBM Training"
+      },
+      {
+        "id": "d",
+        "text": "Command prompt"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "成功登入 TSO 並進入 ISPF 後，會顯示 ISPF Primary Option Menu。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q22",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "哪一類資料集可以包含 members？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "PDS 與 PDSE"
+      },
+      {
+        "id": "b",
+        "text": "VSAM 與 PDS"
+      },
+      {
+        "id": "c",
+        "text": "PDSE 與 Sequential"
+      },
+      {
+        "id": "d",
+        "text": "PDS 與 VSAM"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": "PDS 與 PDSE 都是可包含 members 的資料集型態。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q23",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "哪個 TSO 命令會回收被刪除或更新的 members 原先占用、目前可重新使用的浪費空間？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Restate"
+      },
+      {
+        "id": "b",
+        "text": "Consolidate"
+      },
+      {
+        "id": "c",
+        "text": "Contract"
+      },
+      {
+        "id": "d",
+        "text": "Compress"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "explanation": "Compress 會整理 PDS 空間，回收刪除或更新 members 後留下的可用空間。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q24",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "關於 TSO commands，下列哪些敘述正確？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "TSO commands 區分大小寫"
+      },
+      {
+        "id": "b",
+        "text": "TSO commands 包含 positional operands 與 required operands"
+      },
+      {
+        "id": "c",
+        "text": "TSO commands 可從任何 ISPF screen 輸入"
+      },
+      {
+        "id": "d",
+        "text": "TSO commands 不區分大小寫"
+      },
+      {
+        "id": "e",
+        "text": "TSO command HELP LISTDS ALL 會提供 LISTDS command 的完整資訊"
+      }
+    ],
+    "correctChoiceIds": [
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "TSO commands 不區分大小寫，可包含 positional 與 required operands；在 ISPF screen 的 command line 可輸入 TSO commands，而 HELP LISTDS ALL 可查看 LISTDS 的完整說明。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+    }
+  },
+  {
+    "id": "badge-quiz-q25",
+    "section": "徽章測驗",
+    "lessonSlug": "badge-quiz",
+    "lessonTitle": "Badge Quiz 題庫",
+    "sourceType": "moodle-quiz",
+    "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+    "sourceReference": "badge-quiz",
+    "prompt": "成功登入 TSO 後，畫面出現三個星號（***）時，正確動作是什麼？",
+    "choices": [
+      {
+        "id": "a",
+        "text": "按空白鍵"
+      },
+      {
+        "id": "b",
+        "text": "按 Enter 鍵"
+      },
+      {
+        "id": "c",
+        "text": "輸入 continue"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": "三個星號（***）通常表示系統等待使用者確認；此時按 Enter 鍵繼續。",
+    "review": {
+      "label": "回到課程總覽",
+      "coursePath": "/videos/",
+      "videoEntryId": "badge-quiz",
+      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
     }
   }
 ]

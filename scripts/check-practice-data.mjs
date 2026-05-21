@@ -6,7 +6,8 @@ const sourceInventory = JSON.parse(await readFile('data/practice-sources.json', 
 const findings = []
 const questionIds = new Set()
 const sourceIds = new Set()
-const mojibakeHints = ['�', '憭批', '銝餅', '蝟餌', '隤脩', '摰']
+const learnerFacingChineseFields = ['section', 'lessonTitle', 'prompt', 'explanation']
+const mojibakeHints = ['�', '嚙', '剜', '', '', '方', '堆']
 
 function checkTextEncoding(label, fieldName, value) {
   if (typeof value !== 'string') return
@@ -15,6 +16,12 @@ function checkTextEncoding(label, fieldName, value) {
       findings.push(`${label}: ${fieldName} appears to contain mojibake text.`)
       return
     }
+  }
+}
+
+function checkChinese(label, fieldName, value) {
+  if (!/[\u4e00-\u9fff]/.test(value)) {
+    findings.push(`${label}: ${fieldName} must include Traditional Chinese learner-facing text.`)
   }
 }
 
@@ -48,6 +55,7 @@ if (Array.isArray(questions)) {
         findings.push(`${label}: missing string field "${field}".`)
       } else {
         checkTextEncoding(label, field, question[field])
+        if (learnerFacingChineseFields.includes(field)) checkChinese(label, field, question[field])
       }
     }
 
@@ -84,6 +92,7 @@ if (Array.isArray(questions)) {
           findings.push(`${label}: review.${field} is required.`)
         } else {
           checkTextEncoding(label, `review.${field}`, question.review[field])
+          if (['label', 'hint'].includes(field)) checkChinese(label, `review.${field}`, question.review[field])
         }
       }
     }
@@ -99,4 +108,4 @@ if (findings.length > 0) {
   process.exit(1)
 }
 
-console.log(`Practice data checks passed: ${Array.isArray(questions) ? questions.length : 0} question(s), ${sourceInventory.sources.length} source(s).`)
+console.log(`Practice data checks passed: ${Array.isArray(questions) ? questions.length : 0} question(s), ${sourceInventory.sources.length} source(s), Traditional Chinese learner-facing fields verified.`)

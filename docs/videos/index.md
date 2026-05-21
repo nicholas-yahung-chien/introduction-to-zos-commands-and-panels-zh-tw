@@ -14,4 +14,4 @@
 
 - 影片數量已與 live course inventory 比對：共 9 支，沒有發現遺漏影片。
 - Lab 實作頁面共 7 個，對應 Exercise 1-7，沒有發現遺漏 Lab。
-- 題目來源分成 6 個 short quiz 可作靜態學習練習，以及 1 個正式 Badge Quiz 僅保留原課程入口。
+- 題目來源分成 6 個 short quiz 與 1 個 Badge Quiz 題庫，本站已依授權整理為 44 題靜態學習練習；正式 attempt、certificate 與 badge 仍回 IBM Learn 完成。

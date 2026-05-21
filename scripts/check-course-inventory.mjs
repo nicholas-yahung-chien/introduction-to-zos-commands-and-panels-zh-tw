@@ -17,6 +17,10 @@ function expect(label, actual, expected) {
   if (actual !== expected) findings.push(`${label}: expected ${expected}, found ${actual}`)
 }
 
+const expectedStaticPracticeQuestions = assessment.summary.staticPracticeQuestions
+const expectedBadgeCapturedQuestions = assessment.summary.badgeQuizCapturedUniqueQuestions
+const expectedBadgePerAttempt = assessment.summary.badgeQuizQuestionsPerAttempt
+
 expect('manifest sections', manifest.sections.length, 5)
 expect('manifest videos', videos.length, 9)
 expect('manifest labs', labs.length, 7)
@@ -29,11 +33,15 @@ expect('live pages', audit.liveCounts.page, 10)
 expect('live Moodle quizzes', audit.liveCounts.quiz, 2)
 expect('live H5P activities', audit.liveCounts.hvp, 5)
 
-expect('static practice questions', practiceQuestions.length, 19)
-expect('assessment static practice questions', assessment.summary.staticPracticeQuestions, 19)
-expect('assessment badge quiz question count', assessment.summary.formalBadgeQuizQuestions, 20)
-expect('assessment total known quiz questions', assessment.summary.totalKnownQuizQuestionsIncludingBadge, 39)
+expect('static practice questions', practiceQuestions.length, expectedStaticPracticeQuestions)
+expect('assessment static practice questions', assessment.summary.staticPracticeQuestions, 44)
+expect('assessment static practice sources', assessment.summary.staticPracticeSources, 7)
+expect('assessment badge quiz questions per attempt', expectedBadgePerAttempt, 20)
+expect('assessment badge quiz captured unique questions', expectedBadgeCapturedQuestions, 25)
+expect('assessment total known static quiz questions', assessment.summary.totalKnownQuizQuestionsIncludingBadge, expectedStaticPracticeQuestions)
 expect('assessment lab pages', assessment.summary.labPages, 7)
+expect('audit badge quiz captured unique questions', audit.quizQuestionSources.badgeQuizCapturedUniqueQuestions, expectedBadgeCapturedQuestions)
+expect('audit static practice questions', audit.quizQuestionSources.staticPracticeQuestions, expectedStaticPracticeQuestions)
 
 if (audit.manifestComparison.missingFromManifest.length > 0) {
   findings.push(`live activities missing from manifest: ${audit.manifestComparison.missingFromManifest.map((item) => item.href).join(', ')}`)
@@ -48,4 +56,4 @@ if (findings.length > 0) {
   process.exit(1)
 }
 
-console.log('Course inventory checks passed: 33 activities, 9 videos, 7 labs, 19 static practice questions, 20 formal badge quiz questions.')
+console.log(`Course inventory checks passed: 33 activities, 9 videos, 7 labs, ${expectedStaticPracticeQuestions} static practice questions, ${expectedBadgeCapturedQuestions} captured Badge Quiz questions, ${expectedBadgePerAttempt} questions per Badge Quiz attempt.`)

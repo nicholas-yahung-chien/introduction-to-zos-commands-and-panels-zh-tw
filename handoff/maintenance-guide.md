@@ -61,7 +61,15 @@ https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-
 
 本站練習題只作學習確認，不保存作答紀錄，也不替代 badge quiz。
 
-重新盤點後，靜態練習應維持 19 題：`Short quiz: Exercises 1 and 2` 的 8 題 Moodle quiz，加上 Exercises 3-7 的 11 題 H5P short quiz。Badge Quiz 另以 `data/assessment-inventory.json` 記錄為 20 題正式評量，不在本站重製題目或答案。
+重新盤點與授權確認後，靜態練習應維持 44 題：`Short quiz: Exercises 1 and 2` 的 8 題 Moodle quiz、Exercises 3-7 的 11 題 H5P short quiz，加上 Badge Quiz completed review 中可見且合併去重的 25 題。
+
+Badge Quiz 每次正式 attempt 顯示 20 題；本站依 IBM 團隊主管授權重製題目作靜態練習，正式成績、attempt、certificate 與 badge 仍回 IBM Learn 保存。
+
+若重新擷取或翻譯題庫，請先更新 `data/captured/badge-quiz-questions.json`，再執行：
+
+```powershell
+npm run practice:rebuild
+```
 
 修改題庫後請執行：
 

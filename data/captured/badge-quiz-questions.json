@@ -1,0 +1,686 @@
+{
+  "capturedAt": "2026-05-21T12:19:35.039Z",
+  "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+  "note": "Captured from authenticated completed Badge Quiz review pages after user confirmed IBM team lead authorization to reproduce Badge Quiz content on 2026-05-21.",
+  "attempts": [
+    {
+      "attemptIndex": 1,
+      "reviewUrl": "https://learn.ibm.com/mod/quiz/review.php?attempt=REDACTED&cmid=348590",
+      "questionCount": 20
+    },
+    {
+      "attemptIndex": 2,
+      "reviewUrl": "https://learn.ibm.com/mod/quiz/review.php?attempt=REDACTED&cmid=348590",
+      "questionCount": 20
+    }
+  ],
+  "perAttemptQuestionCount": [
+    20,
+    20
+  ],
+  "uniqueQuestionCount": 25,
+  "questions": [
+    {
+      "prompt": "Which TSO command is used to inform the system how you want to use your terminal?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "EDIT",
+          "isCorrect": false
+        },
+        {
+          "text": "CLIST",
+          "isCorrect": false
+        },
+        {
+          "text": "PROFILE",
+          "isCorrect": true
+        },
+        {
+          "text": "TERM",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "PROFILE"
+      ],
+      "rightAnswer": "PROFILE"
+    },
+    {
+      "prompt": "Using the following information, what is the correct syntax of the TSO command to allocate a new PDS? User ID: IBM Data set name: BUILDS.SERVERS Block length: 100 bytes Logical record length: 80 Data control block size: 300 2 directory block Fixed block records",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "ALLOC DA(BUILDS.SERVERS) DSORG(PDS) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)",
+          "isCorrect": false
+        },
+        {
+          "text": "ALLOC DA(BUILDS.SERVERS) DSORG(PDSE) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)",
+          "isCorrect": false
+        },
+        {
+          "text": "ALLOC DA(BUILDS.SERVERS) DSORG(PO) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)",
+          "isCorrect": true
+        },
+        {
+          "text": "ALLOC DA(IBM.BUILDS.SERVERS) DSORG(PO) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "ALLOC DA(BUILDS.SERVERS) DSORG(PO) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)"
+      ],
+      "rightAnswer": "ALLOC DA(BUILDS.SERVERS) DSORG(PO) BLOCK(100) LRECL(80) BLKSIZE(300) DIR(2) RECFM(F,B) NEW TRACKS SPACE(2,3)"
+    },
+    {
+      "prompt": "What is it called when you establish a link to a data set?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "Assign",
+          "isCorrect": false
+        },
+        {
+          "text": "Allocate",
+          "isCorrect": true
+        },
+        {
+          "text": "Configure",
+          "isCorrect": false
+        },
+        {
+          "text": "Create",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "Allocate"
+      ],
+      "rightAnswer": "Allocate"
+    },
+    {
+      "prompt": "Which prefix line command copies data from specified columns of one or more source records to the corresponding columns of one or more existing records?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "C",
+          "isCorrect": false
+        },
+        {
+          "text": "R",
+          "isCorrect": false
+        },
+        {
+          "text": "M",
+          "isCorrect": false
+        },
+        {
+          "text": "O",
+          "isCorrect": true
+        }
+      ],
+      "correctChoiceTexts": [
+        "O"
+      ],
+      "rightAnswer": "O"
+    },
+    {
+      "prompt": "When in a data set on the edit panel, what is entered in the prefix area to move a block of lines?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "MM on the first line, MM on the last line, and F (following) or P (preceding) on the line where you want to move the lines to",
+          "isCorrect": false
+        },
+        {
+          "text": "MM on the first line, MM on the last line, and A (after) or B (before) on the line where you want to move the lines to",
+          "isCorrect": true
+        },
+        {
+          "text": "M on the first line, M on the last line, and F (following) or P (preceding) on the line where you want to move the lines to",
+          "isCorrect": false
+        },
+        {
+          "text": "M on the first line, M on the last line, and A (after) or B (before) on the line where you want to move the lines to",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "MM on the first line, MM on the last line, and A (after) or B (before) on the line where you want to move the lines to"
+      ],
+      "rightAnswer": "MM on the first line, MM on the last line, and A (after) or B (before) on the line where you want to move the lines to"
+    },
+    {
+      "prompt": "What is the correct procedure to logoff TSO?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "Enter the word disconnect on Primary Option Menu",
+          "isCorrect": false
+        },
+        {
+          "text": "Enter logoff when in 'ready' mode",
+          "isCorrect": true
+        },
+        {
+          "text": "Enter the word logoff on the Primary Option Menu",
+          "isCorrect": false
+        },
+        {
+          "text": "After ending the ISPF session, enter disconnect",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "Enter logoff when in 'ready' mode"
+      ],
+      "rightAnswer": "Enter logoff when in 'ready' mode"
+    },
+    {
+      "prompt": "In a list of datasets returned by ISPF dataset list function (3.4), which primary command locates and positions the cursor to the first dataset in the list starting with characters 'PROD':",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "L PROD",
+          "isCorrect": true
+        },
+        {
+          "text": "F PROD",
+          "isCorrect": false
+        },
+        {
+          "text": "S PROD",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "L PROD"
+      ],
+      "rightAnswer": "L PROD"
+    },
+    {
+      "prompt": "When searching for a word in a data set, which function key can be used to locate the word again?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "F5",
+          "isCorrect": true
+        },
+        {
+          "text": "F4",
+          "isCorrect": false
+        },
+        {
+          "text": "F10",
+          "isCorrect": false
+        },
+        {
+          "text": "F2",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "F5"
+      ],
+      "rightAnswer": "F5"
+    },
+    {
+      "prompt": "What are the two ways to end the ISPF session?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "Enter the word END on the command line of the ISPF Primary Option Menu or press the F12 (Cancel) key",
+          "isCorrect": false
+        },
+        {
+          "text": "Press the F3 (Exit) key and enter Logoff on the Primary Option Menu",
+          "isCorrect": false
+        },
+        {
+          "text": "Press the F12 (Cancel) key and enter Logoff on the Primary Option Menu",
+          "isCorrect": false
+        },
+        {
+          "text": "Enter the letter X on the command line of the ISPF Primary Option Menu or press the F12 (Cancel) key",
+          "isCorrect": true
+        }
+      ],
+      "correctChoiceTexts": [
+        "Enter the letter X on the command line of the ISPF Primary Option Menu or press the F12 (Cancel) key"
+      ],
+      "rightAnswer": "Enter the letter X on the command line of the ISPF Primary Option Menu or press the F12 (Cancel) key"
+    },
+    {
+      "prompt": "When in a data set on the edit panel, what is entered in the prefix area to add three more lines to enter data?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "A3",
+          "isCorrect": false
+        },
+        {
+          "text": "13",
+          "isCorrect": false
+        },
+        {
+          "text": "I3",
+          "isCorrect": true
+        },
+        {
+          "text": "A 1-3",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "I3"
+      ],
+      "rightAnswer": "I3"
+    },
+    {
+      "prompt": "Given a data set name of \"IBM.Z.MAINFRAME\", what is the low level qualifier (LLQ)?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "Z.MAINFRAME",
+          "isCorrect": false
+        },
+        {
+          "text": "Z",
+          "isCorrect": false
+        },
+        {
+          "text": "IBM",
+          "isCorrect": false
+        },
+        {
+          "text": "MAINFRAME",
+          "isCorrect": true
+        }
+      ],
+      "correctChoiceTexts": [
+        "MAINFRAME"
+      ],
+      "rightAnswer": "MAINFRAME"
+    },
+    {
+      "prompt": "What is the correct syntax to replace all instances of the word mainframes to servers in a data set?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "REP MAINFRAMES SERVERS ALL",
+          "isCorrect": false
+        },
+        {
+          "text": "CH,MAINFRAMES,SERVERS,ALL",
+          "isCorrect": false
+        },
+        {
+          "text": "C MAINFRAMES SERVERS ALL",
+          "isCorrect": true
+        }
+      ],
+      "correctChoiceTexts": [
+        "C MAINFRAMES SERVERS ALL"
+      ],
+      "rightAnswer": "C MAINFRAMES SERVERS ALL"
+    },
+    {
+      "prompt": "What is the correct syntax of the command to display the catalog alias entry associated with an HLQ of STUDENT?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "LISTCAT ENT('STUDENT') ALIAS ALL",
+          "isCorrect": true
+        },
+        {
+          "text": "LISTCAT ENT(STUDENT) ALIAS ALL",
+          "isCorrect": false
+        },
+        {
+          "text": "LIST ALL ALIAS ('STUDENT')",
+          "isCorrect": false
+        },
+        {
+          "text": "LISTALC ENT('STUDENT') ALAIS ALL",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "LISTCAT ENT('STUDENT') ALIAS ALL"
+      ],
+      "rightAnswer": "LISTCAT ENT('STUDENT') ALIAS ALL"
+    },
+    {
+      "prompt": "What is the correct syntax of the TSO command to list the basic attributes of data set IBM.SURVEY.RESULTS?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "LISTDS ('IBM.SURVEY.RESULTS')",
+          "isCorrect": true
+        },
+        {
+          "text": "LIST 'IBM.SURVEY.RESULTS'",
+          "isCorrect": false
+        },
+        {
+          "text": "LISTDS (IBM.SURVEY.RESULTS)",
+          "isCorrect": false
+        },
+        {
+          "text": "LISTALC IBM.SURVEY.RESULTS",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "LISTDS ('IBM.SURVEY.RESULTS')"
+      ],
+      "rightAnswer": "LISTDS ('IBM.SURVEY.RESULTS')"
+    },
+    {
+      "prompt": "What are the three methods of entering TSO commands?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "On the command option line of the Dialog panel, ISPF Primary Option Menu-Option 5, and from the command prompt",
+          "isCorrect": false
+        },
+        {
+          "text": "ISPF Primary Option Menu-Option 6, on the command option line of the ISPF panel, and from the command prompt",
+          "isCorrect": true
+        },
+        {
+          "text": "ISPF Primary Option Menu-Option 6, on the command option line of the Dialog panel, and from the command prompt",
+          "isCorrect": false
+        },
+        {
+          "text": "On the command option line of the ISPF panel, from the command prompt, and on the ISPF Primary Option Menu-Option 5",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "ISPF Primary Option Menu-Option 6, on the command option line of the ISPF panel, and from the command prompt"
+      ],
+      "rightAnswer": "ISPF Primary Option Menu-Option 6, on the command option line of the ISPF panel, and from the command prompt"
+    },
+    {
+      "prompt": "What is a valid method of spelling and capitalizing your userid on the logon screen?: TSOID01 tsoid01 TSoid01",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "None of them",
+          "isCorrect": false
+        },
+        {
+          "text": "All of them",
+          "isCorrect": true
+        }
+      ],
+      "correctChoiceTexts": [
+        "All of them"
+      ],
+      "rightAnswer": "All of them"
+    },
+    {
+      "prompt": "After ending ISPF, what is the current state of the TSO session?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "TSO ABENDs",
+          "isCorrect": false
+        },
+        {
+          "text": "TSO is still running",
+          "isCorrect": true
+        },
+        {
+          "text": "TSO logs off",
+          "isCorrect": false
+        },
+        {
+          "text": "TSO is disconnected",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "TSO is still running"
+      ],
+      "rightAnswer": "TSO is still running"
+    },
+    {
+      "prompt": "Which TSO command will deallocate data sets no longer needed?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "CLEAN",
+          "isCorrect": false
+        },
+        {
+          "text": "FREE",
+          "isCorrect": true
+        },
+        {
+          "text": "UNALLOCATE",
+          "isCorrect": false
+        },
+        {
+          "text": "REMOVE",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "FREE"
+      ],
+      "rightAnswer": "FREE"
+    },
+    {
+      "prompt": "To repeat a search after locating a specific word or phrase, what is used to repeat the search without reentering the character string?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "rchar",
+          "isCorrect": false
+        },
+        {
+          "text": "rsearch",
+          "isCorrect": false
+        },
+        {
+          "text": "locate",
+          "isCorrect": false
+        },
+        {
+          "text": "rfind",
+          "isCorrect": true
+        }
+      ],
+      "correctChoiceTexts": [
+        "rfind"
+      ],
+      "rightAnswer": "rfind"
+    },
+    {
+      "prompt": "Which command in the prefix area will add six additional lines?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 1,
+      "choices": [
+        {
+          "text": "A6",
+          "isCorrect": false
+        },
+        {
+          "text": "I6",
+          "isCorrect": true
+        },
+        {
+          "text": "A,6",
+          "isCorrect": false
+        },
+        {
+          "text": "I,6",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "I6"
+      ],
+      "rightAnswer": "I6"
+    },
+    {
+      "prompt": "During the exercise, you were instructed to logon TSO. Which panel was displayed after successfully logging on?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 2,
+      "choices": [
+        {
+          "text": "IBM Education",
+          "isCorrect": false
+        },
+        {
+          "text": "ISPF Primary Option Menu",
+          "isCorrect": true
+        },
+        {
+          "text": "IBM Training",
+          "isCorrect": false
+        },
+        {
+          "text": "Command prompt",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "ISPF Primary Option Menu"
+      ],
+      "rightAnswer": "ISPF Primary Option Menu"
+    },
+    {
+      "prompt": "Which type of data sets contain members?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 2,
+      "choices": [
+        {
+          "text": "PDS and PDSE",
+          "isCorrect": true
+        },
+        {
+          "text": "VSAM and PDS",
+          "isCorrect": false
+        },
+        {
+          "text": "PDSE and Sequential",
+          "isCorrect": false
+        },
+        {
+          "text": "PDS and VSAM",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "PDS and PDSE"
+      ],
+      "rightAnswer": "PDS and PDSE"
+    },
+    {
+      "prompt": "What TSO command recovers waste space that was formerly occupied by deleted or updated members and is now available for use again?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 2,
+      "choices": [
+        {
+          "text": "Restate",
+          "isCorrect": false
+        },
+        {
+          "text": "Consolidate",
+          "isCorrect": false
+        },
+        {
+          "text": "Contract",
+          "isCorrect": false
+        },
+        {
+          "text": "Compress",
+          "isCorrect": true
+        }
+      ],
+      "correctChoiceTexts": [
+        "Compress"
+      ],
+      "rightAnswer": "Compress"
+    },
+    {
+      "prompt": "Select the correct statement(s) regarding TSO commands:",
+      "type": "multichoice",
+      "firstSeenInAttempt": 2,
+      "choices": [
+        {
+          "text": "TSO commands are case sensitive",
+          "isCorrect": false
+        },
+        {
+          "text": "TSO commands contain positional and required operands",
+          "isCorrect": true
+        },
+        {
+          "text": "TSO commands can be entered from any ISPF screen",
+          "isCorrect": true
+        },
+        {
+          "text": "TSO commands are not case sensitive",
+          "isCorrect": true
+        },
+        {
+          "text": "TSO command HELP LISTDS ALL provides all information regarding the LISTDS command",
+          "isCorrect": true
+        }
+      ],
+      "correctChoiceTexts": [
+        "TSO commands contain positional and required operands",
+        "TSO commands can be entered from any ISPF screen",
+        "TSO commands are not case sensitive",
+        "TSO command HELP LISTDS ALL provides all information regarding the LISTDS command"
+      ],
+      "rightAnswer": "TSO commands are not case sensitive , TSO command HELP LISTDS ALL provides all information regarding the LISTDS command , TSO commands contain positional and required operands , TSO commands can be entered from any ISPF screen"
+    },
+    {
+      "prompt": "After successfully logging on to TSO, what is the correct action to perform when three asterisks (***) appear on the screen?",
+      "type": "multichoice",
+      "firstSeenInAttempt": 2,
+      "choices": [
+        {
+          "text": "Press the space bar",
+          "isCorrect": false
+        },
+        {
+          "text": "Press the enter key",
+          "isCorrect": true
+        },
+        {
+          "text": "Enter continue",
+          "isCorrect": false
+        }
+      ],
+      "correctChoiceTexts": [
+        "Press the enter key"
+      ],
+      "rightAnswer": "Press the enter key"
+    }
+  ]
+}
