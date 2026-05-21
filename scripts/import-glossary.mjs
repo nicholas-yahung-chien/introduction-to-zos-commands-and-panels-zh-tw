@@ -222,7 +222,7 @@ const letterLinks = [...finalByLetter.keys()]
   .map((letter) => `- [${letter.toUpperCase()}](./${letter})`)
   .join('\n')
 
-await writeFile(path.join(targetGlossary, 'index.md'), `# IBM Z 詞彙表\n\n本詞彙表整理 IBM Z 與 z/OS 課程中提及或直接相關的英文術語，並搭配繁體中文解釋。完整來源詞彙庫仍保留於本機參考資料中；正式網站僅列出本課程學習者需要查閱的項目。\n\n目前收錄 ${finalEntries.length} 個課程相關詞彙。\n\n## 依字母查閱\n\n${letterLinks}\n`, 'utf8')
+await writeFile(path.join(targetGlossary, 'index.md'), `# IBM Z 詞彙表\n\n本詞彙表整理 IBM Z 與 z/OS 課程中提及或直接相關的英文術語，並搭配繁體中文解釋。詞彙說明參考 IBM Redbooks 維護的 [Zikipedia](https://ibmredbooks.github.io/zikipedia/) 與 IBM Z、z/OS 相關公開技術文件，再依本課程的命令、面板與資料集情境整理。\n\n目前收錄 ${finalEntries.length} 個課程相關詞彙。\n\n## 依字母查閱\n\n${letterLinks}\n`, 'utf8')
 
 if (existsSync(path.join(sourceGlossary, 'README.md'))) {
   const readme = await readFile(path.join(sourceGlossary, 'README.md'), 'utf8')
