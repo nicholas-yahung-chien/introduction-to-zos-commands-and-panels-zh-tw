@@ -237,6 +237,159 @@ const badgeTranslations = [
   }
 ]
 
+const badgeQuestionPlacement = [
+  {
+    section: 'TSO 命令',
+    lessonSlug: 'tso-commands',
+    lessonTitle: 'TSO PROFILE 設定',
+    review: review('/course/tso-commands', '回到 TSO 命令單元複習 PROFILE command 與終端機設定。', '回到 TSO 命令', '1_l7ew4gle')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: '配置 PDS',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 PDS 配置與 ALLOC 語法。', '回到資料集操作', '1_8c0kkd2m')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: '資料集配置',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 allocate 與資料集建立概念。', '回到資料集操作', '1_8c0kkd2m')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: 'ISPF 編輯器行命令',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 ISPF editor prefix line commands。', '回到資料集操作', '1_2knifm0p')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: 'ISPF 編輯器行命令',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 ISPF editor 的搬移與區塊命令。', '回到資料集操作', '1_2knifm0p')
+  },
+  {
+    section: 'z/OS 命令與面板入門',
+    lessonSlug: 'introduction-to-commands-and-panels',
+    lessonTitle: 'TSO session 登出',
+    review: review('/course/introduction-to-commands-and-panels', '回到命令與面板入門單元複習 TSO session 與 logoff 流程。', '回到命令與面板入門', '1_mf7bsgi9')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: 'ISPF Data Set List 清單',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 ISPF 3.4 Data Set List 與 primary command。', '回到資料集操作', '1_8c0kkd2m')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: 'ISPF editor 搜尋',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 FIND、RFIND 與 function key。', '回到資料集操作', '1_2knifm0p')
+  },
+  {
+    section: 'z/OS 命令與面板入門',
+    lessonSlug: 'introduction-to-commands-and-panels',
+    lessonTitle: 'ISPF session 結束',
+    review: review('/course/introduction-to-commands-and-panels', '回到命令與面板入門單元複習 ISPF Primary Option Menu 與 session 結束方式。', '回到命令與面板入門', '1_mf7bsgi9')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: 'ISPF editor 插入列',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 ISPF editor prefix area 的插入列命令。', '回到資料集操作', '1_2knifm0p')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: '資料集 qualifier',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習資料集命名、HLQ 與 LLQ。', '回到資料集操作', '1_8c0kkd2m')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: 'ISPF editor 變更命令',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 CHANGE command 與 editor primary commands。', '回到資料集操作', '1_2knifm0p')
+  },
+  {
+    section: 'TSO 命令',
+    lessonSlug: 'tso-commands',
+    lessonTitle: 'LISTCAT 與 catalog alias',
+    review: review('/course/tso-commands', '回到 TSO 命令單元複習 LISTCAT 與 catalog alias。', '回到 TSO 命令', '1_l7ew4gle')
+  },
+  {
+    section: 'TSO 命令',
+    lessonSlug: 'tso-commands',
+    lessonTitle: 'LISTDS 資料集屬性',
+    review: review('/course/tso-commands', '回到 TSO 命令單元複習 LISTDS 與資料集屬性查詢。', '回到 TSO 命令', '1_l7ew4gle')
+  },
+  {
+    section: 'TSO 命令',
+    lessonSlug: 'tso-commands',
+    lessonTitle: '輸入 TSO commands',
+    review: review('/course/tso-commands', '回到 TSO 命令單元複習輸入 TSO commands 的三種方式。', '回到 TSO 命令', '1_l7ew4gle')
+  },
+  {
+    section: 'z/OS 命令與面板入門',
+    lessonSlug: 'introduction-to-commands-and-panels',
+    lessonTitle: 'TSO logon 登入',
+    review: review('/course/introduction-to-commands-and-panels', '回到命令與面板入門單元複習 TSO logon 與 userid 輸入。', '回到命令與面板入門', '1_mf7bsgi9')
+  },
+  {
+    section: 'z/OS 命令與面板入門',
+    lessonSlug: 'introduction-to-commands-and-panels',
+    lessonTitle: 'ISPF 與 TSO session',
+    review: review('/course/introduction-to-commands-and-panels', '回到命令與面板入門單元複習 ISPF 結束後的 TSO ready mode。', '回到命令與面板入門', '1_mf7bsgi9')
+  },
+  {
+    section: 'TSO 命令',
+    lessonSlug: 'tso-commands',
+    lessonTitle: 'FREE 釋放命令',
+    review: review('/course/tso-commands', '回到 TSO 命令單元複習 FREE command 與 deallocate。', '回到 TSO 命令', '1_l7ew4gle')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: 'RFIND 搜尋命令',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 FIND 與 RFIND 搜尋操作。', '回到資料集操作', '1_2knifm0p')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: 'ISPF editor 插入列',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 ISPF editor prefix area 的插入列命令。', '回到資料集操作', '1_2knifm0p')
+  },
+  {
+    section: 'z/OS 命令與面板入門',
+    lessonSlug: 'introduction-to-commands-and-panels',
+    lessonTitle: 'TSO logon 後的 ISPF',
+    review: review('/course/introduction-to-commands-and-panels', '回到命令與面板入門單元複習 TSO logon 後進入 ISPF Primary Option Menu。', '回到命令與面板入門', '1_mf7bsgi9')
+  },
+  {
+    section: '處理資料集',
+    lessonSlug: 'working-with-data-sets',
+    lessonTitle: 'PDS 與 PDSE members',
+    review: review('/course/working-with-data-sets', '回到處理資料集單元複習 PDS、PDSE 與 members。', '回到資料集操作', '1_8c0kkd2m')
+  },
+  {
+    section: 'TSO 命令',
+    lessonSlug: 'tso-commands',
+    lessonTitle: 'COMPRESS 空間回收命令',
+    review: review('/course/tso-commands', '回到 TSO 命令單元複習 COMPRESS command 與 PDS 空間回收。', '回到 TSO 命令', '1_l7ew4gle')
+  },
+  {
+    section: 'TSO 命令',
+    lessonSlug: 'tso-commands',
+    lessonTitle: 'TSO command 基礎',
+    review: review('/course/tso-commands', '回到 TSO 命令單元複習 TSO command 語法與使用方式。', '回到 TSO 命令', '1_l7ew4gle')
+  },
+  {
+    section: 'z/OS 命令與面板入門',
+    lessonSlug: 'introduction-to-commands-and-panels',
+    lessonTitle: 'TSO logon 畫面',
+    review: review('/course/introduction-to-commands-and-panels', '回到命令與面板入門單元複習 TSO logon 後的畫面操作。', '回到命令與面板入門', '1_mf7bsgi9')
+  }
+]
+
 const currentQuestions = JSON.parse(await readFile(practicePath, 'utf8'))
 const sources = JSON.parse(await readFile(sourcesPath, 'utf8'))
 const assessment = JSON.parse(await readFile(assessmentPath, 'utf8'))
@@ -267,7 +420,9 @@ const translatedExisting = shortQuizQuestions.map((question) => {
 
 const badgeQuestions = badgeCapture.questions.map((capturedQuestion, index) => {
   const translation = badgeTranslations[index]
+  const placement = badgeQuestionPlacement[index]
   assert(capturedQuestion.choices.length === translation.choices.length, `Badge question ${index + 1} choice count differs`)
+  assert(placement, `Badge question ${index + 1} is missing course placement`)
 
   const choices = capturedQuestion.choices.map((choice, choiceIndex) => ({
     id: choiceIds[choiceIndex],
@@ -276,9 +431,9 @@ const badgeQuestions = badgeCapture.questions.map((capturedQuestion, index) => {
 
   return {
     id: `badge-quiz-q${index + 1}`,
-    section: '徽章測驗',
-    lessonSlug: 'badge-quiz',
-    lessonTitle: 'Badge Quiz 題庫',
+    section: placement.section,
+    lessonSlug: placement.lessonSlug,
+    lessonTitle: placement.lessonTitle,
     sourceType: 'moodle-quiz',
     sourceUrl: 'https://learn.ibm.com/mod/quiz/view.php?id=348590',
     sourceReference: 'badge-quiz',
@@ -288,7 +443,7 @@ const badgeQuestions = badgeCapture.questions.map((capturedQuestion, index) => {
       .map((choice, choiceIndex) => (choice.isCorrect ? choiceIds[choiceIndex] : null))
       .filter(Boolean),
     explanation: translation.explanation,
-    review: review('/videos/', '回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。', '回到課程總覽', 'badge-quiz')
+    review: placement.review
   }
 })
 
@@ -307,8 +462,11 @@ for (const question of allQuestions) {
 
 for (const source of sources.sources) {
   if (source.id === 'badge-quiz') {
+    source.title = '綜合回顧（Badge Quiz）'
+    source.sectionSlug = 'comprehensive-review'
+    source.sectionTitle = '綜合回顧'
     source.status = 'captured-for-static-practice-authorized'
-    source.intendedUse = 'IBM 團隊主管已授權重製 Badge Quiz 題目；本站作為靜態學習練習，正式成績、attempt 與 badge 仍以 IBM Learn 為準。'
+    source.intendedUse = 'IBM 團隊主管已授權重製 Badge Quiz 題目；本站依題目主題併入一般練習分類，並以綜合回顧標示來源。正式成績、attempt 與 badge 仍以 IBM Learn 為準。'
     source.capturedQuestionCount = badgeQuestions.length
     source.captureNotes = [
       '每次 Badge Quiz attempt 顯示 20 題。',

@@ -31,7 +31,7 @@ GitHub Pages base path 為 `/introduction-to-zos-commands-and-panels-zh-tw/`，C
 - Live course inventory：5 個章節、33 個唯一活動。
 - 影片：9 支，皆已建立 HLS 與字幕。
 - Lab：7 個 Exercise Lab 頁面。
-- 靜態練習：6 個 short quiz 來源與 1 個 Badge Quiz 題庫來源，共 44 題。
+- 靜態練習：6 個 short quiz 來源與 1 個綜合回顧來源（Badge Quiz），共 44 題。
 - Badge Quiz：每次正式 attempt 顯示 20 題；已依 IBM 團隊主管授權，從 2 次 completed review 合併去重收錄 25 題作靜態練習。
 
 盤點資料位於：

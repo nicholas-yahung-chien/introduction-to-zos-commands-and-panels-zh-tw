@@ -719,9 +719,9 @@
   },
   {
     "id": "badge-quiz-q1",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "TSO 命令",
+    "lessonSlug": "tso-commands",
+    "lessonTitle": "TSO PROFILE 設定",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -749,17 +749,17 @@
     ],
     "explanation": "PROFILE 命令可顯示或變更 TSO/E 使用者 profile，其中包含終端機使用方式相關設定。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_l7ew4gle",
+      "hint": "回到 TSO 命令單元複習 PROFILE command 與終端機設定。"
     }
   },
   {
     "id": "badge-quiz-q2",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "配置 PDS",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -787,17 +787,17 @@
     ],
     "explanation": "PDS 的 DSORG 使用 PO，且題目指定的資料集名稱是 BUILDS.SERVERS，不需額外加上 IBM。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_8c0kkd2m",
+      "hint": "回到處理資料集單元複習 PDS 配置與 ALLOC 語法。"
     }
   },
   {
     "id": "badge-quiz-q3",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "資料集配置",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -825,17 +825,17 @@
     ],
     "explanation": "在 TSO/E 中，讓工作階段能使用資料集的動作稱為 allocate。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_8c0kkd2m",
+      "hint": "回到處理資料集單元複習 allocate 與資料集建立概念。"
     }
   },
   {
     "id": "badge-quiz-q4",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF 編輯器行命令",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -863,17 +863,17 @@
     ],
     "explanation": "O 是 overlay line command，用來將來源欄位覆蓋到既有記錄的對應欄位。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_2knifm0p",
+      "hint": "回到處理資料集單元複習 ISPF editor prefix line commands。"
     }
   },
   {
     "id": "badge-quiz-q5",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF 編輯器行命令",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -901,17 +901,17 @@
     ],
     "explanation": "移動區塊時以 MM 標示區塊起訖，再用 A 或 B 指定要放在目標列之後或之前。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_2knifm0p",
+      "hint": "回到處理資料集單元複習 ISPF editor 的搬移與區塊命令。"
     }
   },
   {
     "id": "badge-quiz-q6",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "z/OS 命令與面板入門",
+    "lessonSlug": "introduction-to-commands-and-panels",
+    "lessonTitle": "TSO session 登出",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -939,17 +939,17 @@
     ],
     "explanation": "結束 ISPF 回到 'ready' mode 後，輸入 logoff 才是正確的 TSO 登出方式。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到命令與面板入門",
+      "coursePath": "/course/introduction-to-commands-and-panels",
+      "videoEntryId": "1_mf7bsgi9",
+      "hint": "回到命令與面板入門單元複習 TSO session 與 logoff 流程。"
     }
   },
   {
     "id": "badge-quiz-q7",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF Data Set List 清單",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -973,17 +973,17 @@
     ],
     "explanation": "L PROD 會在清單中 locate 到第一個符合指定字首的位置。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_8c0kkd2m",
+      "hint": "回到處理資料集單元複習 ISPF 3.4 Data Set List 與 primary command。"
     }
   },
   {
     "id": "badge-quiz-q8",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF editor 搜尋",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1011,17 +1011,17 @@
     ],
     "explanation": "F5 對應 RFIND，可重複上一個 FIND 搜尋。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_2knifm0p",
+      "hint": "回到處理資料集單元複習 FIND、RFIND 與 function key。"
     }
   },
   {
     "id": "badge-quiz-q9",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "z/OS 命令與面板入門",
+    "lessonSlug": "introduction-to-commands-and-panels",
+    "lessonTitle": "ISPF session 結束",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1049,17 +1049,17 @@
     ],
     "explanation": "在 ISPF Primary Option Menu 可輸入 X 結束，或使用 F12（Cancel）離開 ISPF。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到命令與面板入門",
+      "coursePath": "/course/introduction-to-commands-and-panels",
+      "videoEntryId": "1_mf7bsgi9",
+      "hint": "回到命令與面板入門單元複習 ISPF Primary Option Menu 與 session 結束方式。"
     }
   },
   {
     "id": "badge-quiz-q10",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF editor 插入列",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1087,17 +1087,17 @@
     ],
     "explanation": "I3 表示 insert 3 lines，也就是插入三列空白列。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_2knifm0p",
+      "hint": "回到處理資料集單元複習 ISPF editor prefix area 的插入列命令。"
     }
   },
   {
     "id": "badge-quiz-q11",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "資料集 qualifier",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1125,17 +1125,17 @@
     ],
     "explanation": "LLQ 是完整資料集名稱最右側的 qualifier，因此是 MAINFRAME。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_8c0kkd2m",
+      "hint": "回到處理資料集單元複習資料集命名、HLQ 與 LLQ。"
     }
   },
   {
     "id": "badge-quiz-q12",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF editor 變更命令",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1159,17 +1159,17 @@
     ],
     "explanation": "ISPF edit 中可用 C 作為 CHANGE 的縮寫，ALL 表示取代所有符合項目。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_2knifm0p",
+      "hint": "回到處理資料集單元複習 CHANGE command 與 editor primary commands。"
     }
   },
   {
     "id": "badge-quiz-q13",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "TSO 命令",
+    "lessonSlug": "tso-commands",
+    "lessonTitle": "LISTCAT 與 catalog alias",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1197,17 +1197,17 @@
     ],
     "explanation": "LISTCAT ENT('STUDENT') ALIAS ALL 會列出 STUDENT 這個 entry 的 alias 資訊。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_l7ew4gle",
+      "hint": "回到 TSO 命令單元複習 LISTCAT 與 catalog alias。"
     }
   },
   {
     "id": "badge-quiz-q14",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "TSO 命令",
+    "lessonSlug": "tso-commands",
+    "lessonTitle": "LISTDS 資料集屬性",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1235,17 +1235,17 @@
     ],
     "explanation": "LISTDS ('IBM.SURVEY.RESULTS') 是列出指定資料集基本屬性的正確語法。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_l7ew4gle",
+      "hint": "回到 TSO 命令單元複習 LISTDS 與資料集屬性查詢。"
     }
   },
   {
     "id": "badge-quiz-q15",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "TSO 命令",
+    "lessonSlug": "tso-commands",
+    "lessonTitle": "輸入 TSO commands",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1273,17 +1273,17 @@
     ],
     "explanation": "TSO commands 可從 ISPF option 6、ISPF panel 的 command option line，以及 command prompt 輸入。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_l7ew4gle",
+      "hint": "回到 TSO 命令單元複習輸入 TSO commands 的三種方式。"
     }
   },
   {
     "id": "badge-quiz-q16",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "z/OS 命令與面板入門",
+    "lessonSlug": "introduction-to-commands-and-panels",
+    "lessonTitle": "TSO logon 登入",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1303,17 +1303,17 @@
     ],
     "explanation": "TSO userid 在此情境中不區分大小寫，因此三種大小寫寫法都有效。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到命令與面板入門",
+      "coursePath": "/course/introduction-to-commands-and-panels",
+      "videoEntryId": "1_mf7bsgi9",
+      "hint": "回到命令與面板入門單元複習 TSO logon 與 userid 輸入。"
     }
   },
   {
     "id": "badge-quiz-q17",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "z/OS 命令與面板入門",
+    "lessonSlug": "introduction-to-commands-and-panels",
+    "lessonTitle": "ISPF 與 TSO session",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1341,17 +1341,17 @@
     ],
     "explanation": "結束 ISPF 不等於登出 TSO；回到 ready mode 時 TSO session 仍在執行。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到命令與面板入門",
+      "coursePath": "/course/introduction-to-commands-and-panels",
+      "videoEntryId": "1_mf7bsgi9",
+      "hint": "回到命令與面板入門單元複習 ISPF 結束後的 TSO ready mode。"
     }
   },
   {
     "id": "badge-quiz-q18",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "TSO 命令",
+    "lessonSlug": "tso-commands",
+    "lessonTitle": "FREE 釋放命令",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1379,17 +1379,17 @@
     ],
     "explanation": "FREE 命令用來釋放或 deallocate 不再需要的資料集配置。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_l7ew4gle",
+      "hint": "回到 TSO 命令單元複習 FREE command 與 deallocate。"
     }
   },
   {
     "id": "badge-quiz-q19",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "RFIND 搜尋命令",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1417,17 +1417,17 @@
     ],
     "explanation": "RFIND 會重複上一個 FIND 搜尋；在題目中以 rfind 表示。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_2knifm0p",
+      "hint": "回到處理資料集單元複習 FIND 與 RFIND 搜尋操作。"
     }
   },
   {
     "id": "badge-quiz-q20",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "ISPF editor 插入列",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1455,17 +1455,17 @@
     ],
     "explanation": "I6 表示 insert 6 lines，也就是插入六列空白列。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_2knifm0p",
+      "hint": "回到處理資料集單元複習 ISPF editor prefix area 的插入列命令。"
     }
   },
   {
     "id": "badge-quiz-q21",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "z/OS 命令與面板入門",
+    "lessonSlug": "introduction-to-commands-and-panels",
+    "lessonTitle": "TSO logon 後的 ISPF",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1493,17 +1493,17 @@
     ],
     "explanation": "成功登入 TSO 並進入 ISPF 後，會顯示 ISPF Primary Option Menu。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到命令與面板入門",
+      "coursePath": "/course/introduction-to-commands-and-panels",
+      "videoEntryId": "1_mf7bsgi9",
+      "hint": "回到命令與面板入門單元複習 TSO logon 後進入 ISPF Primary Option Menu。"
     }
   },
   {
     "id": "badge-quiz-q22",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "處理資料集",
+    "lessonSlug": "working-with-data-sets",
+    "lessonTitle": "PDS 與 PDSE members",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1531,17 +1531,17 @@
     ],
     "explanation": "PDS 與 PDSE 都是可包含 members 的資料集型態。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到資料集操作",
+      "coursePath": "/course/working-with-data-sets",
+      "videoEntryId": "1_8c0kkd2m",
+      "hint": "回到處理資料集單元複習 PDS、PDSE 與 members。"
     }
   },
   {
     "id": "badge-quiz-q23",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "TSO 命令",
+    "lessonSlug": "tso-commands",
+    "lessonTitle": "COMPRESS 空間回收命令",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1569,17 +1569,17 @@
     ],
     "explanation": "Compress 會整理 PDS 空間，回收刪除或更新 members 後留下的可用空間。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_l7ew4gle",
+      "hint": "回到 TSO 命令單元複習 COMPRESS command 與 PDS 空間回收。"
     }
   },
   {
     "id": "badge-quiz-q24",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "TSO 命令",
+    "lessonSlug": "tso-commands",
+    "lessonTitle": "TSO command 基礎",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1614,17 +1614,17 @@
     ],
     "explanation": "TSO commands 不區分大小寫，可包含 positional 與 required operands；在 ISPF screen 的 command line 可輸入 TSO commands，而 HELP LISTDS ALL 可查看 LISTDS 的完整說明。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到 TSO 命令",
+      "coursePath": "/course/tso-commands",
+      "videoEntryId": "1_l7ew4gle",
+      "hint": "回到 TSO 命令單元複習 TSO command 語法與使用方式。"
     }
   },
   {
     "id": "badge-quiz-q25",
-    "section": "徽章測驗",
-    "lessonSlug": "badge-quiz",
-    "lessonTitle": "Badge Quiz 題庫",
+    "section": "z/OS 命令與面板入門",
+    "lessonSlug": "introduction-to-commands-and-panels",
+    "lessonTitle": "TSO logon 畫面",
     "sourceType": "moodle-quiz",
     "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
     "sourceReference": "badge-quiz",
@@ -1648,10 +1648,10 @@
     ],
     "explanation": "三個星號（***）通常表示系統等待使用者確認；此時按 Enter 鍵繼續。",
     "review": {
-      "label": "回到課程總覽",
-      "coursePath": "/videos/",
-      "videoEntryId": "badge-quiz",
-      "hint": "回到影片與活動總覽，依題目主題複習對應單元與原課程 Lab。"
+      "label": "回到命令與面板入門",
+      "coursePath": "/course/introduction-to-commands-and-panels",
+      "videoEntryId": "1_mf7bsgi9",
+      "hint": "回到命令與面板入門單元複習 TSO logon 後的畫面操作。"
     }
   }
 ]

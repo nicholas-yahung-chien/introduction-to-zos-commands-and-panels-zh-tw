@@ -68,13 +68,13 @@
     },
     {
       "id": "badge-quiz",
-      "title": "Badge quiz",
+      "title": "綜合回顧（Badge Quiz）",
       "type": "moodle-quiz",
       "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
-      "sectionSlug": "badge-quiz",
-      "sectionTitle": "Badge Quiz",
+      "sectionSlug": "comprehensive-review",
+      "sectionTitle": "綜合回顧",
       "status": "captured-for-static-practice-authorized",
-      "intendedUse": "IBM 團隊主管已授權重製 Badge Quiz 題目；本站作為靜態學習練習，正式成績、attempt 與 badge 仍以 IBM Learn 為準。",
+      "intendedUse": "IBM 團隊主管已授權重製 Badge Quiz 題目；本站依題目主題併入一般練習分類，並以綜合回顧標示來源。正式成績、attempt 與 badge 仍以 IBM Learn 為準。",
       "capturedQuestionCount": 25,
       "captureNotes": [
         "每次 Badge Quiz attempt 顯示 20 題。",

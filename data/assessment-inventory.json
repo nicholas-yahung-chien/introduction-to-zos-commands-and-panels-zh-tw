@@ -63,7 +63,7 @@
     },
     {
       "id": "badge-quiz",
-      "title": "Badge quiz",
+      "title": "綜合回顧（Badge Quiz）",
       "type": "moodle-quiz",
       "status": "captured-for-static-practice-authorized",
       "capturedQuestionCount": 25,
