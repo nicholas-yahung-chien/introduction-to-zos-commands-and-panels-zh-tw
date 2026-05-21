@@ -21,7 +21,7 @@ export default defineConfig({
     logo: '/ibm-z-mark.svg',
     nav: [
       { text: '課程', link: '/course/' },
-      { text: '影片與活動', link: '/videos/' },
+      { text: '影片', link: '/videos/' },
       { text: '互動練習', link: '/practice/' },
       { text: 'Lab 與互動實作', link: '/labs/' },
       { text: '詞彙表', link: '/glossary/' },
@@ -42,7 +42,8 @@ export default defineConfig({
       {
         text: '資源',
         items: [
-          { text: '影片與活動總覽', link: '/videos/' },
+          { text: '影片總覽', link: '/videos/' },
+          { text: 'Lab 與互動實作', link: '/labs/' },
           { text: '詞彙表', link: '/glossary/' },
           { text: '授權資訊', link: '/license-notes' }
         ]
@@ -52,8 +53,8 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/nicholas-yahung-chien/introduction-to-zos-commands-and-panels-zh-tw' }
     ],
     footer: {
-      message: 'IBM Learn 課程台灣繁體中文靜態學習網站，供 IBM Z enablement 使用。',
-      copyright: 'Prepared for IBM Z enablement use.'
+      message: 'IBM Learn 課程台灣繁體中文化教材，供 IBM Taiwan enablement 使用。',
+      copyright: 'Prepared for IBM Taiwan enablement use.'
     },
     search: {
       provider: 'local'

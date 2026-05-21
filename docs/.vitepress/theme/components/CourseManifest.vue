@@ -51,9 +51,7 @@ function localLink(sectionSlug: string, type: string) {
           </td>
           <td>{{ typeLabel(activity.type) }}</td>
           <td>
-            <a :href="localLink(section.slug, activity.type)">本站頁面</a>
-            <br>
-            <a v-if="activity.sourceUrl" :href="activity.sourceUrl">原課程</a>
+            <a :href="localLink(section.slug, activity.type)">前往</a>
           </td>
         </tr>
       </template>
