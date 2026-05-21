@@ -4,20 +4,20 @@
 
 ## Interactive System Productivity Facility (ISPF)
 
-z/OS 上常用的互動式面板環境，主要透過 3270 terminal 介面呈現。課程中的資料集清單、編輯器、command shell 與 utilities 都透過 ISPF 操作。
+是在 IBM 大型主機上執行的 z/OS 作業系統的軟體產品。 ISPF 主要提供一組面板的 IBM 3270 終端介面。每個面板可能包括選單和對話框，用於在底層時間共享選項 (TSO) 上執行工具。 ISPF 經常用於操作來自其名為 ISPF/PDF 的程式開發工具的 z/OS 資料集，其中 PDF 指的是程式開發工具。
 
 ## ISPF editor
 
-ISPF 提供的資料集與 member 編輯工具，可搭配 primary command 與 line command 進行搜尋、取代、插入、複製、移動與刪除等操作。
+ISPF 提供的資料集與 member 編輯工具。ISPF editor 可使用 primary command 與 line command 進行搜尋、取代、插入、複製、移動與刪除。
 
 ## ISPF Primary Option Menu
 
-ISPF 啟動後常見的主選單，提供 `0 Settings`、`1 View`、`2 Edit`、`3 Utilities`、`6 Command` 等入口。課程多個 Lab 會從這個畫面開始。
+ISPF 啟動後常見的主要選單。使用者可從此選單進入 Settings、View、Edit、Utilities 與 Command 等功能。
 
 ## ISPF Settings
 
-ISPF option `0` 的設定面板，可調整顯示、function key、panel 行為與其他個人化設定。課程小測驗中提到可用斜線 `/` 選取或設定選項。
+ISPF option 0 的設定功能。使用者可在此調整顯示、功能鍵、panel 行為與其他個人化選項。
 
 ## ISRDDN
 
-ISPF 提供的診斷工具，可從 ISPF command line 啟動，檢查目前 session 的 DDNAME allocation、data set concatenation 與相關 library/member 使用情形。
+ISPF 提供的診斷工具，可列出目前 TSO/ISPF session 的 DDNAME allocation、data set concatenation 與相關 library/member 使用情形。

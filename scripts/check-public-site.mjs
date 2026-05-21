@@ -16,7 +16,7 @@ const requiredPages = [
   { name: 'videos', source: 'docs/videos/index.md', output: 'videos/index.html', requiredText: ['影片清單', '載入影片', '單元'] },
   { name: 'practice', source: 'docs/practice/index.md', output: 'practice/index.html', requiredText: ['互動練習', '練習題目', '綜合回顧'] },
   { name: 'labs', source: 'docs/labs/index.md', output: 'labs/index.html', requiredText: ['Lab 與互動實作', '練習 7'] },
-  { name: 'glossary', source: 'docs/glossary/index.md', output: 'glossary/index.html', requiredText: ['IBM Z 詞彙表', '依字母查詢詞彙', 'A', 'V'] },
+  { name: 'glossary', source: 'docs/glossary/index.md', output: 'glossary/index.html', requiredText: ['IBM Z 詞彙表', '依字母查閱', '目前收錄 60 個課程相關詞彙', 'A', 'V'] },
   { name: 'glossary-a', source: 'docs/glossary/a.md', output: 'glossary/a.html', requiredText: ['IBM Z 詞彙表：A', 'ALLOC command', 'Action bar'] },
   { name: 'glossary-b', source: 'docs/glossary/b.md', output: 'glossary/b.html', requiredText: ['IBM Z 詞彙表：B', 'BLKSIZE', 'Browse'] },
   { name: 'glossary-c', source: 'docs/glossary/c.md', output: 'glossary/c.html', requiredText: ['IBM Z 詞彙表：C', 'Catalog', 'COMPRESS command'] },

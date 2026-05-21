@@ -2,26 +2,26 @@
 
 [返回詞彙表索引](./)
 
+## Data control block (DCB)
+
+描述資料集處理屬性的控制區塊。DCB 資訊可包含記錄格式、邏輯記錄長度與區塊大小等欄位。
+
 ## Data set
 
-在 z/OS 中使用的資料集合，可包含程式、控制敘述、資料記錄或其他可由系統管理與存取的內容。
+z/OS 中具名的一組資料集合，可類比為其他系統中的檔案或檔案集合。資料集有固定的命名規則與配置屬性。
 
 ## Data set list (DSLIST)
 
-ISPF Utilities option `3.4` 的資料集清單工具，可依 data set name pattern 列出資料集，並從清單中 browse、view、edit、information、member list、copy、delete 或 rename。
+ISPF Utilities 中用來列出資料集的功能。使用者可依資料集名稱樣式查詢資料集，並從清單進行 browse、edit、information、copy、delete 或 rename 等操作。
 
 ## Data set name
 
-z/OS 資料集的名稱，由一段或多段 qualifier 組成，例如 `IBM.Z.MAINFRAME`。最左側通常稱為 HLQ，最右側稱為 LLQ。
-
-## Data control block (DCB)
-
-描述資料集記錄與區塊屬性的控制資訊。課程配置題中常見的 `LRECL`、`BLKSIZE`、`RECFM` 都屬於資料集格式設定的一部分。
+用來識別 z/OS data set 的名稱。名稱由一個或多個 qualifier 組成，並以句點分隔。
 
 ## Directory block
 
-PDS 用來記錄 member directory 的空間。Sequential data set 不需要 member directory，因此配置時 directory blocks 通常為 0。
+PDS 目錄使用的空間單位。Directory block 用來保存 member 名稱與其位置等目錄資訊。
 
 ## DSORG
 
-Data set organization 的縮寫，用來描述資料集組織型態。課程中 `DSORG(PO)` 表示 partitioned organization，也就是 PDS 類型。
+Data set organization 的縮寫，表示資料集的組織方式，例如 sequential、partitioned 或 VSAM。

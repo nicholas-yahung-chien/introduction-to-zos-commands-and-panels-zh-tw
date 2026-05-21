@@ -4,8 +4,8 @@
 
 ## Operand
 
-命令中跟在 command name 後，用來指定目標或控制行為的值。TSO commands 可包含 positional operands、keyword operands 與 required operands。
+命令中用來提供額外資訊或控制命令行為的參數。Operand 可為位置式，也可使用關鍵字指定。
 
 ## Overlay line command
 
-ISPF editor 的 line command `O`，可把來源記錄指定欄位的資料 overlay 到既有記錄的對應欄位。
+ISPF editor 的 line command，用於將來源記錄指定欄位覆寫到既有記錄的對應欄位。

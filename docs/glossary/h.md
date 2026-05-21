@@ -4,8 +4,8 @@
 
 ## HELP command
 
-TSO 中查詢命令說明的命令。課程中的 `HELP LISTDS ALL` 用來查看 `LISTDS` command 的完整資訊。
+用來查詢命令、子命令、語法、操作數或訊息說明的命令。
 
 ## High-level qualifier (HLQ)
 
-資料集名稱最左側的 qualifier。它常代表使用者 ID、應用程式群組或資料集命名範圍，例如 `STUDENT.DATA.SET` 的 HLQ 是 `STUDENT`。
+z/OS data set name 最左側的 qualifier。HLQ 常用來代表使用者、群組、應用程式或資料集集合。

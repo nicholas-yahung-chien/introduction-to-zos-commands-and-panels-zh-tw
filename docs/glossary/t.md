@@ -4,16 +4,16 @@
 
 ## Time Sharing Option (TSO)
 
-z/OS 的互動式時間共享環境，讓使用者可從終端登入並輸入命令。
+一種作業系統選項，可從遠端終端提供互動式時間共享。
 
 ## Track
 
-DASD 上的儲存空間單位。配置資料集空間時，課程命令範例會使用 `TRACKS SPACE(...)` 指定空間配置。
+CKD 裝置上的儲存單元，可格式化以包含多個資料記錄。另參見家庭地址、軌道描述符記錄和資料記錄。
 
 ## TSO command
 
-在 TSO/E 環境輸入的命令，可從 ready prompt、ISPF option `6`，或許多 ISPF panel 的 command line 執行。
+可在 TSO/E 環境中執行的命令。TSO command 可從 READY prompt、ISPF Command Shell 或 ISPF command line 輸入。
 
 ## TSO/E
 
-Time Sharing Option/Extensions。TSO 的延伸環境，是課程中登入 z/OS、進入 ISPF、執行 `LISTDS`、`LISTCAT`、`ALLOC`、`FREE` 等命令的基礎。
+Time Sharing Option/Extensions 的縮寫，是 z/OS 中提供互動式命令處理與使用者工作階段的環境。

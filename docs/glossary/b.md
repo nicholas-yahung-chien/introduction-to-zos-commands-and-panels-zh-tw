@@ -2,14 +2,14 @@
 
 [返回詞彙表索引](./)
 
-## Block
-
-資料在儲存裝置或 I/O 作業中一次處理的一組記錄。配置資料集時，block 相關設定會影響資料如何被包成較大的 I/O 單位。
-
 ## BLKSIZE
 
-Block size 的縮寫，表示資料集每個 block 的大小。課程配置題會同時出現 `LRECL` 與 `BLKSIZE`，用來描述記錄與區塊配置。
+Block size 的縮寫，表示資料集每個實體區塊可包含的位元組數。BLKSIZE 通常與 LRECL、RECFM 一起決定資料集的記錄儲存方式。
+
+## Block
+
+作為一個單元記錄、處理或傳輸的一串資料元素。在資料集配置中，block size 會影響資料記錄在儲存裝置上的組織方式。
 
 ## Browse (ISPF)
 
-在 ISPF 中以唯讀方式檢視資料集或 member。當只需要檢查內容而不想修改資料時，browse 比 edit 更安全。
+ISPF 中以唯讀方式檢視資料集或 member 的功能。Browse 適合用來查看內容而不變更原始資料。

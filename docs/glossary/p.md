@@ -8,20 +8,20 @@ ISPF 與使用者互動的畫面單位。Panel 可包含選單、輸入欄位、
 
 ## PDS
 
-Partitioned Data Set。可包含多個 member 的資料集型態，常用於存放程式碼、JCL、控制資料或其他可分項管理的內容。
+Partitioned Data Set 的縮寫，是可包含多個 member 的資料集型態，常用於存放程式、JCL、控制資料或其他分項管理內容。
 
 ## PDSE
 
-Partitioned Data Set Extended。由 DFSMS 管理的 PDS 延伸型態，外觀和操作方式與 PDS 類似，但內部目錄與 member 管理方式不同。
+Partitioned Data Set Extended 的縮寫，是 PDS 的延伸型態，由 DFSMS 管理並提供較新的目錄與 member 管理能力。
 
 ## Prefix area
 
-ISPF editor 或清單畫面左側用來輸入 line command 的區域。例如 `I3` 插入三列，`MM` 標示要移動的區塊起訖。
+ISPF editor 或清單左側用來輸入 line command 的區域。Prefix area 通常位於每一列資料前方。
 
 ## Primary command
 
-在 ISPF 面板 command line 輸入的命令，通常作用於整個面板、目前清單、資料集或編輯工作階段。
+在 ISPF panel command line 輸入、通常作用於目前整個 panel、清單或編輯工作階段的命令。
 
 ## PROFILE command
 
-TSO 中顯示或修改使用者 profile 的命令。課程中也會使用 `PROFILE PROMPT` 讓 TSO/E 在需要時提供系統提示。
+TSO/E 中用來顯示或變更使用者 profile 的命令。Profile 內容會影響終端機與互動工作階段的使用方式。

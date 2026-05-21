@@ -6,12 +6,19 @@ function normalizeBase(base: string | undefined) {
   return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`
 }
 
+const skipLocalMediaPublic = process.env.VITE_SKIP_LOCAL_MEDIA === '1'
+
 export default defineConfig({
   title: 'Introduction to z/OS Commands and Panels',
   description: 'IBM Z z/OS 命令與面板入門課程台灣繁體中文靜態學習網站',
   lang: 'zh-Hant-TW',
   cleanUrls: true,
   base: normalizeBase(process.env.VITEPRESS_BASE),
+  vite: skipLocalMediaPublic
+    ? {
+        publicDir: false,
+      }
+    : undefined,
   head: [
     ['meta', { name: 'theme-color', content: '#0f62fe' }],
     ['meta', { property: 'og:title', content: 'Introduction to z/OS Commands and Panels 台灣繁體中文課程' }],
