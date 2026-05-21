@@ -1,0 +1,76 @@
+{
+  "capturedAt": "2026-05-21T11:39:38.700Z",
+  "courseUrl": "https://learn.ibm.com/course/view.php?id=7419",
+  "summary": {
+    "staticPracticeQuestions": 19,
+    "staticPracticeSources": 6,
+    "formalBadgeQuizQuestions": 20,
+    "totalKnownQuizQuestionsIncludingBadge": 39,
+    "videos": 9,
+    "labPages": 7,
+    "uniqueActivities": 33
+  },
+  "practiceSources": [
+    {
+      "id": "short-quiz-exercises-1-and-2",
+      "title": "Short quiz: Exercises 1 and 2",
+      "type": "moodle-quiz",
+      "status": "captured-for-static-practice",
+      "capturedQuestionCount": 8,
+      "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013"
+    },
+    {
+      "id": "short-quiz-exercise-3",
+      "title": "Short quiz: Exercise 3",
+      "type": "hvp",
+      "status": "captured-for-static-practice",
+      "capturedQuestionCount": 1,
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121735"
+    },
+    {
+      "id": "short-quiz-exercise-4",
+      "title": "Short quiz: Exercise 4",
+      "type": "hvp",
+      "status": "captured-for-static-practice",
+      "capturedQuestionCount": 3,
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121737"
+    },
+    {
+      "id": "short-quiz-exercise-5",
+      "title": "Short quiz: Exercise 5",
+      "type": "hvp",
+      "status": "captured-for-static-practice",
+      "capturedQuestionCount": 2,
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121738"
+    },
+    {
+      "id": "short-quiz-exercise-6",
+      "title": "Short quiz: Exercise 6",
+      "type": "hvp",
+      "status": "captured-for-static-practice",
+      "capturedQuestionCount": 2,
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121739"
+    },
+    {
+      "id": "short-quiz-exercise-7",
+      "title": "Short quiz: Exercise 7",
+      "type": "hvp",
+      "status": "captured-for-static-practice",
+      "capturedQuestionCount": 3,
+      "sourceUrl": "https://learn.ibm.com/mod/hvp/view.php?id=121740"
+    },
+    {
+      "id": "badge-quiz",
+      "title": "Badge quiz",
+      "type": "moodle-quiz",
+      "status": "inventory-only-not-reproduced",
+      "capturedQuestionCount": 20,
+      "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590"
+    }
+  ],
+  "captureNotes": [
+    "Short quiz: Exercises 1 and 2 is a Moodle quiz and was omitted from the first static practice pass, which only extracted H5P activities.",
+    "Badge quiz review pages show 20 multichoice questions per attempt, but the IBM Learn badge quiz page states that badge quiz content may not be reproduced or disclosed. It is therefore inventory-only in this project.",
+    "H5P short quiz activities for Exercises 3-7 contain 11 total questions."
+  ]
+}

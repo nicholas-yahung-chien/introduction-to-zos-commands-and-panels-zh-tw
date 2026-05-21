@@ -1,0 +1,237 @@
+{
+  "sourceId": "short-quiz-exercises-1-and-2",
+  "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
+  "reviewUrl": "https://learn.ibm.com/mod/quiz/review.php?attempt=REDACTED&cmid=120013",
+  "title": "Short quiz: Exercises 1 and 2",
+  "sourceType": "moodle-quiz",
+  "questionCount": 8,
+  "questions": [
+    {
+      "index": 1,
+      "prompt": "After allocating a sequential data set, what field on the Data Set Information panel indicates that this is a sequential data set?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Type",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Allocation",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Organisation",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Data set",
+          "correct": false
+        }
+      ],
+      "correctText": "Organisation",
+      "state": "Incorrect",
+      "mark": "0.00 points out of 1.00"
+    },
+    {
+      "index": 2,
+      "prompt": "What is the name of the member in data set JEFF.LOVES.GUITARS(ELECTRIC)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "GUITARS",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "LOVES",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "ELECTRIC",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "JEFF",
+          "correct": false
+        }
+      ],
+      "correctText": "ELECTRIC",
+      "state": "Correct",
+      "mark": "1.00 points out of 1.00"
+    },
+    {
+      "index": 3,
+      "prompt": "On the Allocate New Data Set panel, what is the data set name type when allocating a PDSE?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Large",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Library",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "PD",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "PDSE",
+          "correct": false
+        }
+      ],
+      "correctText": "Library",
+      "state": "Correct",
+      "mark": "1.00 points out of 1.00"
+    },
+    {
+      "index": 4,
+      "prompt": "What character is used to set options in the ISPF Settings panel?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Question mark (?)",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "The letter 'O'",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "The letter 'A'",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Forward slash (/)",
+          "correct": true
+        }
+      ],
+      "correctText": "Forward slash (/)",
+      "state": "Correct",
+      "mark": "1.00 points out of 1.00"
+    },
+    {
+      "index": 5,
+      "prompt": "What is the name of the communication suite that allows you to connect to a variety of systems, like the mainframe console?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "PCOMM",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "COMM",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "TSO console",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "z/OS Console",
+          "correct": false
+        }
+      ],
+      "correctText": "PCOMM",
+      "state": "Correct",
+      "mark": "1.00 points out of 1.00"
+    },
+    {
+      "index": 6,
+      "prompt": "When you change your keyboard setting, you must save it with which file extension?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "bmp",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "key",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "jpeg",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "kmp",
+          "correct": true
+        }
+      ],
+      "correctText": "kmp",
+      "state": "Correct",
+      "mark": "1.00 points out of 1.00"
+    },
+    {
+      "index": 7,
+      "prompt": "What directory blocks value is used to allocate a sequential data set?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "0",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "4",
+          "correct": false
+        }
+      ],
+      "correctText": "0",
+      "state": "Correct",
+      "mark": "1.00 points out of 1.00"
+    },
+    {
+      "index": 8,
+      "prompt": "What is the procedure to remove the Licensed Material copyright information from the ISPF Primary Option Menu panel?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Press F2",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Press the enter key",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Press F12",
+          "correct": false
+        }
+      ],
+      "correctText": "Press the enter key",
+      "state": "Incorrect",
+      "mark": "0.00 points out of 1.00"
+    }
+  ]
+}

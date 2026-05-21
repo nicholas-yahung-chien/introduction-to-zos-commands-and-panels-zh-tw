@@ -1,8 +1,8 @@
 # 影片與活動總覽
 
-本頁是登入後擷取到的原課程活動順序快速索引。影片媒體與字幕在取得授權資產後，可沿用既有 `VideoLesson`、HLS 與 VTT 流程接入；目前公開站保留活動定位、Kaltura metadata 與原課程連結。
+本頁是登入後重新盤點到的原課程活動順序快速索引。課程目前共有 33 個唯一活動，其中包含 9 支影片、7 個 Lab 頁面、5 個 H5P short quiz、2 個 Moodle quiz、3 個討論區，以及 certificate、survey、resource 與 badge claim 等活動。
 
-## 影片與活動清單
+## 課程活動
 
 <CourseManifest />
 
@@ -10,8 +10,8 @@
 
 <VideoAssetList />
 
-## 媒體接入原則
+## 盤點備註
 
-- 影片檔、HLS 與字幕不直接從未授權來源擷取或公開。
-- 取得 Kaltura metadata 後，將 `data/course-manifest.json` 的影片活動補上 `kaltura.entryId`、`partnerId` 與 `uiconfId`。
-- 每支已部署影片需具備繁體中文字幕，並通過 `npm run subtitles:check`。
+- 影片數量已與 live course inventory 比對：共 9 支，沒有發現遺漏影片。
+- Lab 實作頁面共 7 個，對應 Exercise 1-7，沒有發現遺漏 Lab。
+- 題目來源分成 6 個 short quiz 可作靜態學習練習，以及 1 個正式 Badge Quiz 僅保留原課程入口。

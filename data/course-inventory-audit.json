@@ -1,0 +1,306 @@
+{
+  "capturedAt": "2026-05-21T11:39:38.700Z",
+  "liveCourseTitle": "Course: Introduction to z/OS Commands and Panels on IBM Z",
+  "sourceUrl": "https://learn.ibm.com/course/view.php?id=7419",
+  "sectionCount": 5,
+  "liveCounts": {
+    "video": 9,
+    "page": 10,
+    "quiz": 2,
+    "forum": 3,
+    "hvp": 5,
+    "resource": 1,
+    "certificate": 1,
+    "questionnaire": 1,
+    "url": 1
+  },
+  "expectedCounts": {
+    "sections": 5,
+    "videos": 9,
+    "labs": 7,
+    "moodleQuizzes": 2,
+    "hvpActivities": 5,
+    "forums": 3,
+    "resources": 1,
+    "certificate": 1,
+    "questionnaire": 1,
+    "url": 1
+  },
+  "sections": [
+    {
+      "order": 2,
+      "title": "Introduction to Commands and Panels",
+      "activityCount": 11,
+      "activities": [
+        {
+          "order": 1,
+          "type": "video",
+          "id": "113970",
+          "title": "Introduction to TSO and ISPF",
+          "href": "https://learn.ibm.com/mod/video/view.php?id=113970"
+        },
+        {
+          "order": 2,
+          "type": "video",
+          "id": "113963",
+          "title": "Lab - System familiarization",
+          "href": "https://learn.ibm.com/mod/video/view.php?id=113963"
+        },
+        {
+          "order": 3,
+          "type": "page",
+          "id": "119764",
+          "title": "Course kit/ Exercises guide",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=119764"
+        },
+        {
+          "order": 4,
+          "type": "page",
+          "id": "114929",
+          "title": "Checklist before starting labs",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=114929"
+        },
+        {
+          "order": 5,
+          "type": "page",
+          "id": "174895",
+          "title": "Exercise 1: Access your lab environment",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=174895"
+        },
+        {
+          "order": 6,
+          "type": "page",
+          "id": "114961",
+          "title": "z/OS 2.3 ISPF User Guide",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=114961"
+        },
+        {
+          "order": 7,
+          "type": "video",
+          "id": "113969",
+          "title": "Creating, editing, and displaying members in ISPF",
+          "href": "https://learn.ibm.com/mod/video/view.php?id=113969"
+        },
+        {
+          "order": 8,
+          "type": "video",
+          "id": "113965",
+          "title": "Introduction to exercise 2",
+          "href": "https://learn.ibm.com/mod/video/view.php?id=113965"
+        },
+        {
+          "order": 9,
+          "type": "page",
+          "id": "175025",
+          "title": "Exercise 2 :Allocate new data sets",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=175025"
+        },
+        {
+          "order": 10,
+          "type": "quiz",
+          "id": "120013",
+          "title": "Short quiz: Exercises 1 and 2",
+          "href": "https://learn.ibm.com/mod/quiz/view.php?id=120013"
+        },
+        {
+          "order": 11,
+          "type": "forum",
+          "id": "129574",
+          "title": "Discussion forum",
+          "href": "https://learn.ibm.com/mod/forum/view.php?id=129574"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Working with Data Sets",
+      "activityCount": 11,
+      "activities": [
+        {
+          "order": 1,
+          "type": "video",
+          "id": "113962",
+          "title": "Allocating a data set in TSO",
+          "href": "https://learn.ibm.com/mod/video/view.php?id=113962"
+        },
+        {
+          "order": 2,
+          "type": "video",
+          "id": "113967",
+          "title": "Working with data sets",
+          "href": "https://learn.ibm.com/mod/video/view.php?id=113967"
+        },
+        {
+          "order": 3,
+          "type": "page",
+          "id": "175026",
+          "title": "Exercise 3: ISPF editor primary commands",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=175026"
+        },
+        {
+          "order": 4,
+          "type": "hvp",
+          "id": "121735",
+          "title": "Short quiz: Exercise 3",
+          "href": "https://learn.ibm.com/mod/hvp/view.php?id=121735"
+        },
+        {
+          "order": 5,
+          "type": "page",
+          "id": "175027",
+          "title": "Exercise 4: ISPF editor line commands",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=175027"
+        },
+        {
+          "order": 6,
+          "type": "hvp",
+          "id": "121737",
+          "title": "Short quiz: Exercise 4",
+          "href": "https://learn.ibm.com/mod/hvp/view.php?id=121737"
+        },
+        {
+          "order": 7,
+          "type": "page",
+          "id": "175028",
+          "title": "Exercise 5: Copy, move, rename, delete data sets and members",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=175028"
+        },
+        {
+          "order": 8,
+          "type": "hvp",
+          "id": "121738",
+          "title": "Short quiz: Exercise 5",
+          "href": "https://learn.ibm.com/mod/hvp/view.php?id=121738"
+        },
+        {
+          "order": 9,
+          "type": "page",
+          "id": "175029",
+          "title": "Exercise 6: Data set lists",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=175029"
+        },
+        {
+          "order": 10,
+          "type": "hvp",
+          "id": "121739",
+          "title": "Short quiz: Exercise 6",
+          "href": "https://learn.ibm.com/mod/hvp/view.php?id=121739"
+        },
+        {
+          "order": 11,
+          "type": "forum",
+          "id": "129575",
+          "title": "Discussion forum",
+          "href": "https://learn.ibm.com/mod/forum/view.php?id=129575"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "TSO Commands",
+      "activityCount": 7,
+      "activities": [
+        {
+          "order": 1,
+          "type": "video",
+          "id": "113961",
+          "title": "TSO Commands - Part 1",
+          "href": "https://learn.ibm.com/mod/video/view.php?id=113961"
+        },
+        {
+          "order": 2,
+          "type": "video",
+          "id": "113966",
+          "title": "TSO Commands - Part 2",
+          "href": "https://learn.ibm.com/mod/video/view.php?id=113966"
+        },
+        {
+          "order": 3,
+          "type": "video",
+          "id": "113964",
+          "title": "Lab - Using TSO commands",
+          "href": "https://learn.ibm.com/mod/video/view.php?id=113964"
+        },
+        {
+          "order": 4,
+          "type": "resource",
+          "id": "300296",
+          "title": "TSO/E Command Reference",
+          "href": "https://learn.ibm.com/mod/resource/view.php?id=300296"
+        },
+        {
+          "order": 5,
+          "type": "page",
+          "id": "175031",
+          "title": "Exercise 7: Using TSO commands",
+          "href": "https://learn.ibm.com/mod/page/view.php?id=175031"
+        },
+        {
+          "order": 6,
+          "type": "hvp",
+          "id": "121740",
+          "title": "Short quiz: Exercise 7",
+          "href": "https://learn.ibm.com/mod/hvp/view.php?id=121740"
+        },
+        {
+          "order": 7,
+          "type": "forum",
+          "id": "129576",
+          "title": "Discussion forum",
+          "href": "https://learn.ibm.com/mod/forum/view.php?id=129576"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Badge Quiz",
+      "activityCount": 3,
+      "activities": [
+        {
+          "order": 2,
+          "type": "quiz",
+          "id": "348590",
+          "title": "Badge quiz",
+          "href": "https://learn.ibm.com/mod/quiz/view.php?id=348590"
+        },
+        {
+          "order": 5,
+          "type": "certificate",
+          "id": "348594",
+          "title": "Course completion certificate",
+          "href": "https://learn.ibm.com/mod/certificate/view.php?id=348594"
+        },
+        {
+          "order": 6,
+          "type": "questionnaire",
+          "id": "114934",
+          "title": "Course survey",
+          "href": "https://learn.ibm.com/mod/questionnaire/view.php?id=114934"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Claim your Practitioner Badge",
+      "activityCount": 1,
+      "activities": [
+        {
+          "order": 2,
+          "type": "url",
+          "id": "350667",
+          "title": "IBM z/OS Mainframe Practitioner Certification Badge",
+          "href": "https://learn.ibm.com/mod/url/view.php?id=350667"
+        }
+      ]
+    }
+  ],
+  "manifestComparison": {
+    "missingFromManifest": [],
+    "missingFromLive": []
+  },
+  "quizQuestionSources": {
+    "moodleShortQuizExercises1And2": 8,
+    "hvpExercises3To7": 11,
+    "badgeQuizFormalAssessment": 20
+  }
+}

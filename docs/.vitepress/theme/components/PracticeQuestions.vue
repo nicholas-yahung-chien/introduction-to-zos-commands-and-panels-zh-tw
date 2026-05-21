@@ -37,6 +37,7 @@ const selectedChoices = reactive<Record<string, string[]>>({})
 const checkedQuestions = reactive<Record<string, boolean>>({})
 
 const sourceLabels: Record<string, string> = {
+  'short-quiz-exercises-1-and-2': '練習 1-2 小測驗',
   'short-quiz-exercise-3': '練習 3 小測驗',
   'short-quiz-exercise-4': '練習 4 小測驗',
   'short-quiz-exercise-5': '練習 5 小測驗',

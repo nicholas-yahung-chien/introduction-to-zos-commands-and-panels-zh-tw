@@ -1,6 +1,17 @@
 {
   "sources": [
     {
+      "id": "short-quiz-exercises-1-and-2",
+      "title": "Short quiz: Exercises 1 and 2",
+      "type": "moodle-quiz",
+      "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=120013",
+      "sectionSlug": "introduction-to-commands-and-panels",
+      "sectionTitle": "Introduction to Commands and Panels",
+      "status": "captured-for-static-practice",
+      "intendedUse": "Static learning check only; IBM Learn remains the formal activity record.",
+      "capturedQuestionCount": 8
+    },
+    {
       "id": "short-quiz-exercise-3",
       "title": "Short quiz: Exercise 3",
       "type": "hvp",
@@ -54,6 +65,17 @@
       "status": "captured-for-static-practice",
       "intendedUse": "Static learning check only; IBM Learn remains the formal activity record.",
       "capturedQuestionCount": 3
+    },
+    {
+      "id": "badge-quiz",
+      "title": "Badge quiz",
+      "type": "moodle-quiz",
+      "sourceUrl": "https://learn.ibm.com/mod/quiz/view.php?id=348590",
+      "sectionSlug": "badge-quiz",
+      "sectionTitle": "Badge Quiz",
+      "status": "inventory-only-not-reproduced",
+      "intendedUse": "Formal badge assessment only; IBM Learn page states badge quiz content may not be reproduced or disclosed.",
+      "capturedQuestionCount": 20
     }
   ]
 }

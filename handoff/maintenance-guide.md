@@ -60,3 +60,12 @@ https://nicholas-yahung-chien.github.io/introduction-to-zos-commands-and-panels-
 - `docs/.vitepress/theme/components/PracticeQuestions.vue`
 
 本站練習題只作學習確認，不保存作答紀錄，也不替代 badge quiz。
+
+重新盤點後，靜態練習應維持 19 題：`Short quiz: Exercises 1 and 2` 的 8 題 Moodle quiz，加上 Exercises 3-7 的 11 題 H5P short quiz。Badge Quiz 另以 `data/assessment-inventory.json` 記錄為 20 題正式評量，不在本站重製題目或答案。
+
+修改題庫後請執行：
+
+```powershell
+npm run practice:check
+npm run course:inventory:check
+```
