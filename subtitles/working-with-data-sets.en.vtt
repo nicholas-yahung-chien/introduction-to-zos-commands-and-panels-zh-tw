@@ -1,0 +1,377 @@
+WEBVTT
+
+1
+00:00:03.380 --> 00:00:09.380
+We've created a dataset, and we've created and edited some members within a dataset.
+
+2
+00:00:09.380 --> 00:00:13.380
+Now let's learn a little more about working with datasets.
+
+3
+00:00:13.380 --> 00:00:15.380
+Just a reminder, some of these handy commands.
+
+4
+00:00:15.380 --> 00:00:20.380
+When you type save, that saves the dataset, and it remains in edit mode.
+
+5
+00:00:20.380 --> 00:00:26.380
+And when you press F3, that saves the data and returns you to the previous panel.
+
+6
+00:00:26.380 --> 00:00:31.380
+So if you're all done editing and you want to exit and save, just hit F3.
+
+7
+00:00:31.380 --> 00:00:34.380
+If you've made a bunch of edits that you're not entirely sure about,
+
+8
+00:00:34.380 --> 00:00:40.380
+and you want to exit without committing any of them, enter cancel or can for short.
+
+9
+00:00:40.380 --> 00:00:44.380
+If it's configured for quit, you can also press F12.
+
+10
+00:00:44.380 --> 00:00:49.380
+One command you'll probably use a lot when working on datasets is the find command.
+
+11
+00:00:49.380 --> 00:00:54.380
+Find is abbreviated as F for find.
+
+12
+00:00:54.380 --> 00:00:57.380
+Then after F, place your search string.
+
+13
+00:00:57.380 --> 00:01:00.380
+On this screen, we're trying to find the word back.
+
+14
+00:01:00.380 --> 00:01:04.380
+So we're typing F space back into the command line.
+
+15
+00:01:04.380 --> 00:01:10.380
+If there are multiple occurrences of the word, you can press F5 to advance to the next one.
+
+16
+00:01:10.380 --> 00:01:15.380
+The highlight command, spelled H-I-L-I-T-E,
+
+17
+00:01:15.380 --> 00:01:22.380
+lets us tell the editor to set the colors and language sensitive editing features for a specific format.
+
+18
+00:01:22.380 --> 00:01:28.380
+When you type highlight and hit enter, we get this menu of languages, coloring, and options.
+
+19
+00:01:28.380 --> 00:01:34.380
+Here we can select our programming language, set the coloring mode, and select a few of those options.
+
+20
+00:01:34.380 --> 00:01:37.380
+We select an option with a forward slash.
+
+21
+00:01:37.380 --> 00:01:44.380
+So if we select the option for highlight find strings, and then we press F3 to get back to the editor,
+
+22
+00:01:44.380 --> 00:01:50.380
+notice that the F back command highlights the instances of back in the editor.
+
+23
+00:01:50.380 --> 00:01:55.380
+By the way, if you know the language you want a format for, you can type it out in the command line,
+
+24
+00:01:55.380 --> 00:02:01.380
+like highlight JCL, and that will color the screen specifically for JCL.
+
+25
+00:02:01.380 --> 00:02:03.380
+A couple of quick notes on this.
+
+26
+00:02:03.380 --> 00:02:10.380
+Some of the highlight formatting options need to be enabled by the installer or person who maintains your ISPF installation.
+
+27
+00:02:10.380 --> 00:02:16.380
+So if you're on a different system and things look a little bit different, that could be why.
+
+28
+00:02:16.380 --> 00:02:19.380
+Also, these options are only available in the edit mode.
+
+29
+00:02:19.380 --> 00:02:23.380
+If you're browsing a file, you won't see these colors.
+
+30
+00:02:23.380 --> 00:02:28.380
+A lot of times when something doesn't work right, you get an error, and the message might say,
+
+31
+00:02:28.380 --> 00:02:32.380
+error detected at line 50, column 42, or something like that.
+
+32
+00:02:32.380 --> 00:02:37.380
+And we can easily see what line we're at because we have the numbers on the left side of the screen there,
+
+33
+00:02:37.380 --> 00:02:40.380
+but what about that error at column 42?
+
+34
+00:02:40.380 --> 00:02:44.380
+Are we supposed to sit there and count out one, two, three, four, five?
+
+35
+00:02:44.380 --> 00:02:45.380
+Of course not.
+
+36
+00:02:45.380 --> 00:02:49.380
+You can bring up a column guide, and you can actually do this one of two ways.
+
+37
+00:02:49.380 --> 00:02:56.380
+Type calls, C-O-L-S, up in the command line area, and you get a little ruler that pops up,
+
+38
+00:02:56.380 --> 00:02:59.380
+and it will always be there at the top of your screen for you.
+
+39
+00:02:59.380 --> 00:03:04.380
+That's pretty handy, but what if I really only want to show a column guide for one line?
+
+40
+00:03:04.380 --> 00:03:09.380
+Type calls, C-O-L-S, over the line number you want the column guide for,
+
+41
+00:03:09.380 --> 00:03:13.380
+and it will insert one in the editor right above it.
+
+42
+00:03:13.380 --> 00:03:16.380
+Now, this does not show up in the actual data set.
+
+43
+00:03:16.380 --> 00:03:22.380
+You'll notice it doesn't have a record number over there, but as you scroll up and down, it moves with the data.
+
+44
+00:03:22.380 --> 00:03:27.380
+So two styles of creating column guides, and those will definitely come in handy.
+
+45
+00:03:27.380 --> 00:03:31.380
+We looked at find, and we also have a change command.
+
+46
+00:03:31.380 --> 00:03:34.380
+This can be used to replace a string of characters with another,
+
+47
+00:03:34.380 --> 00:03:40.380
+like if we wanted to change all instances of one, two, three, four with five, six, seven, eight.
+
+48
+00:03:40.380 --> 00:03:45.380
+To use the change command, just enter change, followed by what you want to change.
+
+49
+00:03:45.380 --> 00:03:48.380
+Followed by what you want to change it with.
+
+50
+00:03:48.380 --> 00:03:54.380
+If you want to change all instances, follow that with all, otherwise it will only change the next one.
+
+51
+00:03:54.380 --> 00:04:00.380
+And there's a whole lot of options you can use for the change command, but for now, we're just going to keep it simple.
+
+52
+00:04:00.380 --> 00:04:03.380
+Up next is the bounds command.
+
+53
+00:04:03.380 --> 00:04:05.380
+This comes in handy from time to time.
+
+54
+00:04:05.380 --> 00:04:13.380
+Let's say we want to issue a change command, but we only want to change data located between the first and 25th column.
+
+55
+00:04:13.380 --> 00:04:21.380
+Sounds tricky, but with the bounds command, we can type bounds space one, space 25,
+
+56
+00:04:21.380 --> 00:04:26.380
+and now our change command is limited to the area in the first 25 columns.
+
+57
+00:04:26.380 --> 00:04:32.380
+To set it back, just type bounds with nothing after it and hit enter, and it will go back to default.
+
+58
+00:04:32.380 --> 00:04:36.380
+Say you want to copy or move an entire data set somewhere else.
+
+59
+00:04:36.380 --> 00:04:42.380
+One way of doing this is with the move copy utility, and I'm going to show you a shortcut of how to get there.
+
+60
+00:04:42.380 --> 00:04:50.380
+It's in the utility section, which is option three, and within there, move copy utility is option number three.
+
+61
+00:04:50.380 --> 00:04:55.380
+Since we know this, we can get there by going to 3.3.
+
+62
+00:04:55.380 --> 00:04:59.380
+It'll jump us directly there without needing to stop at the screen in between.
+
+63
+00:04:59.380 --> 00:05:07.380
+So from the main screen, we're going to type 3.3, and that puts us at the move copy utility.
+
+64
+00:05:07.380 --> 00:05:14.380
+And we can actually jump directly from any panel to any other panel by putting an equals in front of that.
+
+65
+00:05:14.380 --> 00:05:19.380
+So equals 3.3 or whatever in the command line.
+
+66
+00:05:19.380 --> 00:05:21.380
+So no need to go back to that main panel.
+
+67
+00:05:21.380 --> 00:05:24.380
+That should save us quite a bit of time.
+
+68
+00:05:24.380 --> 00:05:26.380
+All right, moving and copying.
+
+69
+00:05:26.380 --> 00:05:31.380
+Put either an M or a C for move or copy on the command line.
+
+70
+00:05:31.380 --> 00:05:39.380
+Then either use the project group type fields to specify your data set or type out the name of the data set on the name line.
+
+71
+00:05:39.380 --> 00:05:48.380
+Note that you can use the member field to specify a single member, or you can use an asterisk or splat to specify all members.
+
+72
+00:05:48.380 --> 00:05:54.380
+You can also use a pattern like L splat to tell it only members that start with an L.
+
+73
+00:05:54.380 --> 00:05:57.380
+Hit enter, and then the next screen will come up.
+
+74
+00:05:58.380 --> 00:06:03.380
+Fill out the name of the target data set, where it's going, and hit enter.
+
+75
+00:06:03.380 --> 00:06:06.380
+And the copy or move will begin.
+
+76
+00:06:07.380 --> 00:06:09.380
+Renaming a data set is fairly similar.
+
+77
+00:06:09.380 --> 00:06:18.380
+Using option 3.2, the data set utility panel, enter the old data set name and specify an R on the command line.
+
+78
+00:06:18.380 --> 00:06:20.380
+The next screen will prompt you for the new name.
+
+79
+00:06:20.380 --> 00:06:23.380
+Hit enter, and there you go.
+
+80
+00:06:23.380 --> 00:06:30.380
+If you want to rename a member, not the entire data set, use option 3.1 for library utilities.
+
+81
+00:06:30.380 --> 00:06:38.380
+Fill out all these fields or fully spell out the name of the member in the other partitioned or sequential data set field.
+
+82
+00:06:38.380 --> 00:06:42.380
+And just follow the prompts, which by now should seem pretty familiar.
+
+83
+00:06:42.380 --> 00:06:46.380
+Deleting data set members, that's also done in 3.1.
+
+84
+00:06:46.380 --> 00:06:49.380
+Just use the command D for delete.
+
+85
+00:06:49.380 --> 00:06:55.380
+Depending on how your ISPF is configured, it may or may not ask you if you're sure you want to delete those members.
+
+86
+00:06:55.380 --> 00:06:57.380
+Hey, better safe than sorry.
+
+87
+00:06:57.380 --> 00:07:04.380
+One more thing, we looked at the data set list utility earlier, which can be found at option 3.4.
+
+88
+00:07:04.380 --> 00:07:14.380
+And we saw how you can get a listing of the members of a data set by typing out a qualifier or series of qualifiers into the dsnamelevel field and hitting enter.
+
+89
+00:07:14.380 --> 00:07:23.380
+Now, check this out. When the listing comes up, we can not only edit and view the members from here by placing an E or a V into the command area,
+
+90
+00:07:23.380 --> 00:07:26.380
+but we can also rename them with an R.
+
+91
+00:07:26.380 --> 00:07:32.380
+Delete with a D, copy with a C-O, move with an M-O, and more.
+
+92
+00:07:32.380 --> 00:07:36.380
+A fuller listing of these commands is in a file attached to this lesson.
+
+93
+00:07:36.380 --> 00:07:41.380
+So that's that. You've learned how to create and manage data sets and members.
+
+94
+00:07:41.380 --> 00:07:45.380
+You're ready to take on the world of data sets, at least.

@@ -1,0 +1,185 @@
+WEBVTT
+
+1
+00:00:03.410 --> 00:00:06.910
+You can get work done a number of different ways on Z.
+
+2
+00:00:06.910 --> 00:00:11.710
+Some people prefer a fully graphical experience, like what you get through Zoe.
+
+3
+00:00:11.710 --> 00:00:15.710
+Other people like to keep it simple, but still want a little graphical context,
+
+4
+00:00:15.710 --> 00:00:18.410
+like what you get through the panels of ISPF.
+
+5
+00:00:18.410 --> 00:00:22.910
+Then there's some people who really just don't want anything between them and the system,
+
+6
+00:00:22.910 --> 00:00:26.410
+and they prefer to issue commands straight through TSO.
+
+7
+00:00:26.410 --> 00:00:30.410
+In ZOS, TSO stands for Time Sharing Option,
+
+8
+00:00:30.410 --> 00:00:37.410
+and it's basically the environment that lets the OS be made available to multiple users at the same time.
+
+9
+00:00:37.410 --> 00:00:43.410
+There are a ton of commands in TSO, and this lesson, we're going to take a look at just a few of them.
+
+10
+00:00:43.410 --> 00:00:47.410
+There are three primary ways of entering TSO commands.
+
+11
+00:00:47.410 --> 00:00:52.410
+One, through the ISPF primary menu, going to option number 6.
+
+12
+00:00:52.410 --> 00:00:56.410
+Two, on the command option line of an ISPF panel,
+
+13
+00:00:56.410 --> 00:01:01.410
+on that line, anything that starts with TSO will be interpreted as a TSO command.
+
+14
+00:01:01.410 --> 00:01:05.410
+And three, on the TSO ready prompt screen.
+
+15
+00:01:05.410 --> 00:01:08.410
+When you do it this way, it's known as native mode.
+
+16
+00:01:08.410 --> 00:01:13.410
+A command is made up of a command name, followed by one or more operands.
+
+17
+00:01:13.410 --> 00:01:16.410
+Think of it like the command is the thing that you want done,
+
+18
+00:01:16.410 --> 00:01:20.410
+and the operands are the details of how you'd like it to be done.
+
+19
+00:01:20.410 --> 00:01:25.410
+For example, if I were to tell you move something, you would need more information,
+
+20
+00:01:25.410 --> 00:01:28.410
+like what am I moving, where am I moving it to,
+
+21
+00:01:28.410 --> 00:01:33.410
+am I moving it with a forklift, a train, a truck, or am I just carrying it with my hands.
+
+22
+00:01:33.410 --> 00:01:36.410
+The how goes in the operands.
+
+23
+00:01:36.410 --> 00:01:42.410
+Commands and operands are not case sensitive, meaning they can be typed out in lowercase or uppercase.
+
+24
+00:01:42.410 --> 00:01:48.410
+We'll often type them out in uppercase though, just so they stand out more as commands and not random text.
+
+25
+00:01:48.410 --> 00:01:52.410
+There are two types of operands, positional and keywords.
+
+26
+00:01:52.410 --> 00:01:57.410
+A positional operand needs to come after the command and in a certain order.
+
+27
+00:01:57.410 --> 00:02:03.410
+The documentation for commands will tell you exactly what order they need to be in and which ones are required.
+
+28
+00:02:03.410 --> 00:02:06.410
+And we'll get into how you get that information shortly.
+
+29
+00:02:06.410 --> 00:02:08.410
+There's also keyword operands.
+
+30
+00:02:08.410 --> 00:02:12.410
+This is usually used to turn on a feature or set a certain mode.
+
+31
+00:02:12.410 --> 00:02:16.410
+So in this example, the command is list ds.
+
+32
+00:02:16.410 --> 00:02:18.410
+That's what we want it to do.
+
+33
+00:02:18.410 --> 00:02:22.410
+We learned earlier that list ds stands for list dataset,
+
+34
+00:02:22.410 --> 00:02:26.410
+and we can use it to show us a whole bunch of information about a dataset.
+
+35
+00:02:26.410 --> 00:02:33.410
+The positional operand is something that comes right after the command name, and that's the dataset we're listing.
+
+36
+00:02:33.410 --> 00:02:39.410
+One additional thing to note here, if what you want to put in the operand is a list of multiple items,
+
+37
+00:02:39.410 --> 00:02:41.410
+you just put that list in parentheses.
+
+38
+00:02:41.410 --> 00:02:44.410
+And then lastly is the keyword operand.
+
+39
+00:02:44.410 --> 00:02:48.410
+That tells the command to list the members of this dataset.
+
+40
+00:02:48.410 --> 00:02:55.410
+For this lesson, we'll be referencing the zos-tsoe command reference manual attached to this lesson.
+
+41
+00:02:55.410 --> 00:02:58.410
+It's a good book. A lot better than the movie version.
+
+42
+00:02:58.410 --> 00:03:06.410
+You can use the help command to obtain information about the function, syntax, and operands of the commands and subcommands,
+
+43
+00:03:06.410 --> 00:03:09.410
+as well as information about certain messages.
+
+44
+00:03:09.410 --> 00:03:17.410
+So you can type help list ds operands, and you'll get a listing of all the operands for the list ds command.
+
+45
+00:03:17.410 --> 00:03:24.410
+You can also type help list ds all, and you'll get all the information about the list ds command.
+
+46
+00:03:24.410 --> 00:03:28.410
+In the next lesson, we'll take a look at the allocate and delete commands.

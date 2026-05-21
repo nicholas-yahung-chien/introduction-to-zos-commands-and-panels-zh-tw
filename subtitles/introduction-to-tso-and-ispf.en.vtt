@@ -1,0 +1,425 @@
+WEBVTT
+
+1
+00:00:03.340 --> 00:00:09.500
+We're going to move a little bit into the user-facing space now, with ISPF and TSO.
+
+2
+00:00:09.500 --> 00:00:16.460
+ISPF is the Interactive System Productivity Facility, and TSO is the time-sharing option.
+
+3
+00:00:16.460 --> 00:00:23.100
+These are two separate products, both of which run on the mainframe in the ZOS operating system.
+
+4
+00:00:23.100 --> 00:00:26.380
+And a short detour here about acronyms.
+
+5
+00:00:26.380 --> 00:00:33.180
+We just talked about ISPF, and I told you that it stands for the Interactive System Productivity Facility.
+
+6
+00:00:33.500 --> 00:00:40.540
+Now, I had to look that up, because I have literally never called it the Interactive System Productivity Facility.
+
+7
+00:00:40.540 --> 00:00:48.700
+It's always just been ISPF, and you'll probably never hear anybody say time-sharing option either, it's just TSO.
+
+8
+00:00:48.700 --> 00:00:53.500
+What I'm getting at here is that you shouldn't worry about memorizing what things stand for,
+
+9
+00:00:53.500 --> 00:00:56.220
+unless they help you remember it, like peachid.
+
+10
+00:00:56.220 --> 00:01:01.180
+The P in the front of peachid reminds me of the physical channel path identifier.
+
+11
+00:01:01.180 --> 00:01:07.660
+But you've probably noticed that we go through a lot of acronyms here, and I just don't need to stress about memorizing things.
+
+12
+00:01:07.660 --> 00:01:10.380
+What's important is what they are.
+
+13
+00:01:10.380 --> 00:01:17.260
+And ISPF is a full-screen, menu-driven interface which lets you access ZOS tools and utilities.
+
+14
+00:01:17.260 --> 00:01:24.620
+So, instead of memorizing commands and parameters, you can just navigate to a panel built specifically for the task you want to do,
+
+15
+00:01:24.620 --> 00:01:27.020
+and enter the options you want.
+
+16
+00:01:27.020 --> 00:01:33.900
+TSO kind of runs behind ISPF, supporting it, and is typically used for one-word or one-line commands.
+
+17
+00:01:33.900 --> 00:01:39.420
+So, for most tasks, you've got the option of either doing it through TSO or ISPF.
+
+18
+00:01:39.420 --> 00:01:45.740
+When you first connect to a mainframe using a terminal emulator, you're greeted by a TSO logon screen.
+
+19
+00:01:45.740 --> 00:01:51.020
+Top of the screen, you may notice this little slash E at the end of TSO, and you're wondering what that is.
+
+20
+00:01:51.020 --> 00:01:56.540
+That means it's TSO Extensions, which has a few improvements over the original TSO.
+
+21
+00:01:56.540 --> 00:01:59.580
+But, again, most people just call it TSO.
+
+22
+00:01:59.580 --> 00:02:02.940
+You log into TSO with a username and a password.
+
+23
+00:02:02.940 --> 00:02:07.580
+So, we need to move our cursor over to the User ID field and put in our User ID,
+
+24
+00:02:07.580 --> 00:02:11.900
+and then there's a password field right over here. Do the same thing with the password.
+
+25
+00:02:11.900 --> 00:02:15.660
+Many of these fields will be filled out with the default values when you get there,
+
+26
+00:02:15.660 --> 00:02:20.060
+and if they are, you're probably okay just to leave them like that.
+
+27
+00:02:20.060 --> 00:02:22.780
+A quick word about navigating to fields.
+
+28
+00:02:22.780 --> 00:02:27.340
+The easiest way to move from field to field is by hitting the Tab key,
+
+29
+00:02:27.340 --> 00:02:30.860
+and you can go the other direction by hitting Shift-Tab.
+
+30
+00:02:30.860 --> 00:02:34.460
+If you try to use your mouse to select the fields you want to type in,
+
+31
+00:02:34.460 --> 00:02:39.340
+it's real easy to click in the wrong spot, and then you'll wind up putting text where you didn't mean to.
+
+32
+00:02:39.340 --> 00:02:43.260
+So, for a lot of what we're going to be doing, just use your keyboard.
+
+33
+00:02:43.260 --> 00:02:46.460
+So, now you've got your User ID and your password in there,
+
+34
+00:02:46.460 --> 00:02:49.260
+and below that we've got this Procedure field.
+
+35
+00:02:49.260 --> 00:02:52.940
+This is the procedure that kicks off when you start your TSO session.
+
+36
+00:02:52.940 --> 00:02:55.900
+This is usually set up for you by someone who knows what they're doing,
+
+37
+00:02:55.900 --> 00:03:00.380
+so it's best not to change it unless you really need to or someone tells you to.
+
+38
+00:03:00.380 --> 00:03:05.740
+And even then, make sure you make a note of what it said before in case you need to change it back.
+
+39
+00:03:05.740 --> 00:03:08.940
+The account number is used to track system usage,
+
+40
+00:03:08.940 --> 00:03:14.220
+and the Size field determines the amount of memory that your TSO session gets.
+
+41
+00:03:14.220 --> 00:03:18.220
+Perform is there in case you want to associate your TSO session
+
+42
+00:03:18.220 --> 00:03:23.660
+with a set of performance characteristics, which can be helpful for WLM.
+
+43
+00:03:23.660 --> 00:03:25.020
+And then there's Command.
+
+44
+00:03:25.020 --> 00:03:28.780
+This tells TSO what you want it to do once you're logged in.
+
+45
+00:03:28.780 --> 00:03:33.500
+You may be prompted to change your password, or you may just feel like changing your password.
+
+46
+00:03:33.500 --> 00:03:37.820
+To do that, enter your current password in the Password field
+
+47
+00:03:37.820 --> 00:03:41.820
+and put your new password over in the New Password field.
+
+48
+00:03:41.820 --> 00:03:44.700
+You will then be prompted to enter the same password again,
+
+49
+00:03:44.700 --> 00:03:47.340
+just to make sure you typed out what you meant to type.
+
+50
+00:03:47.340 --> 00:03:51.020
+The Group Identification field can be used to log into another group
+
+51
+00:03:51.020 --> 00:03:53.500
+and access a different set of resources.
+
+52
+00:03:53.500 --> 00:03:58.220
+If that's done, it'll typically be done by the Security Administrator.
+
+53
+00:03:58.220 --> 00:04:00.460
+Then down here, we've got four options.
+
+54
+00:04:00.460 --> 00:04:06.460
+To select any one of these options, place an S to select it in the space before it.
+
+55
+00:04:06.460 --> 00:04:12.540
+So if you put an S before NoMail, TSO will suppress the messages intended for you,
+
+56
+00:04:12.540 --> 00:04:14.940
+specifically during the logon process.
+
+57
+00:04:15.900 --> 00:04:17.900
+Put an S in front of No Notice,
+
+58
+00:04:17.900 --> 00:04:22.060
+and that says you don't want to see any of the messages intended for all users.
+
+59
+00:04:23.180 --> 00:04:26.540
+Next, if you ever accidentally close your terminal window,
+
+60
+00:04:26.540 --> 00:04:30.060
+there's a chance it'll notice this and close up your session safely.
+
+61
+00:04:30.060 --> 00:04:32.860
+But if, for whatever reason, you're trying to log in,
+
+62
+00:04:32.860 --> 00:04:35.740
+and it's telling you your session is already in use,
+
+63
+00:04:35.740 --> 00:04:39.820
+you can select this and it will reconnect you to that previously running session.
+
+64
+00:04:40.860 --> 00:04:42.700
+And then there's OID card.
+
+65
+00:04:42.700 --> 00:04:46.540
+You can use this to enter data using your Operator Identification card,
+
+66
+00:04:46.540 --> 00:04:47.500
+if you have one of those.
+
+67
+00:04:48.380 --> 00:04:50.140
+All right, now we're in ISPF.
+
+68
+00:04:50.140 --> 00:04:51.500
+Let's see what we got.
+
+69
+00:04:51.500 --> 00:04:53.580
+Up top, we've got the Action Bar.
+
+70
+00:04:53.580 --> 00:04:56.940
+This works just like a menu in anything else you've ever used.
+
+71
+00:04:56.940 --> 00:04:58.220
+And then there's a Command Line.
+
+72
+00:04:58.220 --> 00:05:00.220
+That lets you type out any commands that you know.
+
+73
+00:05:00.780 --> 00:05:04.620
+This may also be located at the bottom of the screen instead of the top.
+
+74
+00:05:04.620 --> 00:05:07.100
+Some people like it down there, and they'll set it up that way.
+
+75
+00:05:07.820 --> 00:05:10.780
+Next, there's this big listing of panel options.
+
+76
+00:05:10.780 --> 00:05:14.220
+And these show you all the panels that you can go to in ISPF.
+
+77
+00:05:14.220 --> 00:05:17.420
+So if you want to go to Dialogue Test, for example,
+
+78
+00:05:17.420 --> 00:05:20.380
+you would put a 7 on the Command Line and then hit Enter,
+
+79
+00:05:20.380 --> 00:05:24.860
+because 7 is the number on the panel options for Dialogue Test.
+
+80
+00:05:25.660 --> 00:05:27.900
+At the bottom, there's a listing of function keys.
+
+81
+00:05:27.900 --> 00:05:31.820
+These remind you of what you can do using the function or F keys on your keyboard.
+
+82
+00:05:32.380 --> 00:05:38.540
+For example, F7 goes backward and F8 goes forward when you're working on a program or a file
+
+83
+00:05:38.540 --> 00:05:40.300
+that's bigger than your screen will fit.
+
+84
+00:05:41.020 --> 00:05:43.740
+Now, if you're looking down at your keyboard and wondering,
+
+85
+00:05:43.740 --> 00:05:46.380
+what are these function F keys all about?
+
+86
+00:05:46.380 --> 00:05:49.580
+They're usually in the row above where your numbers are.
+
+87
+00:05:49.580 --> 00:05:53.260
+And if you don't have that row or they look a little bit different,
+
+88
+00:05:53.260 --> 00:05:58.060
+you might have to use like a modifier key or remap some of these keys.
+
+89
+00:05:58.060 --> 00:06:00.300
+But that's something you can explore during the labs.
+
+90
+00:06:00.860 --> 00:06:03.660
+We also have this dynamic status area.
+
+91
+00:06:03.660 --> 00:06:04.860
+This area can change.
+
+92
+00:06:04.860 --> 00:06:07.980
+That's why it's called the dynamic status area.
+
+93
+00:06:07.980 --> 00:06:10.780
+And it's an area set aside in the panel configuration,
+
+94
+00:06:10.780 --> 00:06:13.580
+and it's controlled by an ISPF variable.
+
+95
+00:06:13.580 --> 00:06:17.420
+It's almost always used just to provide you with additional helpful information.
+
+96
+00:06:18.460 --> 00:06:19.580
+So we're all done now.
+
+97
+00:06:19.580 --> 00:06:20.700
+How do we disconnect?
+
+98
+00:06:20.700 --> 00:06:22.860
+There's a couple of ways I'm going to show you too.
+
+99
+00:06:23.500 --> 00:06:28.860
+You can enter X on the Command Line or you can press F12, the Cancel key.
+
+100
+00:06:28.860 --> 00:06:32.620
+This will end ISPF and put you back to a TSO Command Line,
+
+101
+00:06:32.620 --> 00:06:34.220
+because TSO is still running.
+
+102
+00:06:34.220 --> 00:06:36.300
+It's not the same thing as ISPF.
+
+103
+00:06:36.300 --> 00:06:41.420
+And if you want to go back into ISPF, just enter the Command ISPF and hit Enter.
+
+104
+00:06:41.980 --> 00:06:45.580
+To terminate TSO, enter the Command Log Off and hit Enter.
+
+105
+00:06:45.580 --> 00:06:48.940
+And TSO will cleanly close down and disconnect you.
+
+106
+00:06:48.940 --> 00:06:50.780
+But don't worry, we'll be back.

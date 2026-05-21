@@ -1,0 +1,245 @@
+WEBVTT
+
+1
+00:00:03.440 --> 00:00:10.440
+One of my missions in life is to make getting proficient on the mainframe as simple and painless as possible.
+
+2
+00:00:10.440 --> 00:00:19.440
+However, there is such a thing as oversimplifying, and I get a little set off when I hear someone explain datasets as,
+
+3
+00:00:19.440 --> 00:00:21.440
+well, a dataset is just a file.
+
+4
+00:00:21.440 --> 00:00:31.440
+And it's a dangerous generalization to make because for a few basic examples, yeah, it appears like a dataset is the same thing as a file,
+
+5
+00:00:31.440 --> 00:00:33.440
+and they have a lot of the same characteristics.
+
+6
+00:00:33.440 --> 00:00:41.440
+But once you dig just a little bit deeper, you'll see there are some very important differences to know about.
+
+7
+00:00:41.440 --> 00:00:46.440
+So first off, a dataset can be either sequential or partitioned.
+
+8
+00:00:46.440 --> 00:00:55.440
+A sequential dataset is full of entries called records, and they go one right after the other, after the other, after the other, like a stack of pancakes.
+
+9
+00:00:56.440 --> 00:00:59.440
+A partitioned dataset has a directory and members.
+
+10
+00:00:59.440 --> 00:01:08.440
+The directory keeps track of all the members, so they don't have to be in order, and it also makes it possible for each member to be accessed directly.
+
+11
+00:01:08.440 --> 00:01:14.440
+This is what kind of closely resembles the files in a folder structure you're probably familiar with.
+
+12
+00:01:14.440 --> 00:01:17.440
+So what do we use these datasets for?
+
+13
+00:01:17.440 --> 00:01:20.440
+Use datasets for storing data.
+
+14
+00:01:20.440 --> 00:01:28.440
+If you're dealing with data that comes out of a program, it typically comes out line by line, and each line is recorded as a record.
+
+15
+00:01:28.440 --> 00:01:34.440
+In a sequential dataset, you've just got record after record, output after output.
+
+16
+00:01:34.440 --> 00:01:39.440
+And it could be a series of passenger numbers or a listing of company names.
+
+17
+00:01:39.440 --> 00:01:46.440
+In a partitioned dataset, that same data gets stored as records within the PDS members.
+
+18
+00:01:47.440 --> 00:01:52.440
+And if you're writing or reading a text file, each line in that is a record.
+
+19
+00:01:52.440 --> 00:02:02.440
+So in a sequential dataset, records go into a dataset, and in a partitioned dataset, records go into members, which go into a dataset.
+
+20
+00:02:02.440 --> 00:02:08.440
+There are two kinds of partitioned datasets, PDSs and PDSEs.
+
+21
+00:02:08.440 --> 00:02:19.440
+PDSEs are an enhancement to the original PDS design, and have greater flexibility in sizing, faster searching, and automatically reclaim space when members are deleted.
+
+22
+00:02:19.440 --> 00:02:25.440
+There's only a few places in ZOS where you're required to use a PDS instead of a PDSE.
+
+23
+00:02:25.440 --> 00:02:28.440
+Everywhere else, people just use a PDSE.
+
+24
+00:02:28.440 --> 00:02:33.440
+There's also a very powerful type of dataset called a VSAM dataset.
+
+25
+00:02:33.440 --> 00:02:36.440
+That stands for Virtual Storage Access Method.
+
+26
+00:02:36.440 --> 00:02:42.440
+And that's another acronym I had to look up just to tell you what it stands for, because everyone just calls it VSAM.
+
+27
+00:02:42.440 --> 00:02:44.440
+So just call it VSAM.
+
+28
+00:02:44.440 --> 00:02:50.440
+A VSAM dataset uses a series of keys to reference the actual pieces of data being stored.
+
+29
+00:02:50.440 --> 00:03:02.440
+It actually quite closely resembles something like a NoSQL database, and it's used primarily by applications directly, since you can't display or edit its contents in something like ISPF.
+
+30
+00:03:02.440 --> 00:03:12.440
+There's a lot to VSAM, and it has many uses, but because we'll be using ISPF for many of our labs, we'll be focusing on PDS datasets.
+
+31
+00:03:12.440 --> 00:03:18.440
+A PDS dataset name can be anywhere from one to a series of 22 joined name segments.
+
+32
+00:03:18.440 --> 00:03:23.440
+So, Jeff.Loves.Pizza is a valid dataset name.
+
+33
+00:03:23.440 --> 00:03:25.440
+It's also true.
+
+34
+00:03:25.440 --> 00:03:32.440
+Jeff is the high-level qualifier, Loves is another qualifier, and Pizza is the low-level qualifier.
+
+35
+00:03:32.440 --> 00:03:42.440
+Obviously, qualifiers are separated by a period, and you can use a maximum of 44 characters in total, including the periods.
+
+36
+00:03:42.440 --> 00:03:45.440
+So, you've got these qualifiers separated by periods.
+
+37
+00:03:45.440 --> 00:03:52.440
+Each qualifier must begin with an alphanumeric character, or the special character, at, hash, or dollar sign.
+
+38
+00:03:52.440 --> 00:04:02.440
+The characters after that can be alphanumeric, special, or numeric, and each qualifier must be one to eight characters in length.
+
+39
+00:04:02.440 --> 00:04:16.440
+Dollar sign 32.4.Pizza is a valid dataset name, as long as the 4 is spelled out F-O-R and not the number 4, because a dataset qualifier can't start with a number.
+
+40
+00:04:16.440 --> 00:04:20.440
+$32 for pizza? That's a little ridiculous, right?
+
+41
+00:04:20.440 --> 00:04:25.440
+Anyway, sys1.ParmLive, well, that better be a valid dataset name.
+
+42
+00:04:25.440 --> 00:04:35.440
+So, i.sure.do.love.this.awesome.system is a valid dataset name, because it has less than 44 characters total.
+
+43
+00:04:35.440 --> 00:04:41.440
+You should try to have some order, though, and not use names that might confuse people.
+
+44
+00:04:41.440 --> 00:04:45.440
+Just because you can do it, sometimes doesn't mean you should.
+
+45
+00:04:45.440 --> 00:04:54.440
+Now, to use a dataset, it must first be allocated, and allocated just means it exists in a way that we can reference it as an object.
+
+46
+00:04:54.440 --> 00:04:56.440
+We have a link to it.
+
+47
+00:04:56.440 --> 00:05:04.440
+So, before we can type anything into a dataset, we need to allocate it, since the dataset we're typing into is going to take up space.
+
+48
+00:05:04.440 --> 00:05:06.440
+Makes sense, right?
+
+49
+00:05:06.440 --> 00:05:14.440
+One of the easiest ways of allocating a dataset is through the ISPF panel, made specifically for datasets.
+
+50
+00:05:14.440 --> 00:05:26.440
+So, in ISPF, if we go to option 3 for utilities, and then option 2 for dataset, we can use option A for allocate.
+
+51
+00:05:26.440 --> 00:05:33.440
+And we can take ISPF's suggestions for naming a dataset using these three fields, the project, group, and type.
+
+52
+00:05:33.440 --> 00:05:35.440
+That's a good start.
+
+53
+00:05:35.440 --> 00:05:38.440
+Or I can just type out the name of the dataset that I want down here.
+
+54
+00:05:38.440 --> 00:05:48.440
+It's up to you, but if you want to have more than three qualifiers, you'll have to use the field down here, labeled other partition sequential or VSAM datasets.
+
+55
+00:05:48.440 --> 00:05:53.440
+On the next screen, you need to decide if you want a sequential or a partition dataset.
+
+56
+00:05:53.440 --> 00:06:02.440
+The steps are largely the same, except that for a sequential, you specify zero blocks for the directory, because a sequential dataset has no directory.
+
+57
+00:06:02.440 --> 00:06:04.440
+Everything is just in order.
+
+58
+00:06:04.440 --> 00:06:11.440
+To create a PDSE, you specify the word library in the dataset name type field over here.
+
+59
+00:06:11.440 --> 00:06:16.440
+If you did this right, you'll get this message up top saying dataset allocated.
+
+60
+00:06:16.440 --> 00:06:21.440
+And if you get anything else, just go back and retrace your steps. It's probably something simple.
+
+61
+00:06:21.440 --> 00:06:27.440
+Either way, now you see why datasets are not the same thing as files.

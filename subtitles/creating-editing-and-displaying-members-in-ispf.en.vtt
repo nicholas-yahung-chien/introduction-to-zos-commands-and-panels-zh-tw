@@ -1,0 +1,265 @@
+WEBVTT
+
+1
+00:00:03.340 --> 00:00:09.540
+So, now that we have a PDS dataset, you probably want to do something with it.
+
+2
+00:00:09.540 --> 00:00:14.440
+In this lesson, we'll go through the process of creating, editing, and displaying members
+
+3
+00:00:14.440 --> 00:00:16.640
+in a PDS.
+
+4
+00:00:16.640 --> 00:00:21.540
+We're going to be using the Edit Entry panel, and you get there from option 2 off of the
+
+5
+00:00:21.540 --> 00:00:24.020
+main ISPF panel.
+
+6
+00:00:24.020 --> 00:00:30.380
+To create a new dataset member in an existing PDS, enter the name of the dataset on the
+
+7
+00:00:30.380 --> 00:00:32.140
+Edit Entry panel.
+
+8
+00:00:32.140 --> 00:00:36.740
+And again, you can see here you can use the handy three fields, or you can enter the full
+
+9
+00:00:36.740 --> 00:00:39.780
+dataset name into the field below it.
+
+10
+00:00:39.780 --> 00:00:43.860
+Notice that there's a fourth field in the bottom for member.
+
+11
+00:00:43.860 --> 00:00:47.220
+That's where you put the name of the member that you're creating.
+
+12
+00:00:47.220 --> 00:00:50.900
+Or if you're using the field below, you're going to spell out the name of the member
+
+13
+00:00:50.900 --> 00:00:54.540
+at the end of the PDS in parentheses.
+
+14
+00:00:54.540 --> 00:01:04.940
+For example, i-n-s-t-j-r-g-dot-e-s-ten-dot-p-d-s-parentheses-member-one-parentheses, where the first three parts
+
+15
+00:01:04.940 --> 00:01:09.220
+make up the PDS name, and member one is the name of the member.
+
+16
+00:01:09.220 --> 00:01:12.740
+So fill those out either way, and then hit enter.
+
+17
+00:01:12.740 --> 00:01:15.480
+This will open up the ISPF editor.
+
+18
+00:01:15.480 --> 00:01:20.340
+To start typing into this member, move your cursor into the empty area towards the right,
+
+19
+00:01:20.340 --> 00:01:21.840
+and then start typing.
+
+20
+00:01:21.840 --> 00:01:26.280
+You can type on multiple lines, just don't type over on the left column yet.
+
+21
+00:01:26.280 --> 00:01:30.900
+When you're done, hit enter, and you'll see numbers appear over on the left there.
+
+22
+00:01:30.900 --> 00:01:35.240
+These are the record numbers, and when you want to save your masterpiece, type save up
+
+23
+00:01:35.240 --> 00:01:37.640
+top and hit enter.
+
+24
+00:01:37.640 --> 00:01:41.880
+The top line of your screen shows the name of the dataset and the member that you're
+
+25
+00:01:41.880 --> 00:01:42.880
+editing.
+
+26
+00:01:42.880 --> 00:01:47.740
+This is a good way to verify that you have the correct dataset and member selected.
+
+27
+00:01:47.740 --> 00:01:52.980
+To display the members in a dataset, go back to that edit entry panel.
+
+28
+00:01:52.980 --> 00:01:57.860
+Put in the name of the dataset without specifying any members, and hit enter.
+
+29
+00:01:57.860 --> 00:02:06.860
+In this example, there are six members in the dataset i-n-s-t-j-r-g-dot-e-s-ten-dot-p-d-s.
+
+30
+00:02:06.860 --> 00:02:12.020
+We can edit any of those by placing the letter e next to them and then hitting enter.
+
+31
+00:02:12.020 --> 00:02:14.300
+This brings up the editor again.
+
+32
+00:02:14.540 --> 00:02:19.460
+Another way to display the members in a dataset is from the dataset list utility.
+
+33
+00:02:19.460 --> 00:02:24.740
+You get there from the first ISPF screen, option three for utilities, and then option
+
+34
+00:02:24.740 --> 00:02:27.020
+four for DS list.
+
+35
+00:02:27.020 --> 00:02:32.140
+From the DS list utility screen, enter the high level qualifier in the DS name level
+
+36
+00:02:32.140 --> 00:02:36.540
+field, and don't enter anything in the option field, just hit enter.
+
+37
+00:02:36.540 --> 00:02:41.160
+It'll come back and show you all of the datasets that start with that high level qualifier.
+
+38
+00:02:41.160 --> 00:02:46.360
+You can then tab to the left of the dataset you want to view and enter a forward slash.
+
+39
+00:02:46.360 --> 00:02:48.640
+A list of options will pop up.
+
+40
+00:02:48.640 --> 00:02:53.720
+Option four of that list is member list, and that's just what we want, so type four and
+
+41
+00:02:53.720 --> 00:02:55.360
+hit enter.
+
+42
+00:02:55.360 --> 00:02:59.120
+What if you're in a dataset member and you want to add some new lines to it, some new
+
+43
+00:02:59.120 --> 00:03:00.120
+records?
+
+44
+00:03:00.120 --> 00:03:03.240
+That's easy, and we get to use that left column for this one.
+
+45
+00:03:03.240 --> 00:03:08.360
+Move your cursor over to the line you want to add lines underneath and type an i.
+
+46
+00:03:08.360 --> 00:03:11.720
+A new line appears, and here's a helpful tip.
+
+47
+00:03:11.720 --> 00:03:17.120
+If you want to add five lines, you type i5 and then hit enter, and you can do the same
+
+48
+00:03:17.120 --> 00:03:23.200
+kind of thing for eight lines, nine lines, or 20 lines, but let's not get too crazy here.
+
+49
+00:03:23.200 --> 00:03:27.220
+You can now add data to these lines, just like you did when you were first creating
+
+50
+00:03:27.220 --> 00:03:28.520
+that member.
+
+51
+00:03:28.520 --> 00:03:33.080
+Hit enter when you're done, and those lines with data get turned into records, and any
+
+52
+00:03:33.080 --> 00:03:36.280
+lines with no data, they go away.
+
+53
+00:03:36.280 --> 00:03:38.200
+We can delete lines too.
+
+54
+00:03:38.200 --> 00:03:40.720
+Here we have a member called member two.
+
+55
+00:03:40.720 --> 00:03:45.680
+To delete a line, place a single d followed by a space next to that line.
+
+56
+00:03:45.680 --> 00:03:49.300
+Now, the reason for the space is that it's just safer.
+
+57
+00:03:49.300 --> 00:03:52.440
+We know that we're only deleting one line that way.
+
+58
+00:03:52.440 --> 00:03:55.200
+Hit enter, and then boom, it's gone.
+
+59
+00:03:55.200 --> 00:04:00.240
+And just like insert, if we want to delete five lines, I can type d5.
+
+60
+00:04:00.240 --> 00:04:02.760
+You get it, pretty simple stuff.
+
+61
+00:04:02.760 --> 00:04:09.960
+ISPF also has block commands, so to move a block of text, enter mm on the first line
+
+62
+00:04:09.960 --> 00:04:15.680
+of text you want to move, and then another mm on the last line of text you want to move.
+
+63
+00:04:15.680 --> 00:04:21.280
+Then in the spot where you want to move it, place an a for after or a b or before to tell
+
+64
+00:04:21.280 --> 00:04:25.600
+it whether you want to move that block of text before or after that line.
+
+65
+00:04:25.600 --> 00:04:29.840
+As you can imagine, there are a lot of line commands we can use in the editor.
+
+66
+00:04:29.840 --> 00:04:33.520
+Here's a listing of just some of them which you can use during your lab exercises.
